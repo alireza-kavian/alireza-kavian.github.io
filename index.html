@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alireza Kavian</title>
+
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <style>
+        @font-face {
+            font-family: fa1;
+            src: url("./assets/font/Far_DastNevis.otf");
+        }
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .backgnd {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1da36+3,f94f31+45,fefcea+95&1+8,0.6+26,0.31+63,1+72,1+90 */
+            background: -moz-linear-gradient(-45deg, rgba(241, 218, 54, 1) 3%, rgba(242, 201, 53, 1) 8%, rgba(245, 142, 51, 0.6) 26%, rgba(249, 79, 49, 0.45) 45%, rgba(251, 141, 116, 0.31) 63%, rgba(252, 172, 149, 1) 72%, rgba(254, 235, 216, 1) 90%, rgba(254, 252, 234, 1) 95%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, rgba(241, 218, 54, 1) 3%, rgba(242, 201, 53, 1) 8%, rgba(245, 142, 51, 0.6) 26%, rgba(249, 79, 49, 0.45) 45%, rgba(251, 141, 116, 0.31) 63%, rgba(252, 172, 149, 1) 72%, rgba(254, 235, 216, 1) 90%, rgba(254, 252, 234, 1) 95%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, rgba(241, 218, 54, 1) 3%, rgba(242, 201, 53, 1) 8%, rgba(245, 142, 51, 0.6) 26%, rgba(249, 79, 49, 0.45) 45%, rgba(251, 141, 116, 0.31) 63%, rgba(252, 172, 149, 1) 72%, rgba(254, 235, 216, 1) 90%, rgba(254, 252, 234, 1) 95%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+            height: 100vh;
+        }
+
+        .wrapper {
+            height: 100vh;
+        }
+
+        .mid {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        img {
+            position: relative;
+            float: right;
+            width: auto;
+            height: auto;
+            max-height: 100vh;
+        }
+
+        .me {
+            position: relative;
+            padding: 0;
+            transform: translateY(-100%);
+            filter: opacity(80%);
+        }
+
+        @media only screen and (max-width: 768px){
+            img {
+                position: relative;
+                float: none;
+                width: 100%;
+                height: auto;
+            }
+        } 
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid backgnd">
+        <div class="d-none">
+            <span>alireza kavian</span>
+            <bdi>علیرضا کاویان</bdi>
+            <span>alireza kavian</span>
+            <bdi>علیرضا کاویان</bdi>
+            <span>alireza kavian</span>
+            <bdi>علیرضا کاویان</bdi>
+            <span>alireza kavian</span>
+            <bdi>علیرضا کاویان</bdi>
+        </div>
+        <div class="row wrapper">
+            <div class="col-10 mx-auto mid">
+                <div>
+                    <a style="color: #08c" href="https://www.linkedin.com/in/alireza-kavian/" target="_blank">
+                        <i class="fab fa-2x fa-linkedin"></i>
+                    </a>
+                </div>
+                <h1>ALIREZA KAVIAN</h1>
+                <h2 class="pt-2" style="font-family: fa1"><bdi>علیرضا کاویان</bdi></h2>
+                <div class="btn-group pt-3">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                            Showcase
+                        </button>
+                        <div class="dropdown-menu" id="dropdown">
+                            <a class="dropdown-item" href="https://alirezakay.github.io/showcase/term1" target="_blank">Term 1</a>
+                            <a class="dropdown-item" href="https://alirezakay.github.io/showcase/term2" target="_blank">Term 2</a>
+                            <a class="dropdown-item" href="https://alirezakay.github.io/showcase/term3" target="_blank">Term 3</a>
+                            <a class="dropdown-item" href="https://alirezakay.github.io/showcase/term4" target="_blank">Term 4</a>
+                            <a class="dropdown-item" href="https://alirezakay.github.io/showcase/term5" target="_blank">Term 5</a>
+                            <a class="dropdown-item" href="https://alirezakay.github.io/showcase/term6" target="_blank">Term 6</a>
+                        </div>
+                    </div>
+                    <a type="button" href="https://alirezakay.github.io" class="btn btn-light" target="_blank">Homepage</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="ml-auto col-4 me">
+                <img src="./assets/img/Alireza-Kavian.png" alt="Alireza Kavian Photo">
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/fontawesome.min.js"></script>
+    <script src="./assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
