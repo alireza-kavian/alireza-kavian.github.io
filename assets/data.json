@@ -154,7 +154,7 @@
                 },
                 {
                     "name": "Javascript",
-                    "amount": "90"
+                    "amount": "95"
                 },
                 {
                     "name": "CSS/Scss",
@@ -162,11 +162,11 @@
                 },
                 {
                     "name": "HTML",
-                    "amount": "90"
+                    "amount": "85"
                 },
                 {
                     "name": "React.JS",
-                    "amount": "85"
+                    "amount": "90"
                 },
                 {
                     "name": "Angular.JS",
@@ -182,7 +182,7 @@
                 },
                 {
                     "name": "Material UI",
-                    "amount": "80"
+                    "amount": "85"
                 },
                 {
                     "name": "jQuery",
@@ -197,7 +197,7 @@
                     "amount": "85"
                 },
                 {
-                    "name": "SQL",
+                    "name": "SQL/NO-SQL",
                     "amount": "95"
                 },
                 {
@@ -210,7 +210,7 @@
                 },
                 {
                     "name": "Python",
-                    "amount": "65"
+                    "amount": "70"
                 },
                 {
                     "name": "C++",
@@ -233,8 +233,8 @@
                     "amount": "75"
                 },
                 {
-                    "name": "Matlab",
-                    "amount": "35"
+                    "name": "Matlab/Octave",
+                    "amount": "45"
                 },
                 {
                     "name": "Android",
@@ -275,7 +275,7 @@
                 },
                 {
                     "name": "Arabic",
-                    "amount": "35",
+                    "amount": "30",
                     "level": "Limited working proficiency"
                 },
                 {
