@@ -411,14 +411,14 @@
 					{
 						"icon": "fas fa-users",
 						"for": "Production",
-						"name": "Web Development of A Commercial Buissiness (Vorna Decor)",
+						"name": "Web Development of A Commercial Buissiness [Vorna Decor] (Next.JS / MUI / Python / MySQL)",
 						"url": "https://vornadecor.com"
 					},
 					{
 						"icon": "fas fa-user",
 						"for": "Real Time & Embedded Systems",
-						"name": "PetriNet Characteristics",
-						"url": "https://github.com/alirezakay/petri-net-calc"
+						"name": "Petri Net Characteristics (Java)",
+						"url": "https://alirezakay.github.io/showcase/y4/petri-net-calc/"
 					}
 				]
 			}
