@@ -4,42 +4,48 @@
 		"title": "Alireza Kavian",
 		"subtitle": "Computer Engineer",
 		"description": [
-			"My favourite field of working contains:", "Web Development,", "AI,", "Network,", "Security and", "Software Engineering.",
+			"My favourite field of working contains:",
+			"Web Development,",
+			"AI,",
+			"Network,",
+			"Security and",
+			"Software Engineering.",
 			"I love Team-Working."
 		],
-		"social": [{
-			"icon": "fab fa-linkedin",
-			"url": "https://linkedin.com/in/alireza-kavian"
-		},
-		{
-			"icon": "fab fa-instagram",
-			"url": "https://instagram.com/alireza_kay"
-		},
-		{
-			"icon": "fab fa-telegram",
-			"url": "https://t.me/alirezakay"
-		},
-		{
-			"icon": "fab fa-twitter",
-			"url": "https://twitter.com/alireza_kay"
-		},
-		{
-			"icon": "fab fa-facebook",
-			"url": "https://facebook.com/alirezakay"
-		},
-		{
-			"icon": "fa fa-at",
-			"url": "mailto:kay.alireza@gmail.com"
-		},
-		{
-			"icon": "fab fa-github",
-			"url": "https://github.com/alirezakay"
-		},
-		{
-			"icon": "fab fa-stack-overflow",
-			"url": "https://stackoverflow.com/story/alirezakay"
-		}
-	]
+		"social": [
+			{
+				"icon": "fab fa-linkedin",
+				"url": "https://linkedin.com/in/alireza-kavian"
+			},
+			{
+				"icon": "fab fa-instagram",
+				"url": "https://instagram.com/alireza_kay"
+			},
+			{
+				"icon": "fab fa-telegram",
+				"url": "https://t.me/alirezakay"
+			},
+			{
+				"icon": "fab fa-twitter",
+				"url": "https://twitter.com/alireza_kay"
+			},
+			{
+				"icon": "fab fa-facebook",
+				"url": "https://facebook.com/alirezakay"
+			},
+			{
+				"icon": "fa fa-at",
+				"url": "mailto:kay.alireza@gmail.com"
+			},
+			{
+				"icon": "fab fa-github",
+				"url": "https://github.com/alirezakay"
+			},
+			{
+				"icon": "fab fa-stack-overflow",
+				"url": "https://stackoverflow.com/story/alirezakay"
+			}
+		]
 	},
 	"about": {
 		"contact": [
@@ -49,7 +55,7 @@
 		"description": [
 			"Undergraduate student with 3 years of experience in Front-End development.",
 			"My major skill in web development is in React I guess.",
-			"I've also gained experience in Back-End development, Scripting, Network Conf, Web Security, ...",
+			"I've also gained experience in Back-End development, Scripting, Network Conf, Web Security, ..."
 		]
 	},
 	"resume": {
@@ -61,7 +67,8 @@
 				"url": "https://ce.kntu.ac.ir",
 				"date": "2015 - Present",
 				"gpa": "3.81 (of 4)"
-			}],
+			}
+		],
 		"experience": [
 			{
 				"name": "Vorna Decor",
@@ -116,35 +123,36 @@
 			}
 		],
 		"skills": {
-			"industry-knowledge": [{
-				"name": "Front-End Development",
-				"amount": "90"
-			},
-			{
-				"name": "Back-End Development",
-				"amount": "70"
-			},
-			{
-				"name": "Web Development",
-				"amount": "80"
-			},
-			{
-				"name": "Scrum/Agile Development",
-				"amount": "85"
-			},
-			{
-				"name": "Penetration Testing",
-				"amount": "35"
-			},
-			{
-				"name": "Network Configuration",
-				"amount": "75"
-			},
-			{
-				"name": "SEO",
-				"amount": "60"
-			}
-		],
+			"industry-knowledge": [
+				{
+					"name": "Front-End Development",
+					"amount": "90"
+				},
+				{
+					"name": "Back-End Development",
+					"amount": "70"
+				},
+				{
+					"name": "Web Development",
+					"amount": "80"
+				},
+				{
+					"name": "Scrum/Agile Development",
+					"amount": "85"
+				},
+				{
+					"name": "Penetration Testing",
+					"amount": "35"
+				},
+				{
+					"name": "Network Configuration",
+					"amount": "75"
+				},
+				{
+					"name": "SEO",
+					"amount": "60"
+				}
+			],
 			"tools-and-technologies": [
 				{
 					"name": "HTML/CSS/SCSS/JS",
@@ -241,59 +249,57 @@
 				{
 					"name": "Fortran",
 					"amount": "10"
-				}
+				},
 				{
 					"name": "VBA",
 					"amount": "10"
 				}
 			],
-			"others": [{
-				"name": "Team Leadership",
-				"amount": "75"
-			},
-			{
-				"name": "Photoshop",
-				"amount": "50"
-			},
-			{
-				"name": "Adobe Premiere",
-				"amount": "40"
-			},
-			{
-				"name": "3D Studio Max",
-				"amount": "30"
-			},
-			{
-				"name": "Microsoft Office",
-				"amount": "90"
-			}
-
-		],
-			"language": [{
-				"name": "Farsi (Native)",
-				"amount": "100",
-				"level": "Native"
-			},
-			{
-				"name": "English",
-				"amount": "80",
-				"level": "Professional working proficiency"
-			},
-			{
-				"name": "Arabic",
-				"amount": "30",
-				"level": "Limited working proficiency"
-			}
-		]
+			"others": [
+				{
+					"name": "Team Leadership",
+					"amount": "75"
+				},
+				{
+					"name": "Photoshop",
+					"amount": "50"
+				},
+				{
+					"name": "Adobe Premiere",
+					"amount": "40"
+				},
+				{
+					"name": "3D Studio Max",
+					"amount": "30"
+				},
+				{
+					"name": "Microsoft Office",
+					"amount": "90"
+				}
+			],
+			"language": [
+				{
+					"name": "Farsi (Native)",
+					"amount": "100",
+					"level": "Native"
+				},
+				{
+					"name": "English",
+					"amount": "80",
+					"level": "Professional working proficiency"
+				},
+				{
+					"name": "Arabic",
+					"amount": "30",
+					"level": "Limited working proficiency"
+				}
+			]
 		},
-		"projects": 
-		{
-			"year1":
-			{
+		"projects": {
+			"year1": {
 				"date": "Oct 2015 - Sep 2016",
 				"color": "#d11f63",
-				"work": 
-				[
+				"work": [
 					{
 						"icon": "fas fa-user",
 						"for": "Professional Programming",
@@ -314,12 +320,10 @@
 					}
 				]
 			},
-			"year2":
-			{
+			"year2": {
 				"date": "Oct 2016 - Sep 2017",
 				"color": "#bd59d9",
-				"work": 
-				[
+				"work": [
 					{
 						"icon": "fas fa-user",
 						"for": "Computer Architecture",
@@ -340,12 +344,10 @@
 					}
 				]
 			},
-			"year3":
-			{
+			"year3": {
 				"date": "Oct 2017 - Sep 2018",
 				"color": "#59a2d9",
-				"work": 
-				[
+				"work": [
 					{
 						"icon": "fas fa-user",
 						"for": "Group Foundation",
@@ -402,7 +404,7 @@
 					}
 				]
 			},
-			"year4":{
+			"year4": {
 				"date": "Oct 2018 - Present",
 				"color": "#5adbb0",
 				"work": [
@@ -422,5 +424,4 @@
 			}
 		}
 	}
-
 }
