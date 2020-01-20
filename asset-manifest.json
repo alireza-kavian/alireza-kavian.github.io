@@ -1,16 +1,26 @@
 {
-  "main.css": "/static/css/main.ea151a7c.chunk.css",
-  "main.js": "/static/js/main.ef7c5bf5.chunk.js",
-  "main.js.map": "/static/js/main.ef7c5bf5.chunk.js.map",
-  "static/css/1.f8610244.chunk.css": "/static/css/1.f8610244.chunk.css",
-  "static/js/1.215c8df8.chunk.js": "/static/js/1.215c8df8.chunk.js",
-  "static/js/1.215c8df8.chunk.js.map": "/static/js/1.215c8df8.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/1.f8610244.chunk.css.map": "/static/css/1.f8610244.chunk.css.map",
-  "static/media/default.min.css": "/static/media/header.f340bc70.jpg",
-  "static/css/main.ea151a7c.chunk.css.map": "/static/css/main.ea151a7c.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.01587f801be51cafa1b36df89ff11f31.js": "/precache-manifest.01587f801be51cafa1b36df89ff11f31.js",
-  "service-worker.js": "/service-worker.js"
+  "files": {
+    "main.css": "./static/css/main.890642d8.chunk.css",
+    "main.js": "./static/js/main.ec758fa3.chunk.js",
+    "main.js.map": "./static/js/main.ec758fa3.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.32c8be1e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.32c8be1e.js.map",
+    "static/css/2.09ae8418.chunk.css": "./static/css/2.09ae8418.chunk.css",
+    "static/js/2.2b00c3ea.chunk.js": "./static/js/2.2b00c3ea.chunk.js",
+    "static/js/2.2b00c3ea.chunk.js.map": "./static/js/2.2b00c3ea.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.a0f5913b3e503952708c4b758d5a9a9f.js": "./precache-manifest.a0f5913b3e503952708c4b758d5a9a9f.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.09ae8418.chunk.css.map": "./static/css/2.09ae8418.chunk.css.map",
+    "static/css/main.890642d8.chunk.css.map": "./static/css/main.890642d8.chunk.css.map",
+    "static/js/2.2b00c3ea.chunk.js.LICENSE": "./static/js/2.2b00c3ea.chunk.js.LICENSE",
+    "static/media/index.css": "./static/media/Roboto.df7b648c.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32c8be1e.js",
+    "static/css/2.09ae8418.chunk.css",
+    "static/js/2.2b00c3ea.chunk.js",
+    "static/css/main.890642d8.chunk.css",
+    "static/js/main.ec758fa3.chunk.js"
+  ]
 }

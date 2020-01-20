@@ -1,0 +1,128 @@
+{
+  "year1": {
+    "date": "Oct 2015 - Sep 2016",
+    "color": "#d11f63",
+    "work": [
+      {
+        "icon": "fas fa-user",
+        "for": "Professional Programming",
+        "name": "Graphical growth simulation of plants in a duration (Java / JavaFX)",
+        "url": "https://alirezakay.github.io/showcase/y1/plant-growth-simulation/"
+      },
+      {
+        "icon": "fas fa-users",
+        "for": "Discrete Mathematics",
+        "name": "Graphical BFS/DFS algorithm simulator (Java / JavaFX)",
+        "url": "https://alirezakay.github.io/showcase/y1/bfs-dfs-simulator/"
+      },
+      {
+        "icon": "fas fa-user",
+        "for": "Fundamental Programming",
+        "name": "Simple text editor (C / C++, BGI Graphics)",
+        "url": "https://alirezakay.github.io/showcase/y1/simple-text-editor/"
+      }
+    ]
+  },
+  "year2": {
+    "date": "Oct 2016 - Sep 2017",
+    "color": "#bd59d9",
+    "work": [
+      {
+        "icon": "fas fa-user",
+        "for": "Computer Architecture",
+        "name": "Simulating MIPS-like CPU - RISC (VHDL)",
+        "url": "https://alirezakay.github.io/showcase/y2/risc-cpu-simulation/"
+      },
+      {
+        "icon": "fas fa-users",
+        "for": "Algorithm Design",
+        "name": "Graphical chess game - minimax/alphabeta (Java / JavaFX / JavaAWT)",
+        "url": "https://alirezakay.github.io/showcase/y2/chess-game/"
+      },
+      {
+        "icon": "fas fa-users",
+        "for": "Theory of Language and Automaton",
+        "name": "Simple Java language parser/compiler (Java)",
+        "url": "https://alirezakay.github.io/showcase/y2/java-parser/"
+      }
+    ]
+  },
+  "year3": {
+    "date": "Oct 2017 - Sep 2018",
+    "color": "#59a2d9",
+    "work": [
+      {
+        "icon": "fas fa-user",
+        "for": "Group Foundation",
+        "name": "Brilacasck github and website - (jQuery / Bootstrap / MDB / ReactJS / AngularJS / PHP / MySQL / Apache / Nginx)",
+        "url": "https://blilac.ir"
+      },
+      {
+        "icon": "fas fa-user",
+        "for": "Open Source",
+        "name": "RP-APP - develope react app using php dev server (ReactJS / NodeJS / PHP)",
+        "url": "https://github.com/alirezakay/rp-app"
+      },
+      {
+        "icon": "fas fa-user",
+        "for": "Personal",
+        "name": "My personal website (ReactJS / Scss)",
+        "url": "https://alireza-kavian.github.io"
+      },
+      {
+        "icon": "fas fa-users",
+        "for": "AI/ES",
+        "name": "Wumpus-like game graphically (Prolog / jquery / Angular / Bootstrap)",
+        "url": "https://alirezakay.github.io/showcase/y3/wumpus-like-game/"
+      },
+      {
+        "icon": "fas fa-users",
+        "for": "Database Course",
+        "name": "Shopping website - FullStack (PHP / Jquery / Angular / SQL)",
+        "url": "https://alirezakay.github.io/showcase/y3/shopping-website/"
+      },
+      {
+        "icon": "fas fa-users",
+        "for": "Compiler",
+        "name": "Full compiler - lexical/synthesis analyser (Java / JavaFX)",
+        "url": "https://alirezakay.github.io/showcase/y3/full-compiler/"
+      },
+      {
+        "icon": "fas fa-user",
+        "for": "Theory of Automation",
+        "name": "Regex to DFA directly, using syntax-tree (Java)",
+        "url": "https://github.com/alirezakay/RegexToDFA"
+      },
+      {
+        "icon": "fas fa-users",
+        "for": "Software Engineering",
+        "name": "Courseware System on a web context (ReactJS / NodeJS / ExpressJS / MongoDB)",
+        "url": "https://alirezakay.github.io/showcase/y3/tcs4ce/"
+      },
+      {
+        "icon": "fas fa-users",
+        "for": "Hardware Software Co-Design",
+        "name": "Simulating pipeline microprocessor communications in a bus context (SystemC)",
+        "url": "https://alirezakay.github.io/showcase/y3/micro-acc-simulation/"
+      }
+    ]
+  },
+  "year4": {
+    "date": "Oct 2018 - Present",
+    "color": "#5adbb0",
+    "work": [
+      {
+        "icon": "fas fa-users",
+        "for": "Production",
+        "name": "Web Development of A Commercial Buissiness [Vorna Decor] (Next.JS / MUI / Python / MySQL)",
+        "url": "https://vornadecor.com"
+      },
+      {
+        "icon": "fas fa-user",
+        "for": "Real Time & Embedded Systems",
+        "name": "Petri Net Characteristics (Java)",
+        "url": "https://alirezakay.github.io/showcase/y4/petri-net-calc/"
+      }
+    ]
+  }
+}

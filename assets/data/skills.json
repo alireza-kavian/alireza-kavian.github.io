@@ -1,0 +1,158 @@
+{
+  "industry-knowledge": [
+    {
+      "name": "Front-End Development",
+      "amount": "90"
+    },
+    {
+      "name": "Back-End Development",
+      "amount": "70"
+    },
+    {
+      "name": "Full-Stack Development",
+      "amount": "80"
+    },
+    {
+      "name": "Agile/Scrum",
+      "amount": "75"
+    },
+    {
+      "name": "Network Configs",
+      "amount": "35"
+    },
+    {
+      "name": "SEO",
+      "amount": "60"
+    }
+  ],
+  "tools-and-technologies": [
+    {
+      "name": "Linux",
+      "amount": "75"
+    },
+    {
+      "name": "HTML/CSS/Scss",
+      "amount": "95"
+    },
+    {
+      "name": "JS/NodeJS",
+      "amount": "95"
+    },
+    {
+      "name": "React.JS",
+      "amount": "85"
+    },
+    {
+      "name": "Angular.JS",
+      "amount": "30"
+    },
+    {
+      "name": "jQuery",
+      "amount": "85"
+    },
+    {
+      "name": "Bootstrap",
+      "amount": "95"
+    },
+    {
+      "name": "Semantic UI",
+      "amount": "90"
+    },
+    {
+      "name": "Material UI",
+      "amount": "85"
+    },
+    {
+      "name": "PHP",
+      "amount": "80"
+    },
+    {
+      "name": "SQL",
+      "amount": "95"
+    },
+    {
+      "name": "Java",
+      "amount": "75"
+    },
+    {
+      "name": "JavaFX",
+      "amount": "75"
+    },
+    {
+      "name": "Python",
+      "amount": "65"
+    },
+    {
+      "name": "C/C++",
+      "amount": "75"
+    },
+    {
+      "name": "VHDL",
+      "amount": "70"
+    },
+    {
+      "name": "Assembly Intel x86 (NASM)",
+      "amount": "75"
+    },
+    {
+      "name": "Assembly AVR",
+      "amount": "70"
+    },
+    {
+      "name": "Git",
+      "amount": "75"
+    },
+    {
+      "name": "Matlab/Octave",
+      "amount": "35"
+    },
+    {
+      "name": "Android",
+      "amount": "50"
+    },
+    {
+      "name": "Fortran",
+      "amount": "10"
+    }
+  ],
+  "others": [
+    {
+      "name": "Team Leadership",
+      "amount": "70"
+    },
+    {
+      "name": "Photoshop",
+      "amount": "50"
+    },
+    {
+      "name": "3D Studio Max",
+      "amount": "30"
+    },
+    {
+      "name": "Microsoft Office",
+      "amount": "90"
+    }
+  ],
+  "language": [
+    {
+      "name": "Persian (Native)",
+      "amount": "100",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "amount": "85",
+      "level": "Professional working proficiency"
+    },
+    {
+      "name": "Arabic",
+      "amount": "45",
+      "level": "Limited working proficiency"
+    },
+    {
+      "name": "German",
+      "amount": "5",
+      "level": "Elementary proficiency"
+    }
+  ]
+}

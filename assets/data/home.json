@@ -1,0 +1,32 @@
+{
+  "about": {
+    "contact": {
+      "Email": {"text": "kay.alireza [at-sign] gmail.com", "icon": "far fa-envelope"},
+      "Linkedin": {"text": "alireza-kavian", "icon": "fab fa-linkedin-in", "link": "https://linkedin.com/in/alireza-kavian"},
+      "Github": {"text": "alirezakay", "icon": "fab fa-github-alt", "link": "https://github.com/alirezakay"},
+      "Telegram": {"text": "alirezakay", "icon": "fab fa-telegram-plane", "link": "https://t.me/alirezakay"}
+    },
+    "descriptionTitle": "",
+    "description": [
+      "<b style='font-size: larger'><code>Computer Engineer</code></b>",
+      "My favourite fields of working contains:",
+      "<pre>Web Development,</pre>",
+      "<pre>Software Engineering,</pre>",
+      "<pre>AI,</pre>",
+      "<pre>Security and</pre>",
+      "<pre>Network.</pre>",
+      "Well of course, I'd really love Team-Working."
+    ]
+  },
+  "extras": [
+    {
+      "title": "About",
+      "icon": "fas fa-address-card fa-sm",
+      "items": [
+        ["An Undergraduate student with 3 years of experience in Full-Stack Development.", ""],
+        ["My major skill of web development, is in React I guess.", ""],
+        ["I've also gained experience in AI/ML, Scripting, Web Penetration Testing, Network Configs, Low Level Coding and etc", ""]
+      ]
+    }
+  ]
+}
