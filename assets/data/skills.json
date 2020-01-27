@@ -1,15 +1,11 @@
 {
-  "industry-knowledge": [
+  "industry knowledge": [
     {
-      "name": "Front-End Development",
+      "name": "Full-Stack Development",
       "amount": "90"
     },
     {
-      "name": "Back-End Development",
-      "amount": "70"
-    },
-    {
-      "name": "Full-Stack Development",
+      "name": "Team Leadership",
       "amount": "80"
     },
     {
@@ -17,30 +13,30 @@
       "amount": "75"
     },
     {
-      "name": "Network Configs",
-      "amount": "35"
+      "name": "SEO",
+      "amount": "65"
     },
     {
-      "name": "SEO",
-      "amount": "60"
+      "name": "Penetration Testing",
+      "amount": "55"
+    },
+    {
+      "name": "Network Configs",
+      "amount": "45"
     }
   ],
-  "tools-and-technologies": [
-    {
-      "name": "Linux",
-      "amount": "75"
-    },
+  "front-End tools & technologies": [
     {
       "name": "HTML/CSS/Scss",
       "amount": "95"
     },
     {
-      "name": "JS/NodeJS",
+      "name": "JavaScript",
       "amount": "95"
     },
     {
       "name": "React.JS",
-      "amount": "85"
+      "amount": "90"
     },
     {
       "name": "Angular.JS",
@@ -56,20 +52,40 @@
     },
     {
       "name": "Semantic UI",
-      "amount": "90"
+      "amount": "85"
     },
     {
       "name": "Material UI",
       "amount": "85"
+    }
+  ],
+  "back-End tools & technologies": [
+    {
+      "name": "Node.JS",
+      "amount": "85"
+    },
+    {
+      "name": "Next.JS",
+      "amount": "95"
+    },
+    {
+      "name": "Flask.Py",
+      "amount": "50"
     },
     {
       "name": "PHP",
-      "amount": "80"
+      "amount": "75"
     },
     {
       "name": "SQL",
       "amount": "95"
     },
+    {
+      "name": "No-SQL",
+      "amount": "85"
+    }
+  ],
+  "programming languages & technologies": [
     {
       "name": "Java",
       "amount": "75"
@@ -88,10 +104,14 @@
     },
     {
       "name": "VHDL",
-      "amount": "70"
+      "amount": "80"
     },
     {
-      "name": "Assembly Intel x86 (NASM)",
+      "name": "Verilog",
+      "amount": "50"
+    },
+    {
+      "name": "Assembly Intel x86",
       "amount": "75"
     },
     {
@@ -99,38 +119,52 @@
       "amount": "70"
     },
     {
-      "name": "Git",
-      "amount": "75"
-    },
-    {
       "name": "Matlab/Octave",
       "amount": "35"
     },
     {
-      "name": "Android",
+      "name": "Fortran",
+      "amount": "10"
+    },
+    {
+      "name": "Visual Basic",
+      "amount": "10"
+    }
+  ],
+  "software-Engineering knowledge": [
+    {
+      "name": "Linux",
+      "amount": "75"
+    },
+    {
+      "name": "Git",
+      "amount": "75"
+    },
+    {
+      "name": "Docker",
       "amount": "50"
     },
     {
-      "name": "Fortran",
-      "amount": "10"
+      "name": "Android",
+      "amount": "50"
     }
   ],
   "others": [
     {
-      "name": "Team Leadership",
-      "amount": "70"
+      "name": "Microsoft Office",
+      "amount": "95"
     },
     {
       "name": "Photoshop",
+      "amount": "60"
+    },
+    {
+      "name": "Adobe Premiere",
       "amount": "50"
     },
     {
       "name": "3D Studio Max",
-      "amount": "30"
-    },
-    {
-      "name": "Microsoft Office",
-      "amount": "90"
+      "amount": "35"
     }
   ],
   "language": [

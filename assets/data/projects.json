@@ -4,21 +4,24 @@
     "color": "#d11f63",
     "work": [
       {
-        "icon": "fas fa-user",
-        "for": "Professional Programming",
-        "name": "Graphical growth simulation of plants in a duration (Java / JavaFX)",
+        "icon": "fas fa-user-tie",
+        "name":"Plants Growth",
+        "for": "Advanced Programming",
+        "desc": "A graphical growth simulation of plants in a duration (Java / JavaFX)",
         "url": "https://alirezakay.github.io/showcase/y1/plant-growth-simulation/"
       },
       {
         "icon": "fas fa-users",
+        "name":"BFS/DFS Simulator",
         "for": "Discrete Mathematics",
-        "name": "Graphical BFS/DFS algorithm simulator (Java / JavaFX)",
+        "desc": "A graphical BFS/DFS algorithm simulator (Java / JavaFX)",
         "url": "https://alirezakay.github.io/showcase/y1/bfs-dfs-simulator/"
       },
       {
-        "icon": "fas fa-user",
+        "icon": "fas fa-user-tie",
+        "name":"Text Editor",
         "for": "Fundamental Programming",
-        "name": "Simple text editor (C / C++, BGI Graphics)",
+        "desc": "A simple text editor (C / C++, BGI Graphics)",
         "url": "https://alirezakay.github.io/showcase/y1/simple-text-editor/"
       }
     ]
@@ -28,21 +31,24 @@
     "color": "#bd59d9",
     "work": [
       {
-        "icon": "fas fa-user",
+        "icon": "fas fa-user-tie",
+        "name": "MIPS-like CPU",
         "for": "Computer Architecture",
-        "name": "Simulating MIPS-like CPU - RISC (VHDL)",
+        "desc": "Simulation of a MIPS-like CPU - RISC (VHDL)",
         "url": "https://alirezakay.github.io/showcase/y2/risc-cpu-simulation/"
       },
       {
         "icon": "fas fa-users",
+        "name": "Chess Game",
         "for": "Algorithm Design",
-        "name": "Graphical chess game - minimax/alphabeta (Java / JavaFX / JavaAWT)",
+        "desc": "A graphical chess game - minimax/alphabeta (Java / JavaFX / JavaAWT)",
         "url": "https://alirezakay.github.io/showcase/y2/chess-game/"
       },
       {
         "icon": "fas fa-users",
+        "name": "Java Language Parser",
         "for": "Theory of Language and Automaton",
-        "name": "Simple Java language parser/compiler (Java)",
+        "desc": "A simple Java language parser/compiler (Java)",
         "url": "https://alirezakay.github.io/showcase/y2/java-parser/"
       }
     ]
@@ -52,77 +58,97 @@
     "color": "#59a2d9",
     "work": [
       {
-        "icon": "fas fa-user",
-        "for": "Group Foundation",
-        "name": "Brilacasck github and website - (jQuery / Bootstrap / MDB / ReactJS / AngularJS / PHP / MySQL / Apache / Nginx)",
+        "icon": "fas fa-user-tie",
+        "star": true,
+        "name": "Brilacasck Group Foundation",
+        "for": "Team-Making - Website",
+        "desc": "Organizing Group's github and websites - (jQuery / ReactJS / AngularJS / PHP / MySQL / ...)",
         "url": "https://blilac.ir"
       },
       {
-        "icon": "fas fa-user",
-        "for": "Open Source",
-        "name": "RP-APP - develope react app using php dev server (ReactJS / NodeJS / PHP)",
+        "icon": "fas fa-user-tie",
+        "name": "RP App",
+        "for": "Boilerplate Project",
+        "desc": "development env for creating react app using php dev server (ReactJS / NodeJS / PHP)",
         "url": "https://github.com/alirezakay/rp-app"
       },
       {
-        "icon": "fas fa-user",
-        "for": "Personal",
-        "name": "My personal website (ReactJS / Scss)",
+        "icon": "fas fa-user-tie",
+        "name": "Personal Website Project",
+        "for": "Website",
+        "desc": "My personal website (ReactJS / Mui / Scss)",
         "url": "https://alireza-kavian.github.io"
       },
       {
         "icon": "fas fa-users",
+        "name": "Wumpus-like Game",
         "for": "AI/ES",
-        "name": "Wumpus-like game graphically (Prolog / jquery / Angular / Bootstrap)",
+        "desc": "A simple Wumpus-like game shows the process graphically (Prolog / jquery / Angular / Bootstrap)",
         "url": "https://alirezakay.github.io/showcase/y3/wumpus-like-game/"
       },
       {
         "icon": "fas fa-users",
-        "for": "Database Course",
-        "name": "Shopping website - FullStack (PHP / Jquery / Angular / SQL)",
+        "name": "Full-Stacked Shopping Website",
+        "for": "Website/Database",
+        "desc": "A shopping website (PHP / Jquery / Angular / SQL)",
         "url": "https://alirezakay.github.io/showcase/y3/shopping-website/"
       },
       {
         "icon": "fas fa-users",
+        "name": "Flexible Compiler",
         "for": "Compiler",
-        "name": "Full compiler - lexical/synthesis analyser (Java / JavaFX)",
+        "desc": "A fully implemented compiler - lexical/synthesis analyser (Java / JavaFX)",
         "url": "https://alirezakay.github.io/showcase/y3/full-compiler/"
       },
       {
-        "icon": "fas fa-user",
+        "icon": "fas fa-user-tie",
+        "star": true,
+        "name": "Regex To DFA via Syntax Tree",
         "for": "Theory of Automation",
-        "name": "Regex to DFA directly, using syntax-tree (Java)",
+        "desc": "Conversion of regular expression to DFA directly by using syntax-tree (Java)",
         "url": "https://github.com/alirezakay/RegexToDFA"
       },
       {
         "icon": "fas fa-users",
-        "for": "Software Engineering",
-        "name": "Courseware System on a web context (ReactJS / NodeJS / ExpressJS / MongoDB)",
+        "star": true,
+        "name": "Courseware System",
+        "for": "Software Engineering/Architecture",
+        "desc": "Development of a courseware system on a web context (ReactJS / NodeJS / ExpressJS / MongoDB)",
         "url": "https://alirezakay.github.io/showcase/y3/tcs4ce/"
       },
       {
         "icon": "fas fa-users",
+        "name": "Pipelined Micro/Accelerator",
         "for": "Hardware Software Co-Design",
-        "name": "Simulating pipeline microprocessor communications in a bus context (SystemC)",
+        "desc": "Simulation of a pipelined microprocessor's communications within a bus context (SystemC)",
         "url": "https://alirezakay.github.io/showcase/y3/micro-acc-simulation/"
       }
     ]
   },
   "year4": {
-    "date": "Oct 2018 - Present",
+    "date": "Oct 2018 - Sep 2019",
     "color": "#5adbb0",
     "work": [
       {
         "icon": "fas fa-users",
-        "for": "Production",
-        "name": "Web Development of A Commercial Buissiness [Vorna Decor] (Next.JS / MUI / Python / MySQL)",
+        "star": true,
+        "name": "Vornadecor Corp.",
+        "for": "Web Development",
+        "desc": "A commercial/buissiness website (Next.JS / MUI / Python / MySQL)",
         "url": "https://vornadecor.com"
       },
       {
-        "icon": "fas fa-user",
+        "icon": "fas fa-user-tie",
+        "name": "Petri Net",
         "for": "Real Time & Embedded Systems",
-        "name": "Petri Net Characteristics (Java)",
+        "desc": "Implementation of PetriNet characteristics (Java)",
         "url": "https://alirezakay.github.io/showcase/y4/petri-net-calc/"
       }
     ]
+  },
+  "year5": {
+    "date": "Oct 2019 - Present",
+    "color": "#e85aa8",
+    "work": []
   }
 }

@@ -5,12 +5,39 @@
     "icon": "fas fa-graduation-cap",
     "items": [
       {
+        "name": "Kamal High School",
+        "degree": "Diploma Certificate of Math-Physics",
+        "logo": "/assets/img/kamal.png",
+        "url": "http://kamal.sch.ir",
+        "date": "2011 - 2015",
+        "gpa": "19.51 (of 20)"
+      },
+      {
         "name": "K. N. Toosi University of Technology",
-        "degree": "Bachelor's degree, Computer Engineering",
+        "degree": "BSc of Computer Engineering",
         "logo": "/assets/img/kntu.png",
         "url": "https://ce.kntu.ac.ir",
         "date": "2015 - Present",
-        "gpa": "18.43 (of 20)"
+        "gpa": "18.43 (of 20)",
+        "relevantsHead": ["Course Name", "My Grade", "Out Of"],
+        "relevants": [
+          ["Advanced Programming", "20", "20"],
+          ["Engineering Mathematics ", "20", "20"],
+          ["Theory of Formal Languages & Automata", "20", "20"],
+          ["Computer Architecture", "20", "20"],
+          ["Principles of Compiler Design", "20", "20"],
+          ["Operating Systems", "20", "20"],
+          ["Computer Networks Lab", "20", "20"],
+          ["Engineering Probability", "19.89", "20"],
+          ["Fundamentals of Robotics", "19.75", "20"],
+          ["Descrete Mathematics", "19.50", "20"],
+          ["Principles of Database Design", "19.45", "20"],
+          ["Data Structure", "19.25", "20"],
+          ["Differential Equations", "19.20", "20"],
+          ["Algorithm Design", "19", "20"],
+          ["Artificial Intelligence & Expert Systems", "18.50", "20"],
+          ["Foundations of Computer Vision", "18.25", "20"]
+        ]
       }
     ]
   },
@@ -40,8 +67,8 @@
         "description": [
           "Managing a small developer team",
           "Scrum Master",
-          "Front-End developing",
-          "Back-End developing"
+          "Front-End development",
+          "Back-End development"
         ]
       },
       {
@@ -52,7 +79,7 @@
         "date": "Jul 2018 - Sep 2018",
         "location": "Tehran, Iran",
         "description": [
-          "A company provides network services to clients.",
+          "A company provides network services to the clients.",
           "I've got my internship here as a developer in the fields of Network/Web Security, SEO and Development."
         ]
       },
@@ -89,7 +116,7 @@
         ]
       },
       {
-        "title": "BSc Scholarship for the excellent students",
+        "title": "BSc Excellent Students Scholarship ",
         "name": "Kanoon Farhangi Amoozesh (Ghalamchi)",
         "url": "http://en.kanoon.ir",
         "logo": "/assets/img/kanoon.png",
