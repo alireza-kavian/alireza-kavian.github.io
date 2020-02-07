@@ -143,6 +143,13 @@
         "for": "Real Time & Embedded Systems",
         "desc": "Implementation of PetriNet characteristics (Java)",
         "url": "https://alirezakay.github.io/showcase/y4/petri-net-calc/"
+      },
+      {
+        "icon": "fas fa-users",
+        "name": "Maximum Matching of Bipartite Graph",
+        "for": "Graph Theory",
+        "desc": "Implementation of maximum matching algorithm for a bipartite graph (React.JS)",
+        "url": "https://brilacasck.github.io/maximum-matching-b-graph/"
       }
     ]
   },

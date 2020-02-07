@@ -1,16 +1,12 @@
 {
   "industry knowledge": [
     {
-      "name": "Full-Stack Development",
-      "amount": "90"
-    },
-    {
       "name": "Team Leadership",
       "amount": "80"
     },
     {
-      "name": "Agile/Scrum",
-      "amount": "75"
+      "name": "Full-Stack Development",
+      "amount": "90"
     },
     {
       "name": "SEO",
@@ -85,26 +81,48 @@
       "amount": "85"
     }
   ],
+  "database technologies": [
+    {
+      "name": "MySQL",
+      "amount": "95"
+    },
+    {
+      "name": "Oracle DB",
+      "amount": "85"
+    },
+    {
+      "name": "MSSQL",
+      "amount": "75"
+    },
+    {
+      "name": "PostgreSQL",
+      "amount": "60"
+    },
+    {
+      "name": "MySQL Document Store (mysqlx)",
+      "amount": "90"
+    },
+    {
+      "name": "MongoDB",
+      "amount": "95"
+    }
+  ],
   "programming languages & technologies": [
     {
       "name": "Java",
       "amount": "75"
     },
     {
-      "name": "JavaFX",
-      "amount": "75"
-    },
-    {
       "name": "Python",
-      "amount": "65"
+      "amount": "85"
     },
     {
       "name": "C/C++",
-      "amount": "75"
+      "amount": "80"
     },
     {
       "name": "VHDL",
-      "amount": "80"
+      "amount": "85"
     },
     {
       "name": "Verilog",
@@ -133,6 +151,10 @@
   ],
   "software-Engineering knowledge": [
     {
+      "name": "Agile/Scrum",
+      "amount": "75"
+    },
+    {
       "name": "Linux",
       "amount": "75"
     },
@@ -146,6 +168,28 @@
     },
     {
       "name": "Android",
+      "amount": "50"
+    }
+  ],
+  "other frameworks & libraries": [
+    {
+      "name": "OpenCV",
+      "amount": "55"
+    },
+    {
+      "name": "SystemC",
+      "amount": "80"
+    },
+    {
+      "name": "JavaFX",
+      "amount": "70"
+    },
+    {
+      "name": "Numpy/Scipy",
+      "amount": "70"
+    },
+    {
+      "name": "Pandas/Matplotlib",
       "amount": "50"
     }
   ],
