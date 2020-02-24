@@ -2,11 +2,11 @@
   "industry knowledge": [
     {
       "name": "Team Leadership",
-      "amount": "80"
+      "amount": "75"
     },
     {
       "name": "Full-Stack Development",
-      "amount": "90"
+      "amount": "95"
     },
     {
       "name": "SEO",
@@ -14,11 +14,11 @@
     },
     {
       "name": "Penetration Testing",
-      "amount": "55"
+      "amount": "45"
     },
     {
       "name": "Network Configs",
-      "amount": "45"
+      "amount": "50"
     }
   ],
   "front-End tools & technologies": [
@@ -58,7 +58,7 @@
   "back-End tools & technologies": [
     {
       "name": "Node.JS",
-      "amount": "85"
+      "amount": "90"
     },
     {
       "name": "Next.JS",
@@ -126,7 +126,7 @@
     },
     {
       "name": "Verilog",
-      "amount": "50"
+      "amount": "60"
     },
     {
       "name": "Assembly Intel x86",
@@ -138,15 +138,15 @@
     },
     {
       "name": "Matlab/Octave",
-      "amount": "35"
-    },
-    {
-      "name": "Fortran",
-      "amount": "10"
+      "amount": "50"
     },
     {
       "name": "Visual Basic",
-      "amount": "10"
+      "amount": "25"
+    },
+    {
+      "name": "Fortran",
+      "amount": "15"
     }
   ],
   "software-Engineering knowledge": [

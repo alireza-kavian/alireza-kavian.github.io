@@ -18,7 +18,7 @@
         "logo": "/assets/img/kntu.png",
         "url": "https://ce.kntu.ac.ir",
         "date": "2015 - Present",
-        "gpa": "18.43 (of 20)",
+        "gpa": "18.36 (of 20)",
         "relevantsHead": ["Course Name", "My Grade", "Out Of"],
         "relevants": [
           ["Advanced Programming", "20", "20"],
@@ -91,10 +91,11 @@
         "date": "2016 - Present",
         "location": "Tehran, Iran",
         "description": [
-          "Assembly Language (x86 Intel assembly language) - Dr. B. Nasihatkon [2x]",
+          "Foundations of Computer Vision - Dr B. Nasihatkon [1x]",
+          "Assembly Language (x86 Intel assembly language) - Dr B. Nasihatkon [2x]",
           "Computer Fundamentals And Programming In C - Dr A. Nikanjam and Dr B. Nasihatkon [1x]",
-          "Compiler - Dr. S. Sedighian Kashi [1x]",
-          "Theory of Language and Automaton - Dr. S.H. Khasteh [1x]"
+          "Compiler - Dr S. Sedighian Kashi [1x]",
+          "Theory of Language and Automaton - Dr S.H. Khasteh [1x]"
         ]
       }
     ]
