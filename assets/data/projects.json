@@ -1,7 +1,7 @@
 {
   "year1": {
     "date": "Oct 2015 - Sep 2016",
-    "color": "#d11f63",
+    "color": "#1b9fbd",
     "work": [
       {
         "icon": "fas fa-user-tie",
@@ -28,7 +28,7 @@
   },
   "year2": {
     "date": "Oct 2016 - Sep 2017",
-    "color": "#bd59d9",
+    "color": "#1b9fbd",
     "work": [
       {
         "icon": "fas fa-user-tie",
@@ -55,14 +55,14 @@
   },
   "year3": {
     "date": "Oct 2017 - Sep 2018",
-    "color": "#59a2d9",
+    "color": "#1b9fbd",
     "work": [
       {
         "icon": "fas fa-user-tie",
         "star": true,
         "name": "Brilacasck Group Foundation",
         "for": "Team-Making - Website",
-        "desc": "Organizing Group's github and websites - (jQuery / ReactJS / AngularJS / PHP / MySQL / ...)",
+        "desc": "Organizing the group's github and websites - (jQuery / ReactJS / PHP / MySQL / .. )",
         "url": "https://blilac.ir"
       },
       {
@@ -127,7 +127,7 @@
   },
   "year4": {
     "date": "Oct 2018 - Sep 2019",
-    "color": "#5adbb0",
+    "color": "#1b9fbd",
     "work": [
       {
         "icon": "fas fa-users",
@@ -155,7 +155,7 @@
   },
   "year5": {
     "date": "Oct 2019 - Present",
-    "color": "#e85aa8",
+    "color": "#1b9fbd",
     "work": []
   }
 }

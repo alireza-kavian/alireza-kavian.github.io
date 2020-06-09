@@ -48,21 +48,21 @@
     "items": [
       {
         "name": "Brilacasck",
-        "role": "C.E.O",
+        "role": "Founder",
         "url": "https://blilac.ir",
         "logo": "/assets/img/brilacasck.png",
         "date": "Jul 2017 - Feb 2020",
         "location": "Tehran, Iran",
         "description": [
-          "I'm the founder of this group, we've done a lot of cool stuffs and projects."
+          "We've done a lot of cool code stuffs and projects."
         ]
       },
       {
-        "name": "Vorna Decor",
+        "name": "VornaDecor",
         "role": "C.T.O",
         "url": "http://vornadecor.com",
         "logo": "/assets/img/vornadecor.png",
-        "date": "Jan 2019 - Present",
+        "date": "Jan 2019 - Jan 2020",
         "location": "Tehran, Iran",
         "description": [
           "Managing a small developer team",
@@ -73,14 +73,14 @@
       },
       {
         "name": "YSorkh",
-        "role": "Developing Internship",
+        "role": "Development Internship",
         "url": "http://ysorkh.net",
         "logo": "/assets/img/ysorkh.jpg",
         "date": "Jul 2018 - Sep 2018",
         "location": "Tehran, Iran",
         "description": [
-          "A company provides network services to the clients.",
-          "I've got my internship here as a developer in the fields of Network/Web Security, SEO and Development."
+          "YSorkh is a company provides network services to the clients.",
+          "I've got my internship here as a developer in the fields of Web Security, SEO and Development."
         ]
       },
       {
@@ -88,7 +88,7 @@
         "role": "Undergraduate Teaching Assistant",
         "url": "http://en.ce.kntu.ac.ir",
         "logo": "/assets/img/kntu.png",
-        "date": "2016 - Present",
+        "date": "2016 - 2020",
         "location": "Tehran, Iran",
         "description": [
           "Foundations of Computer Vision - Dr B. Nasihatkon [1x]",
@@ -136,6 +136,24 @@
         "location": "Tehran, Iran",
         "description": [
           "First place at Quera Connect 10 - Front-End Challenge"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "award",
+    "title": "Certificates",
+    "icon": "fas fa-certificate",
+    "items": [
+      {
+        "title": "Front-End Design",
+        "name": "University of Tehran",
+        "url": "https://ut.ac.ir/en",
+        "logo": "/assets/img/ut.png",
+        "date": "2017",
+        "location": "Tehran, Iran",
+        "description": [
+          "HTML/CSS/JS - jQuery - Bootstrap"
         ]
       }
     ]

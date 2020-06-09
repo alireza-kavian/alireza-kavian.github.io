@@ -6,33 +6,42 @@
     },
     {
       "name": "Full-Stack Development",
-      "amount": "95"
+      "amount": "95",
+      "show": true
     },
     {
       "name": "SEO",
       "amount": "65"
     },
     {
-      "name": "Penetration Testing",
-      "amount": "45"
-    },
-    {
-      "name": "Network Configs",
-      "amount": "50"
+      "name": "Network/Server Configs",
+      "amount": "90",
+      "show": true
     }
   ],
-  "front-End tools & technologies": [
+  "front-End tools & techs": [
     {
-      "name": "HTML/CSS/Scss",
-      "amount": "95"
+      "name": "HTML/CSS/SCSS",
+      "amount": "95",
+      "show": true
     },
     {
       "name": "JavaScript",
-      "amount": "95"
+      "amount": "95",
+      "show": true
     },
     {
       "name": "React.JS",
+      "amount": "90",
+      "show": true
+    },
+    {
+      "name": "Next.JS",
       "amount": "90"
+    },
+    {
+      "name": "Gatsby",
+      "amount": "75"
     },
     {
       "name": "Angular.JS",
@@ -55,14 +64,11 @@
       "amount": "85"
     }
   ],
-  "back-End tools & technologies": [
+  "back-End tools & techs": [
     {
       "name": "Node.JS",
-      "amount": "90"
-    },
-    {
-      "name": "Next.JS",
-      "amount": "95"
+      "amount": "90",
+      "show": true
     },
     {
       "name": "Flask.Py",
@@ -70,7 +76,8 @@
     },
     {
       "name": "PHP",
-      "amount": "75"
+      "amount": "75",
+      "show": true
     },
     {
       "name": "SQL",
@@ -81,10 +88,11 @@
       "amount": "85"
     }
   ],
-  "database technologies": [
+  "database techs": [
     {
       "name": "MySQL",
-      "amount": "95"
+      "amount": "95",
+      "show": true
     },
     {
       "name": "Oracle DB",
@@ -96,7 +104,7 @@
     },
     {
       "name": "PostgreSQL",
-      "amount": "60"
+      "amount": "50"
     },
     {
       "name": "MySQL Document Store (mysqlx)",
@@ -104,21 +112,24 @@
     },
     {
       "name": "MongoDB",
-      "amount": "95"
+      "amount": "95",
+      "show": true
     }
   ],
-  "programming languages & technologies": [
-    {
-      "name": "Java",
-      "amount": "75"
-    },
-    {
-      "name": "Python",
-      "amount": "85"
-    },
+  "programming languages & techs": [
     {
       "name": "C/C++",
       "amount": "80"
+    },
+    {
+      "name": "Java",
+      "amount": "75",
+      "show": true
+    },
+    {
+      "name": "Python",
+      "amount": "90",
+      "show": true
     },
     {
       "name": "VHDL",
@@ -142,39 +153,39 @@
     },
     {
       "name": "Visual Basic",
-      "amount": "25"
-    },
-    {
-      "name": "Fortran",
-      "amount": "15"
+      "amount": "30"
     }
   ],
-  "software-Engineering knowledge": [
+  "devOps": [
     {
       "name": "Agile/Scrum",
-      "amount": "75"
+      "amount": "75",
+      "show": true
     },
     {
       "name": "Linux",
-      "amount": "75"
+      "amount": "80",
+      "show": true
     },
     {
       "name": "Git",
-      "amount": "75"
+      "amount": "75",
+      "show": true
     },
     {
       "name": "Docker",
       "amount": "50"
-    },
-    {
-      "name": "Android",
-      "amount": "50"
     }
   ],
-  "other frameworks & libraries": [
+  "other frameworks & libs": [
     {
       "name": "OpenCV",
-      "amount": "55"
+      "amount": "70",
+      "show": true
+    },
+    {
+      "name": "Tensorflow/Keras",
+      "amount": "70"
     },
     {
       "name": "SystemC",
@@ -183,14 +194,6 @@
     {
       "name": "JavaFX",
       "amount": "70"
-    },
-    {
-      "name": "Numpy/Scipy",
-      "amount": "70"
-    },
-    {
-      "name": "Pandas/Matplotlib",
-      "amount": "50"
     }
   ],
   "others": [
