@@ -61,8 +61,8 @@
         "icon": "fas fa-user-tie",
         "star": true,
         "name": "Brilacasck Group Foundation",
-        "for": "Team-Making - Website",
-        "desc": "Organizing the group's github and websites - (jQuery / ReactJS / PHP / MySQL / .. )",
+        "for": "Team Regrouping",
+        "desc": "Organizing the github repos and websites - (jQuery / ReactJS / PHP / MySQL / .. )",
         "url": "https://blilac.ir"
       },
       {
@@ -138,11 +138,18 @@
         "url": "https://vornadecor.com"
       },
       {
+        "icon": "fas fa-users",
+        "name": "Face detection & Facial expression classification",
+        "for": "Computer Vision",
+        "desc": "Face recognition using cascade detectors and facial expression classification using CNN",
+        "url": "https://alirezakay.github.io/showcase/y4/facial-recognition/"
+      },
+      {
         "icon": "fas fa-user-tie",
-        "name": "Petri Net",
-        "for": "Real Time & Embedded Systems",
-        "desc": "Implementation of PetriNet characteristics (Java)",
-        "url": "https://alirezakay.github.io/showcase/y4/petri-net-calc/"
+        "name": "Web canvas charts",
+        "for": "Internet Engineering",
+        "desc": "Simple implementation of charts display from json data file without using frameworks",
+        "url": "https://alirezakay.github.io/showcase/y4/canvas-chart/"
       },
       {
         "icon": "fas fa-users",
@@ -150,6 +157,13 @@
         "for": "Graph Theory",
         "desc": "Implementation of maximum matching algorithm for a bipartite graph (React.JS)",
         "url": "https://brilacasck.github.io/maximum-matching-b-graph/"
+      },
+      {
+        "icon": "fas fa-user-tie",
+        "name": "Petri Net",
+        "for": "Real Time & Embedded Systems",
+        "desc": "Implementation of PetriNet characteristics (Java)",
+        "url": "https://alirezakay.github.io/showcase/y4/petri-net-calc/"
       }
     ]
   },
