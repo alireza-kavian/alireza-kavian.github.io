@@ -170,6 +170,14 @@
   "year5": {
     "date": "Oct 2019 - Present",
     "color": "#1b9fbd",
-    "work": []
+    "work": [
+    	{
+        "icon": "fas fa-user-tie",
+        "name": "Stranger Things Stuffs",
+        "for": "AI/ML",
+        "desc": "A fun web app has features utlized by machine learning and computer vision concepts",
+        "url": "https://strngr-thngs.github.io"
+      }
+    ]
   }
 }
