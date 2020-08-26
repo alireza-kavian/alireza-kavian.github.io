@@ -17,26 +17,26 @@
         "degree": "BSc of Computer Engineering",
         "logo": "/assets/img/kntu.png",
         "url": "https://ce.kntu.ac.ir",
-        "date": "2015 - Present",
-        "gpa": "18.36 (of 20)",
-        "relevantsHead": ["Course Name", "My Grade", "Out Of"],
+        "date": "2015 - 2020",
+        "gpa": "3.88 (of 4) | 18.36 (of 20)",
+        "relevantsHead": ["Course Name", "My Grade (of 20)"],
         "relevants": [
-          ["Advanced Programming", "20", "20"],
-          ["Engineering Mathematics ", "20", "20"],
-          ["Theory of Formal Languages & Automata", "20", "20"],
-          ["Computer Architecture", "20", "20"],
-          ["Principles of Compiler Design", "20", "20"],
-          ["Operating Systems", "20", "20"],
-          ["Computer Networks Lab", "20", "20"],
-          ["Engineering Probability", "19.89", "20"],
-          ["Fundamentals of Robotics", "19.75", "20"],
-          ["Descrete Mathematics", "19.50", "20"],
-          ["Principles of Database Design", "19.45", "20"],
-          ["Data Structure", "19.25", "20"],
-          ["Differential Equations", "19.20", "20"],
-          ["Algorithm Design", "19", "20"],
-          ["Artificial Intelligence & Expert Systems", "18.50", "20"],
-          ["Foundations of Computer Vision", "18.25", "20"]
+          ["Advanced Programming", "20"],
+          ["Engineering Mathematics ", "20"],
+          ["Theory of Formal Languages & Automata", "20"],
+          ["Computer Architecture", "20"],
+          ["Principles of Compiler Design", "20"],
+          ["Operating Systems", "20"],
+          ["Computer Networks Lab", "20"],
+          ["Engineering Probability", "19.89"],
+          ["Fundamentals of Robotics", "19.75"],
+          ["Descrete Mathematics", "19.50"],
+          ["Principles of Database Design", "19.45"],
+          ["Data Structure", "19.25"],
+          ["Differential Equations", "19.20"],
+          ["Algorithm Design", "19"],
+          ["Artificial Intelligence & Expert Systems", "18.50"],
+          ["Foundations of Computer Vision", "18.25"]
         ]
       }
     ]
@@ -51,15 +51,16 @@
         "role": "Founder",
         "url": "https://blilac.ir",
         "logo": "/assets/img/brilacasck.png",
-        "date": "Jul 2017 - Feb 2020",
+        "date": "Jul 2017 - Sep 2020",
         "location": "Tehran, Iran",
         "description": [
-          "We've done a lot of cool code stuffs and projects."
+          "Our very first group.",
+          "We've done a lot of cool coding stuffs and projects."
         ]
       },
       {
-        "name": "VornaDecor",
-        "role": "C.T.O",
+        "name": "Vorna Decor",
+        "role": "Project Lead Developer",
         "url": "http://vornadecor.com",
         "logo": "/assets/img/vornadecor.png",
         "date": "Jan 2019 - Jan 2020",
@@ -91,11 +92,11 @@
         "date": "2016 - 2020",
         "location": "Tehran, Iran",
         "description": [
-          "Foundations of Computer Vision - Dr B. Nasihatkon [1x]",
-          "Assembly Language (x86 Intel assembly language) - Dr B. Nasihatkon [2x]",
-          "Computer Fundamentals And Programming In C - Dr A. Nikanjam and Dr B. Nasihatkon [1x]",
-          "Compiler - Dr S. Sedighian Kashi [1x]",
-          "Theory of Language and Automaton - Dr S.H. Khasteh [1x]"
+          "Foundations of Computer Vision - Dr B. Nasihatkon [x1]",
+          "Assembly Language (x86 Intel assembly language) - Dr B. Nasihatkon [x1]",
+          "Computer Fundamentals And Programming In C - Dr A. Nikanjam and Dr B. Nasihatkon [x1]",
+          "Compiler - Dr S. Sedighian Kashi [x1]",
+          "Theory of Language and Automaton - Dr S.H. Khasteh [x1]"
         ]
       }
     ]
@@ -146,14 +147,27 @@
     "icon": "fas fa-certificate",
     "items": [
       {
-        "title": "Front-End Design",
+        "title": "Front-End Designing",
         "name": "University of Tehran",
         "url": "https://ut.ac.ir/en",
         "logo": "/assets/img/ut.png",
         "date": "2017",
         "location": "Tehran, Iran",
+        "cert": "/assets/cert/tehran-front-end.jpg",
         "description": [
           "HTML/CSS/JS - jQuery - Bootstrap"
+        ]
+      },
+      {
+        "title": "Machine Learning Fundamentals",
+        "name": "Quera",
+        "url": "https://quera.ir/",
+        "logo": "/assets/img/quera.png",
+        "date": "2020",
+        "location": "Tehran, Iran",
+        "cert": "/assets/cert/quera-ml.jpg",
+        "description": [
+          "Artificial Intelligence & Machine Learning basics and concepts"
         ]
       }
     ]

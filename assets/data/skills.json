@@ -11,11 +11,21 @@
     },
     {
       "name": "SEO",
-      "amount": "65"
+      "amount": "50"
     },
     {
       "name": "Network/Server Configs",
-      "amount": "90",
+      "amount": "80",
+      "show": true
+    },
+    {
+      "name": "Ethical Hacking",
+      "amount": "60",
+      "show": true
+    },
+    {
+      "name": "Machine Learning Fundamentals",
+      "amount": "80",
       "show": true
     }
   ],
@@ -37,15 +47,15 @@
     },
     {
       "name": "Next.JS",
-      "amount": "90"
+      "amount": "80"
     },
     {
       "name": "Gatsby",
-      "amount": "75"
+      "amount": "70"
     },
     {
       "name": "Angular.JS",
-      "amount": "30"
+      "amount": "25"
     },
     {
       "name": "jQuery",
@@ -67,12 +77,12 @@
   "back-End tools & techs": [
     {
       "name": "Node.JS",
-      "amount": "90",
+      "amount": "85",
       "show": true
     },
     {
       "name": "Flask.Py",
-      "amount": "50"
+      "amount": "55"
     },
     {
       "name": "PHP",
@@ -96,11 +106,11 @@
     },
     {
       "name": "Oracle DB",
-      "amount": "85"
+      "amount": "80"
     },
     {
       "name": "MSSQL",
-      "amount": "75"
+      "amount": "70"
     },
     {
       "name": "PostgreSQL",
@@ -108,11 +118,11 @@
     },
     {
       "name": "MySQL Document Store (mysqlx)",
-      "amount": "90"
+      "amount": "85"
     },
     {
       "name": "MongoDB",
-      "amount": "95",
+      "amount": "90",
       "show": true
     }
   ],
@@ -123,12 +133,12 @@
     },
     {
       "name": "Java",
-      "amount": "75",
+      "amount": "80",
       "show": true
     },
     {
       "name": "Python",
-      "amount": "90",
+      "amount": "95",
       "show": true
     },
     {
@@ -159,17 +169,17 @@
   "devOps": [
     {
       "name": "Agile/Scrum",
-      "amount": "75",
+      "amount": "70",
       "show": true
     },
     {
       "name": "Linux",
-      "amount": "80",
+      "amount": "85",
       "show": true
     },
     {
       "name": "Git",
-      "amount": "75",
+      "amount": "70",
       "show": true
     },
     {
@@ -185,7 +195,7 @@
     },
     {
       "name": "Tensorflow/Keras",
-      "amount": "70"
+      "amount": "65"
     },
     {
       "name": "SystemC",
@@ -229,11 +239,6 @@
       "name": "Arabic",
       "amount": "45",
       "level": "Limited working proficiency"
-    },
-    {
-      "name": "German",
-      "amount": "5",
-      "level": "Elementary proficiency"
     }
   ]
 }

@@ -168,16 +168,29 @@
     ]
   },
   "year5": {
-    "date": "Oct 2019 - Present",
+    "date": "Oct 2019 - Sep 2020",
     "color": "#1b9fbd",
     "work": [
     	{
         "icon": "fas fa-user-tie",
         "name": "Stranger Things Stuffs",
         "for": "AI/ML",
-        "desc": "A fun web app has features utlized by machine learning and computer vision concepts",
+        "desc": "A fun web app which has features utlized by machine learning and computer vision concepts",
         "url": "https://strngr-thngs.github.io"
+      },
+    	{
+        "icon": "fas fa-users",
+        "name": "Forex Rational Agent Implemented With RL & NLP",
+        "for": "BSc Dissertation",
+        "desc": "A trader agent powered by reinforcement learning and natural language processing",
+        "url": ""
       }
+    ]
+  },
+  "Senior Years":{
+    "date": "",
+    "work": [
+
     ]
   }
 }

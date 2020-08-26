@@ -22,9 +22,9 @@
       "title": "About",
       "icon": "fas fa-address-card fa-sm",
       "items": [
-        ["A self-motivated undergraduate student with 3 years of experience in Full-Stack Development.", ""],
-        ["My major skill in web development, is in React I assume.", ""],
-        ["I've also gained well experience in AI/ML, Scripting, Web Penetration Testing, Network Configs, Low Level Coding and ...", ""]
+        ["An enthusiastic self-motivated undergraduate student with 3 years of experience in Full-Stack Development.", ""],
+        ["In web development, I love using ReactJS.", ""],
+        ["I've gained well experience in AI/ML, Scripting, Web PenTesting, Network Configs, Low Level Coding and etc.", ""]
       ]
     }
   ]
