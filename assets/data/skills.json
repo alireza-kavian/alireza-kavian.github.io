@@ -19,7 +19,7 @@
       "show": true
     },
     {
-      "name": "Ethical Hacking",
+      "name": "Pen. Testing",
       "amount": "60",
       "show": true
     },
@@ -176,6 +176,10 @@
       "name": "Linux",
       "amount": "85",
       "show": true
+    },
+    {
+      "name": "Android (Java)",
+      "amount": "65"
     },
     {
       "name": "Git",
