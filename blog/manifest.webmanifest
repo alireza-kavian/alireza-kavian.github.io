@@ -1,0 +1,1 @@
+{"name":"KayLogger","short_name":"KLogger","description":"The kay logger presents. A blog you may got interested in","start_url":"/blog","background_color":"red","theme_color":"#c62828","display":"minimal-ui","icons":[{"src":"/logos/logo-48.png","sizes":"48x48","type":"image/png"},{"src":"/logos/logo-1024.png","sizes":"1024x1024","type":"image/png"}],"cacheDigest":null}
