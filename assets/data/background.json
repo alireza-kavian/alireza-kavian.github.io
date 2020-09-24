@@ -167,7 +167,19 @@
         "location": "Tehran, Iran",
         "cert": "/assets/cert/quera-ml.jpg",
         "description": [
-          "Artificial Intelligence & Machine Learning basics and concepts"
+          "Artificial Intelligence & Machine Learning basics"
+        ]
+      },
+      {
+        "title": "Certified Ethical Hacker (CEH)",
+        "name": "Maktabkhooneh",
+        "url": "http://maktabkhooneh.org/",
+        "logo": "/assets/img/maktabkhooneh.jpg",
+        "date": "2020",
+        "location": "Tehran, Iran",
+        "cert": "/assets/cert/maktabkhooneh-ceh.jpg",
+        "description": [
+          "Fundamentals of Ethical Hacking"
         ]
       }
     ]
