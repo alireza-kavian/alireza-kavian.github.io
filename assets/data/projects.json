@@ -134,7 +134,7 @@
         "star": true,
         "name": "Vornadecor Corp.",
         "for": "Web Development",
-        "desc": "A commercial/buissiness website (Next.JS / MUI / Python / MySQL)",
+        "desc": "A marketing website (Next.JS / MUI / Python / MySQL)",
         "url": "https://vornadecor.com"
       },
       {
@@ -171,6 +171,14 @@
     "date": "Oct 2019 - Sep 2020",
     "color": "#1b9fbd",
     "work": [
+      {
+        "icon": "fas fa-user-tie",
+        "name": "MUI Elapsing Bars",
+        "star": true,
+        "for": "Web Development",
+        "desc": "An animated elapsing progress-bars component mutable during the time for ReactJS 📊",
+        "url": "https://github.com/alirezakay/mui-elapsing-bars"
+      },
     	{
         "icon": "fas fa-user-tie",
         "name": "Stranger Things Stuffs",

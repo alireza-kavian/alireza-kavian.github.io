@@ -20,8 +20,7 @@
     },
     {
       "name": "Pen. Testing",
-      "amount": "60",
-      "show": true
+      "amount": "60"
     },
     {
       "name": "Machine Learning Fundamentals",
@@ -31,8 +30,12 @@
   ],
   "front-End tools & techs": [
     {
-      "name": "HTML/CSS/SCSS",
-      "amount": "95",
+      "name": "HTML",
+      "amount": "95"
+    },
+    {
+      "name": "CSS/SCSS",
+      "amount": "90",
       "show": true
     },
     {
@@ -118,15 +121,34 @@
     },
     {
       "name": "MySQL Document Store (mysqlx)",
-      "amount": "85"
+      "amount": "80"
     },
     {
       "name": "MongoDB",
-      "amount": "90",
+      "amount": "85",
       "show": true
     }
   ],
-  "programming languages & techs": [
+  "AI/ML frameworks": [
+    {
+      "name": "OpenCV",
+      "amount": "70",
+      "show": true
+    },
+    {
+      "name": "Tensorflow/Keras",
+      "amount": "60"
+    },
+    {
+      "name": "NLTK",
+      "amount": "50"
+    },
+    {
+      "name": "Scikit-Learn",
+      "amount": "50"
+    }
+  ],
+  "programming languages": [
     {
       "name": "C/C++",
       "amount": "80"
@@ -193,21 +215,24 @@
   ],
   "other frameworks & libs": [
     {
-      "name": "OpenCV",
-      "amount": "70",
-      "show": true
+      "name": "Numpy/Scipy",
+      "amount": "70"
     },
     {
-      "name": "Tensorflow/Keras",
-      "amount": "65"
+      "name": "Pandas",
+      "amount": "70"
+    },
+    {
+      "name": "BeautifulSoup",
+      "amount": "85"
     },
     {
       "name": "SystemC",
-      "amount": "80"
+      "amount": "70"
     },
     {
       "name": "JavaFX",
-      "amount": "70"
+      "amount": "60"
     }
   ],
   "others": [
