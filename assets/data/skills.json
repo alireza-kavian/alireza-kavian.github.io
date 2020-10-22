@@ -42,6 +42,10 @@
       "name": "JavaScript",
       "amount": "95",
       "show": true
+    },    
+    {
+      "name": "TypeScript",
+      "amount": "55"
     },
     {
       "name": "React.JS",
@@ -49,12 +53,16 @@
       "show": true
     },
     {
+      "name": "Redux",
+      "amount": "70"
+    },
+    {
       "name": "Next.JS",
-      "amount": "80"
+      "amount": "75"
     },
     {
       "name": "Gatsby",
-      "amount": "70"
+      "amount": "75"
     },
     {
       "name": "Angular.JS",
@@ -63,6 +71,10 @@
     {
       "name": "jQuery",
       "amount": "85"
+    },
+    {
+      "name": "Gulp",
+      "amount": "60"
     },
     {
       "name": "Bootstrap",
@@ -204,9 +216,21 @@
       "amount": "65"
     },
     {
+      "name": "REST API",
+      "amount": "90"
+    },
+    {
       "name": "Git",
       "amount": "70",
       "show": true
+    },
+    {
+      "name": "NPM",
+      "amount": "90"
+    },
+    {
+      "name": "Webpack/Babel",
+      "amount": "55"
     },
     {
       "name": "Docker",
