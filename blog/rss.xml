@@ -1,3 +1,472 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KayLogger]]></title><description><![CDATA[The kay logger presents. A blog you may got interested in]]></description><link>https://alireza-kavian.github.io/blog</link><image><url>https://alireza-kavian.github.io/blog/logos/logo-48.png</url><title>KayLogger</title><link>https://alireza-kavian.github.io/blog</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Sun, 20 Sep 2020 20:59:54 GMT</lastBuildDate><atom:link href="https://alireza-kavian.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Starting From Here]]></title><description><![CDATA[What is this This is just the beginning! Start Here]]></description><link>https://alireza-kavian.github.io/blog/start-here</link><guid isPermaLink="false">https://alireza-kavian.github.io/blog/start-here</guid><category><![CDATA[init]]></category><pubDate>Wed, 16 Sep 2020 19:30:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;what-is-this&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-this&quot; aria-label=&quot;what is this permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is this&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[KayLogger]]></title><description><![CDATA[The kay logger presents. A blog you may got interested in]]></description><link>https://alireza-kavian.github.io/blog</link><image><url>https://alireza-kavian.github.io/blog/logos/logo-48.png</url><title>KayLogger</title><link>https://alireza-kavian.github.io/blog</link></image><generator>GatsbyJS Advanced Starter</generator><lastBuildDate>Mon, 18 Jan 2021 19:30:15 GMT</lastBuildDate><atom:link href="https://alireza-kavian.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[Copyright © 2020. All rights reserved.]]></copyright><item><title><![CDATA[Using Windows, Like A Pro (For Developers)]]></title><description><![CDATA[Are you a Computer Engineer | Programmer | Full-Stack Developer? Have you always hated using Windows? Is it hard switching from Linux to…]]></description><link>https://alireza-kavian.github.io/blog/act-as-a-professional-in-windows</link><guid isPermaLink="false">https://alireza-kavian.github.io/blog/act-as-a-professional-in-windows</guid><category><![CDATA[windows]]></category><category><![CDATA[chocolatey]]></category><category><![CDATA[gitbash]]></category><category><![CDATA[vscode]]></category><category><![CDATA[advor]]></category><category><![CDATA[proxychains]]></category><category><![CDATA[postman]]></category><pubDate>Wed, 18 Nov 2020 20:30:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;Are you a Computer Engineer | Programmer | Full-Stack Developer?&lt;/li&gt;
+&lt;li&gt;Have you always hated using Windows?&lt;/li&gt;
+&lt;li&gt;Is it hard switching from Linux to Windows for programming?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Stay Tuned&lt;/em&gt;&lt;/strong&gt; 📣&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/mbLr6NEatMI/800x300&quot; alt=&quot;Windows&quot;&gt;&lt;/p&gt;
+&lt;p&gt;If you wanna reconcile with windows, &lt;br&gt;
+First of all install the latest built of &lt;u&gt;&lt;strong&gt;Windows 10&lt;/strong&gt;&lt;/u&gt;
+for having better experience and security tools, only if it&apos;s possible for your system!&lt;/p&gt;
+&lt;p&gt;In the next step, download and install the softwares I&apos;ve listed below, then start using them:&lt;/p&gt;
+&lt;h2 id=&quot;table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#table-of-contents&quot; aria-label=&quot;table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Table of Contents&lt;/h2&gt;
+&lt;div class=&quot;table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1--chocolatey---a-software-package-manager&quot;&gt;1- Chocolatey - A Software Package Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2--git-bash---a-bash-emulator&quot;&gt;2- Git-Bash - A Bash Emulator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3--vscode---a-rich-editor&quot;&gt;3- VSCode - A Rich Editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#4--advor---advanced-onion-router&quot;&gt;4- ADVOR - Advanced Onion Router&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#how-does-advor-work&quot;&gt;How does ADVOR work?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#how-does-advor-look&quot;&gt;How does ADVOR look?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#how-to-install-advor&quot;&gt;How to install ADVOR?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#in-case-youre-rookie-in-proxy-usage&quot;&gt;In case you&apos;re rookie in proxy usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#tor-socket-address&quot;&gt;TOR Socket Address&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#5--proxychains---running-through-proxy-server&quot;&gt;5- Proxychains - Running Through Proxy Server&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#how-to-install-proxychains&quot;&gt;How to install ProxyChains?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6--postman---a-rest-api-client&quot;&gt;6- Postman - A REST API Client&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;1--chocolatey---a-software-package-manager&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1--chocolatey---a-software-package-manager&quot; aria-label=&quot;1  chocolatey   a software package manager permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1- Chocolatey - A Software Package Manager&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 690px; border-radius: 2.5px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/2e56cae62982aca44661603165d41217/57a84/chocolatey.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.369942196531795%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdmogL//xAAWEAEBAQAAAAAAAAAAAAAAAAABAhD/2gAIAQEAAQUCspc//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhABAQEAAAAAAAAAAAAAAAAAAREQ/9oACAEBAAY/AiM3/8QAGhAAAQUBAAAAAAAAAAAAAAAAIQABEDFRYf/aAAgBAQABPyEIZr6jsf/aAAwDAQACAAMAAAAQj8//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQMBAT8QFX//xAAWEQEBAQAAAAAAAAAAAAAAAAABEDH/2gAIAQIBAT8QcJ//xAAZEAACAwEAAAAAAAAAAAAAAAABEQAQUZH/2gAIAQEAAT8QJ70xhYcr/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;chocolatey-banner&quot;
+        title=&quot;chocolatey-banner&quot;
+        src=&quot;/blog/static/2e56cae62982aca44661603165d41217/15ec7/chocolatey.jpg&quot;
+        srcset=&quot;/blog/static/2e56cae62982aca44661603165d41217/9ac50/chocolatey.jpg 173w,
+/blog/static/2e56cae62982aca44661603165d41217/8d48c/chocolatey.jpg 345w,
+/blog/static/2e56cae62982aca44661603165d41217/15ec7/chocolatey.jpg 690w,
+/blog/static/2e56cae62982aca44661603165d41217/af659/chocolatey.jpg 1035w,
+/blog/static/2e56cae62982aca44661603165d41217/89b2d/chocolatey.jpg 1380w,
+/blog/static/2e56cae62982aca44661603165d41217/57a84/chocolatey.jpg 1394w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I believe you&apos;ve heard of &lt;strong&gt;apt&lt;/strong&gt; (advanced package tool). It&apos;s an Ubuntu package manager
+for downloading, installing and managing softwares.&lt;/p&gt;
+&lt;p&gt;There is a similar package manager for windows called: &lt;strong&gt;Chocolatey&lt;/strong&gt; or for short: &lt;strong&gt;choco&lt;/strong&gt;. to &lt;u&gt;install&lt;/u&gt;, you can find the full and the newest instructions on their website: &lt;a href=&quot;https://chocolatey.org/install&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Or do the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open up &lt;strong&gt;Powershell as administrator&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search for &lt;em&gt;powershell&lt;/em&gt; in windows search-bar&lt;/li&gt;
+&lt;li&gt;Enter &quot;&lt;em&gt;Windows PowerShell&lt;/em&gt;&quot; program using this combination:
+&lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;Enter&lt;/kbd&gt;&lt;/li&gt;
+&lt;li&gt;Click &lt;em&gt;Yes&lt;/em&gt; when the pop-up opens up&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run one of the following commands to &lt;strong&gt;set some flags&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Set-ExecutionPolicy AllSigned&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;OR&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Set-ExecutionPolicy Bypass -Scope Process&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now run the command below to install chocolatey:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;Set-ExecutionPolicy&lt;/span&gt; Bypass &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Scope &lt;span class=&quot;token keyword&quot;&gt;Process&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;Force&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;[System.Net.ServicePointManager]&lt;/span&gt;::SecurityProtocol = &lt;span class=&quot;token namespace&quot;&gt;[System.Net.ServicePointManager]&lt;/span&gt;::SecurityProtocol &lt;span class=&quot;token operator&quot;&gt;-bor&lt;/span&gt; 3072&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;iex&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;New-Object&lt;/span&gt; System&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Net&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;WebClient&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DownloadString&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;https://chocolatey.org/install.ps1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Wait a few seconds for the command to complete. if you don&apos;t see any errors, you are ready to use Chocolatey!&lt;/li&gt;
+&lt;li&gt;Type &lt;code class=&quot;language-text&quot;&gt;choco -?&lt;/code&gt; to see the options. &lt;br&gt;
+You can also see the documentations on their website here: &lt;a href=&quot;https://docs.chocolatey.org/en-us/getting-started&quot;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;strong&gt;Do not ever forget&lt;/strong&gt;, you should run command-line (cmd) or powershell &lt;strong&gt;as administrator&lt;/strong&gt; each time you wanna install or remove any packages.&lt;/p&gt;
+&lt;p&gt;Just for giving you &lt;strong&gt;an example&lt;/strong&gt;, let&apos;s install python 3.7 using chocolatey. open up cmd as administrator. then type the command below:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;choco install python &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;version=3&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;7&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For more details and to see all the available packages, please visit their website!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;2--git-bash---a-bash-emulator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2--git-bash---a-bash-emulator&quot; aria-label=&quot;2  git bash   a bash emulator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2- Git-Bash - A Bash Emulator&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 690px; border-radius: 2.5px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/c9c556c6ca66dfea8ccb5f81fecfe9a7/57a84/gitbash.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.79190751445087%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAd2SLFf/xAAYEAACAwAAAAAAAAAAAAAAAAAAAQIREv/aAAgBAQABBQJlS0f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAAERAhUf/aAAgBAQAGPwIbrI//xAAaEAEAAQUAAAAAAAAAAAAAAAABABARITGR/9oACAEBAAE/IQum0weNT//aAAwDAQACAAMAAAAQC8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAgEBPxCn/8QAGhABAAIDAQAAAAAAAAAAAAAAASExABBxkf/aAAgBAQABPxA8L8xeLAICRZ75r//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gitbash-banner&quot;
+        title=&quot;gitbash-banner&quot;
+        src=&quot;/blog/static/c9c556c6ca66dfea8ccb5f81fecfe9a7/15ec7/gitbash.jpg&quot;
+        srcset=&quot;/blog/static/c9c556c6ca66dfea8ccb5f81fecfe9a7/9ac50/gitbash.jpg 173w,
+/blog/static/c9c556c6ca66dfea8ccb5f81fecfe9a7/8d48c/gitbash.jpg 345w,
+/blog/static/c9c556c6ca66dfea8ccb5f81fecfe9a7/15ec7/gitbash.jpg 690w,
+/blog/static/c9c556c6ca66dfea8ccb5f81fecfe9a7/af659/gitbash.jpg 1035w,
+/blog/static/c9c556c6ca66dfea8ccb5f81fecfe9a7/89b2d/gitbash.jpg 1380w,
+/blog/static/c9c556c6ca66dfea8ccb5f81fecfe9a7/57a84/gitbash.jpg 1394w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You can see the &lt;em&gt;download page&lt;/em&gt; here: &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Gitbash&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But You&apos;ve already learnt how to install &lt;u&gt;via chocolatey&lt;/u&gt; package manager. so why not to use it?!&lt;/p&gt;
+&lt;p&gt;Open up a command-line (cmd or powershell) as administrator and copy the command below to install the latest version:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;choco install git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;
+After that, you&apos;ll be able to find the installed software in windows search-bar. search for: &lt;strong&gt;Git Bash&lt;/strong&gt;.
+You might not be able to find it, if you don&apos;t type the complete words! &lt;br&gt;
+You can &lt;strong&gt;pin&lt;/strong&gt; it to &lt;u&gt;taskbar&lt;/u&gt; afterwards, so that you won&apos;t need to search that again next time.&lt;/p&gt;
+&lt;p&gt;Most important commands of linux shell has been inserted into gitbash 😍 (including the &lt;strong&gt;git&lt;/strong&gt;):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ls&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;vim&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ssh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;grep&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;file&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;You can of course, &lt;strong&gt;pipe&lt;/strong&gt; commands. it also supports a virtual filesystem-tree that starts from the root ( &lt;strong&gt;/&lt;/strong&gt; ), just like unix-based systems.&lt;/p&gt;
+&lt;p&gt;Gitbash consists two types of application:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git GUI&lt;/li&gt;
+&lt;li&gt;Git Bash&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As a programmer, it won&apos;t be appropriate to use the GUI mode! So hereafter, we&apos;ll use the gitbash shell. it looks sth like this:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 690px; border-radius: 2.5px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/4e71569aa35ddb0b52e4b3cc417de4d8/280b9/gitbash-shell.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.80346820809249%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAcyaJIP/xAAXEAADAQAAAAAAAAAAAAAAAAAAESEQ/9oACAEBAAEFAoQWs//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABgQAAMBAQAAAAAAAAAAAAAAAAABEVEx/9oACAEBAAE/IWsEriJxFGMf/9oADAMBAAIAAwAAABBsD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EAn/xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhkTFRwf/aAAgBAQABPxAzSWujEW8UbMaIqqYqyBEvg1P/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gitbash-shell&quot;
+        title=&quot;gitbash-shell&quot;
+        src=&quot;/blog/static/4e71569aa35ddb0b52e4b3cc417de4d8/15ec7/gitbash-shell.jpg&quot;
+        srcset=&quot;/blog/static/4e71569aa35ddb0b52e4b3cc417de4d8/9ac50/gitbash-shell.jpg 173w,
+/blog/static/4e71569aa35ddb0b52e4b3cc417de4d8/8d48c/gitbash-shell.jpg 345w,
+/blog/static/4e71569aa35ddb0b52e4b3cc417de4d8/15ec7/gitbash-shell.jpg 690w,
+/blog/static/4e71569aa35ddb0b52e4b3cc417de4d8/280b9/gitbash-shell.jpg 905w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;3--vscode---a-rich-editor&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3--vscode---a-rich-editor&quot; aria-label=&quot;3  vscode   a rich editor permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3- VSCode - A Rich Editor&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 690px; border-radius: 2.5px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/60f68fc28fc8c941cda01ce4a962c689/57a84/vscode.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.79190751445087%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdwJYX//xAAYEAACAwAAAAAAAAAAAAAAAAAAARARIf/aAAgBAQABBQJqx7H/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAEDER/9oACAEBAAY/ArhV/8QAGRAAAgMBAAAAAAAAAAAAAAAAAREAIVEQ/9oACAEBAAE/IVAiTIFLBZz/2gAMAwEAAgADAAAAEIwP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QQZ//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAGRABAQEAAwAAAAAAAAAAAAAAAWERABAh/9oACAEBAAE/EG9DBqPEeNbaj1//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vscode-banner&quot;
+        title=&quot;vscode-banner&quot;
+        src=&quot;/blog/static/60f68fc28fc8c941cda01ce4a962c689/15ec7/vscode.jpg&quot;
+        srcset=&quot;/blog/static/60f68fc28fc8c941cda01ce4a962c689/9ac50/vscode.jpg 173w,
+/blog/static/60f68fc28fc8c941cda01ce4a962c689/8d48c/vscode.jpg 345w,
+/blog/static/60f68fc28fc8c941cda01ce4a962c689/15ec7/vscode.jpg 690w,
+/blog/static/60f68fc28fc8c941cda01ce4a962c689/af659/vscode.jpg 1035w,
+/blog/static/60f68fc28fc8c941cda01ce4a962c689/89b2d/vscode.jpg 1380w,
+/blog/static/60f68fc28fc8c941cda01ce4a962c689/57a84/vscode.jpg 1394w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;VScode or Visual Studio Code is an omnipotent and open-source editor for all types of programming. You can easily find the best available extensions for your field of work.&lt;/p&gt;
+&lt;p&gt;There is two types of vscode available for download. both are open-source and available for all:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VSCode&lt;/li&gt;
+&lt;li&gt;VSCode Insiders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;VSCode-Insiders is a prerelease-version of common vscode. according to &lt;u&gt;&lt;a href=&quot;https://www.quora.com/What-is-the-difference-between-VS-Code-VS-Code-Insiders&quot;&gt;an answer&lt;/a&gt;&lt;/u&gt; in Quora:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Visual Studio Code Insiders is just a beta version of visual studio code. It includes the latest features, but those features may or may not be stable.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You know how to install it. Don&apos;t You?!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;choco install vscode&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;
+OR for insiders:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;choco install vscode&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;insiders&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You decide which one you wanna be installed. I personally prefer vscode-insiders because it  auto-updates minor updates and no big deal for me!&lt;/p&gt;
+&lt;p&gt;After installing, you definitely should change the &lt;strong&gt;&lt;em&gt;integrated terminal&lt;/em&gt;&lt;/strong&gt; of vscode from the default shell to &lt;strong&gt;GitBash&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open VSCode 🙄&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do this internal command:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;open up vscode command-area using this combination: &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;P&lt;/kbd&gt;&lt;/li&gt;
+&lt;li&gt;Thereafter the command-area got opened, type for: `&lt;strong&gt;Default Shell&lt;/strong&gt;`&lt;/li&gt;
+&lt;li&gt;Enter the option: &quot;Terminal: Select Default Shell&quot;&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Git Bash&lt;/strong&gt; item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Restart VSCode 😕&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;
+OR You can directly go to the setting page and search for default shell/terminal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;NOTE&lt;/em&gt;&lt;/strong&gt;: If you couldn&apos;t find the `Git Bash` option in the selection panel, you may have not installed the git-bash or you haven&apos;t added its path to the PATH environment variables!&lt;/p&gt;
+&lt;p&gt;This is how a vscode-insiders looks like:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 690px; border-radius: 2.5px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/ed34f5426c94e059632a3daf920e257f/240ad/vscode-look.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.95953757225434%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAByCLyYkf/xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAEFAl//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAEAAgMAAAAAAAAAAAAAAAABABARIVH/2gAIAQEAAT8hXlZjpb//2gAMAwEAAgADAAAAEPD/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExQVH/2gAIAQEAAT8QG+sZsiqbgvWCkauXCf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vscode-look&quot;
+        title=&quot;vscode-look&quot;
+        src=&quot;/blog/static/ed34f5426c94e059632a3daf920e257f/15ec7/vscode-look.jpg&quot;
+        srcset=&quot;/blog/static/ed34f5426c94e059632a3daf920e257f/9ac50/vscode-look.jpg 173w,
+/blog/static/ed34f5426c94e059632a3daf920e257f/8d48c/vscode-look.jpg 345w,
+/blog/static/ed34f5426c94e059632a3daf920e257f/15ec7/vscode-look.jpg 690w,
+/blog/static/ed34f5426c94e059632a3daf920e257f/af659/vscode-look.jpg 1035w,
+/blog/static/ed34f5426c94e059632a3daf920e257f/89b2d/vscode-look.jpg 1380w,
+/blog/static/ed34f5426c94e059632a3daf920e257f/240ad/vscode-look.jpg 1829w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;My advice after setting up the basics, is to learn how to work with the shortcuts (hot-keys) and finding the vital extensions.&lt;/p&gt;
+&lt;p&gt;You can find the required vscode extensions in this nice post written by &lt;em&gt;Ann Adaya&lt;/em&gt; here: &lt;br&gt;
+&lt;a href=&quot;https://medium.com/better-programming/how-to-use-vscode-like-a-pro-e120c428f45f&quot;&gt;The 25 Best VS Code Extensions&lt;/a&gt; 😋&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;4--advor---advanced-onion-router&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4--advor---advanced-onion-router&quot; aria-label=&quot;4  advor   advanced onion router permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4- ADVOR - Advanced Onion Router&lt;/h2&gt;
+&lt;p&gt;You gotta heard about the &lt;strong&gt;TOR Project&lt;/strong&gt;. you can access the tor-proxy in windows via a GUI window. according to their description:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Advanced Onion Router (AdvOR) is a portable client for the OR network and is intended to be an improved alternative for Tor+Vidalia+Privoxy bundle for Windows users&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;how-does-advor-work&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-does-advor-work&quot; aria-label=&quot;how does advor work permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How does ADVOR work?&lt;/h3&gt;
+&lt;p&gt;It creates a proxy listener on port 9050 for both SOCKS5 and HTTP on your localhost.&lt;/p&gt;
+&lt;h3 id=&quot;how-does-advor-look&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-does-advor-look&quot; aria-label=&quot;how does advor look permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How does ADVOR look?&lt;/h3&gt;
+&lt;p&gt;It&apos;s an easy-to-use GUI-based software for using TOR without having any more concerns about setting up a proxy by self hands.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 491px; border-radius: 2.5px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/a22319bff287bb5da7ef966461b2bcc1/aa486/advor.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 104.62427745664739%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHtENoMQTQP/8QAGBAAAwEBAAAAAAAAAAAAAAAAABARIUH/2gAIAQEAAQUCKuRaav/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABcQAQEBAQAAAAAAAAAAAAAAADEAECD/2gAIAQEABj8C4MZm/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAERIVFxoTFBYf/aAAgBAQABPyFcNWExJEv6YBKCrvoy6Id+j//aAAwDAQACAAMAAAAQYA/B/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEQ/9oACAEDAQE/EMiP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEQ/9oACAECAQE/EMqv/8QAHxABAAICAQUBAAAAAAAAAAAAAQARITGBQVFxkdGh/9oACAEBAAE/EDVDai8xBuuGCe8cwNq4G80QRQB4ihdYuqw/IHX6/iFe3j4n/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;vscode-look&quot;
+        title=&quot;vscode-look&quot;
+        src=&quot;/blog/static/a22319bff287bb5da7ef966461b2bcc1/aa486/advor.jpg&quot;
+        srcset=&quot;/blog/static/a22319bff287bb5da7ef966461b2bcc1/9ac50/advor.jpg 173w,
+/blog/static/a22319bff287bb5da7ef966461b2bcc1/8d48c/advor.jpg 345w,
+/blog/static/a22319bff287bb5da7ef966461b2bcc1/aa486/advor.jpg 491w&quot;
+        sizes=&quot;(max-width: 491px) 100vw, 491px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;how-to-install-advor&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-to-install-advor&quot; aria-label=&quot;how to install advor permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How to install ADVOR?&lt;/h3&gt;
+&lt;p&gt;Don&apos;t ask, Just like always 😑&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;choco install advor&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;h3 id=&quot;in-case-youre-rookie-in-proxy-usage&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#in-case-youre-rookie-in-proxy-usage&quot; aria-label=&quot;in case youre rookie in proxy usage permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;In case you&apos;re rookie in proxy usage&lt;/h3&gt;
+&lt;p&gt;You can find a detailed description about proxies in wikipedia here: &lt;a href=&quot;https://en.wikipedia.org/wiki/Proxy_server&quot;&gt;Proxy Server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/CPT-Proxy.svg/600px-CPT-Proxy.svg.png&quot; alt=&quot;how-proxy-works&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Using proxies might have multiple reasons, but a common case is when your ISP blocks accessing some contents on Internet. your first choice can be using VPN or Proxy servers.&lt;/p&gt;
+&lt;h3 id=&quot;tor-socket-address&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tor-socket-address&quot; aria-label=&quot;tor socket address permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;TOR Socket Address&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hostname: &lt;strong&gt;127.0.0.1&lt;/strong&gt; or &lt;strong&gt;localhost&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Port: &lt;strong&gt;9050&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ADVOR is using TOR so you won&apos;t need to add any credentials (Username/Passwords).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;5--proxychains---running-through-proxy-server&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5--proxychains---running-through-proxy-server&quot; aria-label=&quot;5  proxychains   running through proxy server permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5- Proxychains - Running Through Proxy Server&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 690px; border-radius: 2.5px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/ce7d1c5701e8721010c0ca543d640cfe/57a84/tor-proxychains.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.79190751445087%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB26FB/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERAiH/2gAIAQEAAQUCa1XTp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAIDAAAAAAAAAAAAAAAAAAAhARFB/9oACAEBAAY/AlIqMP/EABoQAQACAwEAAAAAAAAAAAAAAAEAETFRgeH/2gAIAQEAAT8hZYwrCT1GG5wz/9oADAMBAAIAAwAAABBwD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAIDAAMAAAAAAAAAAAAAAAERACFhMcHR/9oACAEBAAE/EAWkBYDfMSakNh1KKh08n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;tor-proxychains-banner&quot;
+        title=&quot;tor-proxychains-banner&quot;
+        src=&quot;/blog/static/ce7d1c5701e8721010c0ca543d640cfe/15ec7/tor-proxychains.jpg&quot;
+        srcset=&quot;/blog/static/ce7d1c5701e8721010c0ca543d640cfe/9ac50/tor-proxychains.jpg 173w,
+/blog/static/ce7d1c5701e8721010c0ca543d640cfe/8d48c/tor-proxychains.jpg 345w,
+/blog/static/ce7d1c5701e8721010c0ca543d640cfe/15ec7/tor-proxychains.jpg 690w,
+/blog/static/ce7d1c5701e8721010c0ca543d640cfe/af659/tor-proxychains.jpg 1035w,
+/blog/static/ce7d1c5701e8721010c0ca543d640cfe/89b2d/tor-proxychains.jpg 1380w,
+/blog/static/ce7d1c5701e8721010c0ca543d640cfe/57a84/tor-proxychains.jpg 1394w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As &lt;em&gt;Vickie Li&lt;/em&gt; explains in &lt;u&gt;&lt;a href=&quot;https://medium.com/swlh/proxying-like-a-pro-cccdc177b081&quot;&gt;this post&lt;/a&gt;&lt;/u&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ProxyChains is a tool that forces any TCP connection made by any given application to go through proxies like TOR or any other SOCKS4, SOCKS5 or HTTP proxies. &lt;br&gt;
+It is an open-source project for GNU/Linux systems. Essentially, you can use ProxyChains to run any program through a proxy server.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Remember you have already installed TOR through installing ADVOR in the previous section. so you won&apos;t need to install that again, whenever you connect ADVOR, the TOR service will be started!&lt;/p&gt;
+&lt;p&gt;What you need to install, is &lt;strong&gt;ProxyChains&lt;/strong&gt;.&lt;br&gt;
+You might ask yourself you&apos;ve already got the ADVOR software, &quot;so why do I need proxychains?&quot;. &lt;br&gt;
+I gotta say, ADVOR just provides a proxy-server listener and you &lt;u&gt;cannot&lt;/u&gt; run a &lt;strong&gt;cli-based&lt;/strong&gt; application through the proxy if it doesn&apos;t support an option for proxy.&lt;/p&gt;
+&lt;p&gt;Let me explain a real case to you 🙉&lt;/p&gt;
+&lt;p&gt;Suppose that you want to &lt;em&gt;push&lt;/em&gt; to a remote server after committing a repository via &lt;strong&gt;git&lt;/strong&gt;. but &lt;u&gt;Unfortunately&lt;/u&gt;, &lt;em&gt;GitLab&lt;/em&gt; has blocked your country and whenever you push that, you&apos;ll get a &lt;strong&gt;403 Forbidden Error&lt;/strong&gt; ☹&lt;/p&gt;
+&lt;p&gt;So, one idea could be using proxychains, doing a command like: &lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;proxychains git push origin master&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Yup, proxychains passes the requests through a proxy (by default the TOR service).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fortunately&lt;/strong&gt;, you can have proxychains in &lt;em&gt;Windows&lt;/em&gt;. there is an open-source repo in github: &lt;a href=&quot;https://github.com/shunf4/proxychains-windows&quot;&gt;proxychains-windows&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;how-to-install-proxychains&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-to-install-proxychains&quot; aria-label=&quot;how to install proxychains permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How to install ProxyChains?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open this &lt;u&gt;&lt;a href=&quot;https://github.com/shunf4/proxychains-windows/releases/tag/0.6.8&quot;&gt;download link&lt;/a&gt;&lt;/u&gt;. it is the releases-page of the github repo I talked about previously.&lt;/li&gt;
+&lt;li&gt;Download the latest proper release application that meets your OS requirements. (e.g. &lt;strong&gt;proxychains&lt;em&gt;0.6.8&lt;/em&gt;win32_x64.zip&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Afterwards, &lt;strong&gt;extract&lt;/strong&gt; and put it into any places you like. (e.g. C:\Program Files\ProxyChains).&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go to the directory that you just extracted and placed it somewhere. &lt;br&gt;
+Find the proper &lt;em&gt;Executable Application&lt;/em&gt;. (e.g. &lt;strong&gt;proxychains&lt;em&gt;helper&lt;/em&gt;win32_x64.exe&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;You need to &lt;strong&gt;rename&lt;/strong&gt; it to &lt;strong&gt;proxychains&lt;/strong&gt; (all letters lowercase). &lt;br&gt;
+This will enable you to be able to run ProxyChains easily by using this command in the terminal/cmd: &lt;code class=&quot;language-text&quot;&gt;proxychains&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Find and open up the &lt;strong&gt;Environment Variables&lt;/strong&gt; panel by searching in windows search-bar. &lt;br&gt;
+You gotta add the path of the directory you just extracted into the &lt;strong&gt;PATH&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If you got troubles adding to the %PATH%, just read this question on StackExchange &lt;a href=&quot;https://superuser.com/questions/949560/how-do-i-set-system-environment-variables-in-windows-10&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;After that, you can open a new cli (cmd, gitbash, ...) and run the command. do this for the help: &lt;code class=&quot;language-text&quot;&gt;proxychains -?&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;em&gt;Happy Hacking!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For more tutorials about this topic, read this article: &lt;a href=&quot;https://linuxhint.com/proxychains-tutorial/&quot;&gt;ProxyChains Tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;6--postman---a-rest-api-client&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6--postman---a-rest-api-client&quot; aria-label=&quot;6  postman   a rest api client permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6- Postman - A REST API Client&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 690px; border-radius: 2.5px; margin-left: 0!important; margin-right: 0!important;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/3d658d1a35fbffe65ceea75461cb5871/57a84/postman.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.79190751445087%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB2qAgn//EABYQAQEBAAAAAAAAAAAAAAAAAAECEP/aAAgBAQABBQKxd//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAQAGPwIjN//EABkQAAEFAAAAAAAAAAAAAAAAADEAARAhUf/aAAgBAQABPyF3DFXsf//aAAwDAQACAAMAAAAQA8//xAAWEQEBAQAAAAAAAAAAAAAAAAABECH/2gAIAQMBAT8QXCf/xAAWEQEBAQAAAAAAAAAAAAAAAAABECH/2gAIAQIBAT8QDWf/xAAaEAACAgMAAAAAAAAAAAAAAAAAARExQWGh/9oACAEBAAE/EJb1edhrDgVH/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;postman-banner&quot;
+        title=&quot;postman-banner&quot;
+        src=&quot;/blog/static/3d658d1a35fbffe65ceea75461cb5871/15ec7/postman.jpg&quot;
+        srcset=&quot;/blog/static/3d658d1a35fbffe65ceea75461cb5871/9ac50/postman.jpg 173w,
+/blog/static/3d658d1a35fbffe65ceea75461cb5871/8d48c/postman.jpg 345w,
+/blog/static/3d658d1a35fbffe65ceea75461cb5871/15ec7/postman.jpg 690w,
+/blog/static/3d658d1a35fbffe65ceea75461cb5871/af659/postman.jpg 1035w,
+/blog/static/3d658d1a35fbffe65ceea75461cb5871/89b2d/postman.jpg 1380w,
+/blog/static/3d658d1a35fbffe65ceea75461cb5871/57a84/postman.jpg 1394w&quot;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Send requests, inspect responses, and easily debug REST APIs. &lt;br&gt;
+Use Postman as a REST client to create and execute queries. (Postman also works with SOAP and GraphQL.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You can use this application to send or test HTTP Requests as easy as possible. I believe every developers need to have sth like this. it is always handy and useful for many purposes like: &lt;em&gt;Front-End Development&lt;/em&gt;, &lt;em&gt;Back-End Development&lt;/em&gt;, &lt;em&gt;Penetration Testing&lt;/em&gt; and &lt;em&gt;etc&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;choco install postman&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Take a look at their website for tutorials: &lt;a href=&quot;https://www.postman.com/product/rest-client/&quot;&gt;Postman&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&quot;https://www.postman.com/assets/response-screenshot.svg&quot; width=&quot;80%&quot;&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;That&apos;s All Folks...&lt;/em&gt;&lt;/strong&gt; 🤪&lt;/p&gt;
+&lt;p&gt;If you liked this article, just share it wherever you like.&lt;/p&gt;
+&lt;p&gt;You can send your opinions to me by my email, or share with me in twitter.&lt;/p&gt;</content:encoded><author>kay.alireza@gmail.com</author></item><item><title><![CDATA[Starting From Here]]></title><description><![CDATA[What is this This is just the beginning! Start Here]]></description><link>https://alireza-kavian.github.io/blog/start-here</link><guid isPermaLink="false">https://alireza-kavian.github.io/blog/start-here</guid><category><![CDATA[init]]></category><pubDate>Wed, 16 Sep 2020 19:30:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;what-is-this&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-is-this&quot; aria-label=&quot;what is this permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What is this&lt;/h2&gt;
 &lt;p&gt;This is just the beginning!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/y5_mFlLMwJk/1200x0&quot; alt=&quot;Start Here&quot;&gt;&lt;/p&gt;</content:encoded><author>kay.alireza@gmail.com</author></item></channel></rss>
