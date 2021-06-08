@@ -12,14 +12,24 @@
       "title": "About",
       "icon": "fas fa-address-card fa-sm",
       "description": [
-        "An enthusiastic, self-motivated and graduated computer engineer with 3 years of experience in Full-Stack development.",
-        "In web development, I love using ReactJS.",
-        "I've also gained well experience in AI/ML, Scripting, Pen. Testing, Network Configs, Low Level Coding and ...",
+        "An enthusiastic, self-motivated and a graduated computer engineer having about 3 years of experience in Full-Stack development.",
+        "In web development, I fancy using ReactJS.",
+        "I've also gained pretty well experience in AI/ML, Scripting, Pen. Testing, Network Configs, Low Level Coding and ...",
+        "<br/>",
+        "My research interests:",
+        "<li>Data Science & Machine Learning</li>",
+        "<li>Computer Vision & Image Processing</li>",
+        "<li>Linguistics & Natural Language Processing</li>",
+        "<li>Computational Geometry</li>",
+        "<li>Cyber Security</li>",
+        "<br/>",
         "My favourite fields of work:",
         "<li>Web Development</li>",
         "<li>AI/ML</li>",
+        "<li>Graphics</li>",
         "<li>Software Engineering</li>",
         "<li>Computer Networks and Security</li>",
+        "<br/>",
         "And, well, I love Team-Working."
       ]
     }

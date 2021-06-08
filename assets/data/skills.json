@@ -1,5 +1,5 @@
 {
-  "industry knowledge": [
+  "Industry Knowledge": [
     {
       "name": "Team Leadership",
       "amount": "75"
@@ -26,9 +26,19 @@
       "name": "Machine Learning Fundamentals",
       "amount": "80",
       "show": true
+    },
+    {
+      "name": "Computer Vision Fundamentals",
+      "amount": "65",
+      "show": false
+    },
+    {
+      "name": "NLP Fundamentals",
+      "amount": "80",
+      "show": true
     }
   ],
-  "front-End tools & techs": [
+  "Front-End Tools": [
     {
       "name": "HTML",
       "amount": "95"
@@ -89,7 +99,7 @@
       "amount": "85"
     }
   ],
-  "back-End tools & techs": [
+  "Back-End Tools": [
     {
       "name": "Node.JS",
       "amount": "85",
@@ -102,7 +112,7 @@
     {
       "name": "PHP",
       "amount": "75",
-      "show": true
+      "show": false
     },
     {
       "name": "SQL",
@@ -113,7 +123,7 @@
       "amount": "85"
     }
   ],
-  "database techs": [
+  "Database Techs": [
     {
       "name": "MySQL",
       "amount": "95",
@@ -141,7 +151,7 @@
       "show": true
     }
   ],
-  "AI/ML frameworks": [
+  "AI/ML Frameworks": [
     {
       "name": "OpenCV",
       "amount": "70",
@@ -149,7 +159,7 @@
     },
     {
       "name": "Tensorflow/Keras",
-      "amount": "60"
+      "amount": "50"
     },
     {
       "name": "NLTK",
@@ -160,19 +170,19 @@
       "amount": "50"
     }
   ],
-  "programming languages": [
+  "Programming Languages": [
     {
       "name": "C/C++",
-      "amount": "80"
+      "amount": "75"
     },
     {
       "name": "Java",
-      "amount": "80",
+      "amount": "75",
       "show": true
     },
     {
       "name": "Python",
-      "amount": "95",
+      "amount": "90",
       "show": true
     },
     {
@@ -193,14 +203,14 @@
     },
     {
       "name": "Matlab/Octave",
-      "amount": "50"
+      "amount": "55"
     },
     {
       "name": "Visual Basic",
       "amount": "30"
     }
   ],
-  "devOps": [
+  "DevOps": [
     {
       "name": "Agile/Scrum",
       "amount": "70",
@@ -213,7 +223,7 @@
     },
     {
       "name": "Android (Java)",
-      "amount": "65"
+      "amount": "60"
     },
     {
       "name": "REST API",
@@ -226,7 +236,7 @@
     },
     {
       "name": "NPM",
-      "amount": "90"
+      "amount": "85"
     },
     {
       "name": "Webpack/Babel",
@@ -237,7 +247,7 @@
       "amount": "50"
     }
   ],
-  "other frameworks & libs": [
+  "Other Frameworks": [
     {
       "name": "Numpy/Scipy",
       "amount": "70"
@@ -248,7 +258,7 @@
     },
     {
       "name": "BeautifulSoup",
-      "amount": "85"
+      "amount": "80"
     },
     {
       "name": "SystemC",
@@ -259,18 +269,26 @@
       "amount": "60"
     }
   ],
-  "others": [
+  "Others": [
     {
       "name": "Microsoft Office",
       "amount": "95"
     },
     {
-      "name": "Photoshop",
-      "amount": "60"
+      "name": "Adobe Photoshop",
+      "amount": "55"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "amount": "65"
     },
     {
       "name": "Adobe Premiere",
-      "amount": "50"
+      "amount": "65"
+    },
+    {
+      "name": "Adobe AfterEffects",
+      "amount": "45"
     },
     {
       "name": "3D Studio Max",

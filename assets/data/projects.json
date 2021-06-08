@@ -1,7 +1,7 @@
 {
   "year1": {
     "date": "Oct 2015 - Sep 2016",
-    "color": "#1b9fbd",
+    "color": "#2f535c",
     "work": [
       {
         "icon": "fas fa-user-tie",
@@ -28,7 +28,7 @@
   },
   "year2": {
     "date": "Oct 2016 - Sep 2017",
-    "color": "#1b9fbd",
+    "color": "#2f535c",
     "work": [
       {
         "icon": "fas fa-user-tie",
@@ -55,7 +55,7 @@
   },
   "year3": {
     "date": "Oct 2017 - Sep 2018",
-    "color": "#1b9fbd",
+    "color": "#2f535c",
     "work": [
       {
         "icon": "fas fa-user-tie",
@@ -127,7 +127,7 @@
   },
   "year4": {
     "date": "Oct 2018 - Sep 2019",
-    "color": "#1b9fbd",
+    "color": "#2f535c",
     "work": [
       {
         "icon": "fas fa-users",
@@ -169,7 +169,7 @@
   },
   "year5": {
     "date": "Oct 2019 - Sep 2020",
-    "color": "#1b9fbd",
+    "color": "#2f535c",
     "work": [
       {
         "icon": "fas fa-user-tie",
@@ -188,17 +188,17 @@
       },
     	{
         "icon": "fas fa-users",
-        "name": "Forex Rational Agent Implemented With RL & NLP",
-        "for": "BSc Dissertation",
-        "desc": "A trader agent powered by reinforcement learning and natural language processing",
+        "name": "Forex Rational Agent Powered by RL and NLP",
+        "star": true,
+        "for": "BSc Dissertation [[Thesis]]",
+        "desc": "Implementation of a trader agent using reinforcement learning and natural language processing",
         "url": ""
       }
     ]
   },
   "Senior Years":{
-    "date": "",
+    "date": "Oct 2020 - Present",
     "work": [
-
     ]
   }
 }

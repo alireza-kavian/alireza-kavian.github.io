@@ -5,14 +5,6 @@
     "icon": "fas fa-graduation-cap",
     "items": [
       {
-        "name": "Kamal High School",
-        "degree": "Diploma Certificate of Math-Physics",
-        "logo": "/assets/img/kamal.png",
-        "url": "http://kamal.sch.ir",
-        "date": "2011 - 2015",
-        "gpa": "19.51 (of 20)"
-      },
-      {
         "name": "K. N. Toosi University of Technology",
         "degree": "BSc of Computer Engineering",
         "logo": "/assets/img/kntu.png",
@@ -38,6 +30,14 @@
           ["Artificial Intelligence & Expert Systems", "18.50"],
           ["Foundations of Computer Vision", "18.25"]
         ]
+      },
+      {
+        "name": "Kamal High School",
+        "degree": "Diploma Certificate of Math-Physics",
+        "logo": "/assets/img/kamal.png",
+        "url": "http://kamal.sch.ir",
+        "date": "2011 - 2015",
+        "gpa": "19.51 (of 20)"
       }
     ]
   },
@@ -49,13 +49,13 @@
       {
         "name": "Brilacasck",
         "role": "Founder",
-        "url": "https://blilac.ir",
+        "url": "https://brilacasck.github.io",
         "logo": "/assets/img/brilacasck.png",
         "date": "Jul 2017 - Sep 2020",
         "location": "Tehran, Iran",
         "description": [
           "Our very first group.",
-          "We've done a lot of cool coding stuffs and projects."
+          "We've done lots of cool coding stuffs and projects."
         ]
       },
       {
@@ -66,7 +66,7 @@
         "date": "Jan 2019 - Jan 2020",
         "location": "Tehran, Iran",
         "description": [
-          "Managing a small developer team",
+          "Managing a small team",
           "Scrum Master",
           "Front-End development",
           "Back-End development"
@@ -81,7 +81,7 @@
         "location": "Tehran, Iran",
         "description": [
           "YSorkh is a company provides network services to the clients.",
-          "I've got my internship here as a developer in the fields of Web Security, SEO and Development."
+          "I got my internship here as a developer in fields of Web Development, Web Security, SEO."
         ]
       },
       {
@@ -125,7 +125,7 @@
         "date": "2018 - 2019",
         "location": "Tehran, Iran",
         "description": [
-          "Received scholarship at the end of each term"
+          "Awarded scholarship at the end of each term"
         ]
       },
       {
@@ -146,18 +146,6 @@
     "title": "Certificates",
     "icon": "fas fa-certificate",
     "items": [
-      {
-        "title": "Front-End Designing",
-        "name": "University of Tehran",
-        "url": "https://ut.ac.ir/en",
-        "logo": "/assets/img/ut.png",
-        "date": "2017",
-        "location": "Tehran, Iran",
-        "cert": "/assets/cert/tehran-front-end.jpg",
-        "description": [
-          "HTML/CSS/JS - jQuery - Bootstrap"
-        ]
-      },
       {
         "title": "Machine Learning Fundamentals",
         "name": "Quera",
@@ -180,6 +168,18 @@
         "cert": "/assets/cert/maktabkhooneh-ceh.jpg",
         "description": [
           "Fundamentals of Ethical Hacking"
+        ]
+      },
+      {
+        "title": "Front-End Designing",
+        "name": "University of Tehran",
+        "url": "https://ut.ac.ir/en",
+        "logo": "/assets/img/ut.png",
+        "date": "2017",
+        "location": "Tehran, Iran",
+        "cert": "/assets/cert/tehran-front-end.jpg",
+        "description": [
+          "HTML/CSS/JS - jQuery - Bootstrap"
         ]
       }
     ]
