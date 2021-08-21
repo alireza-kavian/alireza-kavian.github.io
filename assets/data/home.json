@@ -1,37 +1,6 @@
 {
-  "about": {
-    "contact": {
-      "Email": {"text": "kay.alireza [at-sign] gmail.com", "icon": "fas fa-envelope"},
-      "Linkedin": {"text": "/alireza-kavian", "icon": "fab fa-linkedin-in", "link": "https://linkedin.com/in/alireza-kavian"},
-      "Github": {"text": "/alirezakay", "icon": "fab fa-github-alt", "link": "https://github.com/alirezakay"},
-      "Telegram": {"text": "/alirezakay", "icon": "fab fa-telegram-plane", "link": "https://t.me/alirezakay"}
-    }
-  },
-  "extras": [
-    {
-      "title": "About",
-      "icon": "fas fa-address-card fa-sm",
-      "description": [
-        "An enthusiastic, self-motivated and a graduated computer engineer having about 3 years of experience in Full-Stack development.",
-        "In web development, I fancy using ReactJS.",
-        "I've also gained pretty well experience in AI/ML, Scripting, Pen. Testing, Network Configs, Low Level Coding and ...",
-        "<br/>",
-        "My research interests:",
-        "<li>Data Science & Machine Learning</li>",
-        "<li>Computer Vision & Image Processing</li>",
-        "<li>Linguistics & Natural Language Processing</li>",
-        "<li>Computational Geometry</li>",
-        "<li>Cyber Security</li>",
-        "<br/>",
-        "My favourite fields of work:",
-        "<li>Web Development</li>",
-        "<li>AI/ML</li>",
-        "<li>Graphics</li>",
-        "<li>Software Engineering</li>",
-        "<li>Computer Networks and Security</li>",
-        "<br/>",
-        "And, well, I love Team-Working."
-      ]
-    }
-  ]
+  "avatar": "avatar/alireza-kavian.png",
+  "name": "Alireza Kavian",
+  "job": "Computer Engineer",
+  "lastupdate": "2021-07-10"
 }

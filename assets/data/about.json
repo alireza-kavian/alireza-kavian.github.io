@@ -1,0 +1,50 @@
+{
+  "contact": {
+    "Email": {
+      "text": "kay.alireza [at] gmail.com",
+      "icon": "fas fa-envelope"
+    },
+    "Linkedin": {
+      "text": "/alireza-kavian",
+      "icon": "fab fa-linkedin-in",
+      "link": "https://linkedin.com/in/alireza-kavian"
+    },
+    "Github": {
+      "text": "/alirezakay",
+      "icon": "fab fa-github-alt",
+      "link": "https://github.com/alirezakay"
+    },
+    "Telegram": {
+      "text": "/alirezakay",
+      "icon": "fab fa-telegram-plane",
+      "link": "https://t.me/alirezakay"
+    }
+  },
+  "about": {
+    "icon": "fas fa-address-card fa-sm",
+    "description": [
+      "An <b>avid</b>, <b>self-motivated</b> and a <b>graduate computer engineer</b> having more than 3 years of experience in Full-Stack development.",
+      "<br/>",
+      "I've also gained pretty well experience in AI/ML, Scripting, Pen. Testing, Network Configs, Low-Level Coding, etc.",
+      "<br/>",
+      "In Artificial Intelligence, I'm really into Computer Vision and NLP.",
+      "<br/>",
+      "In web development, I fancy using ReactJS.",
+      "<br/>",
+      "<br/>",
+      "My research interests:",
+      "<ul>",
+      "<li>Data Science & Deep Learning</li>",
+      "<li>Computer Vision & Image Processing</li>",
+      "<li>Linguistics & Natural Language Processing</li>",
+      "<li>Computational Geometry</li>",
+      "<li>Human-Computer Interaction</li>",
+      "<li>Cyber Security</li>",
+      "<li>Graphics</li>",
+      "</ul>",
+      "<br/>",
+      "<br/>",
+      "And, well, I love <b>Team-Working.</b>"
+    ]
+  }
+}

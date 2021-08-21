@@ -34,11 +34,11 @@
     },
     {
       "name": "NLP Fundamentals",
-      "amount": "80",
+      "amount": "66",
       "show": true
     }
   ],
-  "Front-End Tools": [
+  "Full-Stack Tools": [
     {
       "name": "HTML",
       "amount": "95"
@@ -97,9 +97,7 @@
     {
       "name": "Material UI",
       "amount": "85"
-    }
-  ],
-  "Back-End Tools": [
+    },
     {
       "name": "Node.JS",
       "amount": "85",
@@ -107,7 +105,7 @@
     },
     {
       "name": "Flask.Py",
-      "amount": "55"
+      "amount": "30"
     },
     {
       "name": "PHP",
@@ -123,7 +121,7 @@
       "amount": "85"
     }
   ],
-  "Database Techs": [
+  "Database Tools": [
     {
       "name": "MySQL",
       "amount": "95",
@@ -131,15 +129,15 @@
     },
     {
       "name": "Oracle DB",
-      "amount": "80"
+      "amount": "66"
     },
     {
       "name": "MSSQL",
-      "amount": "70"
+      "amount": "66"
     },
     {
       "name": "PostgreSQL",
-      "amount": "50"
+      "amount": "30"
     },
     {
       "name": "MySQL Document Store (mysqlx)",
@@ -151,7 +149,7 @@
       "show": true
     }
   ],
-  "AI/ML Frameworks": [
+  "AI/ML Tools": [
     {
       "name": "OpenCV",
       "amount": "70",
@@ -170,7 +168,7 @@
       "amount": "50"
     }
   ],
-  "Programming Languages": [
+  "Programming Languages & DevOps": [
     {
       "name": "C/C++",
       "amount": "75"
@@ -208,9 +206,7 @@
     {
       "name": "Visual Basic",
       "amount": "30"
-    }
-  ],
-  "DevOps": [
+    },
     {
       "name": "Agile/Scrum",
       "amount": "70",
@@ -226,17 +222,9 @@
       "amount": "60"
     },
     {
-      "name": "REST API",
-      "amount": "90"
-    },
-    {
       "name": "Git",
       "amount": "70",
       "show": true
-    },
-    {
-      "name": "NPM",
-      "amount": "85"
     },
     {
       "name": "Webpack/Babel",
@@ -245,9 +233,7 @@
     {
       "name": "Docker",
       "amount": "50"
-    }
-  ],
-  "Other Frameworks": [
+    },
     {
       "name": "Numpy/Scipy",
       "amount": "70"
@@ -288,28 +274,38 @@
     },
     {
       "name": "Adobe AfterEffects",
-      "amount": "45"
+      "amount": "25"
     },
     {
       "name": "3D Studio Max",
-      "amount": "35"
+      "amount": "25"
     }
   ],
-  "language": [
+  "Language": [
     {
       "name": "Persian (Native)",
-      "amount": "100",
-      "level": "Native"
+      "amount": "100"
     },
     {
-      "name": "English",
-      "amount": "85",
-      "level": "Professional working proficiency"
+      "name": "English (Professional working proficiency)",
+      "amount": "85"
     },
     {
-      "name": "Arabic",
-      "amount": "45",
-      "level": "Limited working proficiency"
+      "name": "Arabic (Limited working proficiency)",
+      "amount": "45"
     }
-  ]
+  ],
+  "ielts": {
+    "total": "To be taken soon",
+    "listening": "X",
+    "reading": "X",
+    "writing": "X",
+    "speaking": "X"
+  },
+  "gre": {
+    "total": "To be taken soon",
+    "quant": "X",
+    "verbal": "X",
+    "writing": "X"
+  }
 }

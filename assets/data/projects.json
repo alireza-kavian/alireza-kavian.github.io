@@ -1,34 +1,6 @@
 {
-  "year1": {
-    "date": "Oct 2015 - Sep 2016",
-    "color": "#2f535c",
-    "work": [
-      {
-        "icon": "fas fa-user-tie",
-        "name":"Plants Growth",
-        "for": "Advanced Programming",
-        "desc": "A graphical growth simulation of plants in a duration (Java / JavaFX)",
-        "url": "https://alirezakay.github.io/showcase/y1/plant-growth-simulation/"
-      },
-      {
-        "icon": "fas fa-users",
-        "name":"BFS/DFS Simulator",
-        "for": "Discrete Mathematics",
-        "desc": "A graphical BFS/DFS algorithm simulator (Java / JavaFX)",
-        "url": "https://alirezakay.github.io/showcase/y1/bfs-dfs-simulator/"
-      },
-      {
-        "icon": "fas fa-user-tie",
-        "name":"Text Editor",
-        "for": "Fundamental Programming",
-        "desc": "A simple text editor (C / C++, BGI Graphics)",
-        "url": "https://alirezakay.github.io/showcase/y1/simple-text-editor/"
-      }
-    ]
-  },
-  "year2": {
-    "date": "Oct 2016 - Sep 2017",
-    "color": "#2f535c",
+  "year12": {
+    "date": "Oct 2015 - Sep 2017",
     "work": [
       {
         "icon": "fas fa-user-tie",
@@ -50,13 +22,69 @@
         "for": "Theory of Language and Automaton",
         "desc": "A simple Java language parser/compiler (Java)",
         "url": "https://alirezakay.github.io/showcase/y2/java-parser/"
+      },
+      {
+        "icon": "fas fa-user-tie",
+        "name": "Plants Growth",
+        "for": "Advanced Programming",
+        "desc": "A graphical growth simulation of plants in a duration (Java / JavaFX)",
+        "url": "https://alirezakay.github.io/showcase/y1/plant-growth-simulation/"
+      },
+      {
+        "icon": "fas fa-users",
+        "name": "BFS/DFS Simulator",
+        "for": "Discrete Mathematics",
+        "desc": "A graphical BFS/DFS algorithm simulator (Java / JavaFX)",
+        "url": "https://alirezakay.github.io/showcase/y1/bfs-dfs-simulator/"
+      },
+      {
+        "icon": "fas fa-user-tie",
+        "name": "Text Editor",
+        "for": "Fundamental Programming",
+        "desc": "A simple text editor (C / C++, BGI Graphics)",
+        "url": "https://alirezakay.github.io/showcase/y1/simple-text-editor/"
       }
     ]
   },
-  "year3": {
-    "date": "Oct 2017 - Sep 2018",
-    "color": "#2f535c",
+  "year34": {
+    "date": "Oct 2017 - Sep 2019",
     "work": [
+      {
+        "icon": "fas fa-users",
+        "star": true,
+        "name": "Vornadecor Corp.",
+        "for": "Web Development",
+        "desc": "A marketing website (Next.JS / MUI / Python / MySQL)",
+        "url": "https://vornadecor.com"
+      },
+      {
+        "icon": "fas fa-users",
+        "name": "Face detection & Facial expression classification",
+        "for": "Computer Vision",
+        "desc": "Face recognition using cascade detectors and facial expression classification using CNN",
+        "url": "https://alirezakay.github.io/showcase/y4/facial-recognition/"
+      },
+      {
+        "icon": "fas fa-user-tie",
+        "name": "Web canvas charts",
+        "for": "Internet Engineering",
+        "desc": "Simple implementation of charts display from json data file without using frameworks",
+        "url": "https://alirezakay.github.io/showcase/y4/canvas-chart/"
+      },
+      {
+        "icon": "fas fa-users",
+        "name": "Maximum Matching of Bipartite Graph",
+        "for": "Graph Theory",
+        "desc": "Implementation of maximum matching algorithm for a bipartite graph (React.JS)",
+        "url": "https://brilacasck.github.io/maximum-matching-b-graph/"
+      },
+      {
+        "icon": "fas fa-user-tie",
+        "name": "Petri Net",
+        "for": "Real Time & Embedded Systems",
+        "desc": "Implementation of PetriNet characteristics (Java)",
+        "url": "https://alirezakay.github.io/showcase/y4/petri-net-calc/"
+      },
       {
         "icon": "fas fa-user-tie",
         "star": true,
@@ -125,52 +153,17 @@
       }
     ]
   },
-  "year4": {
-    "date": "Oct 2018 - Sep 2019",
-    "color": "#2f535c",
+  "year56": {
+    "date": "Oct 2019 - Sep 2021",
     "work": [
       {
         "icon": "fas fa-users",
+        "name": "Forex Rational Agent Powered by RL and NLP",
         "star": true,
-        "name": "Vornadecor Corp.",
-        "for": "Web Development",
-        "desc": "A marketing website (Next.JS / MUI / Python / MySQL)",
-        "url": "https://vornadecor.com"
+        "for": "BSc Dissertation [[Thesis]]",
+        "desc": "Implementation of a trader agent using reinforcement learning and natural language processing",
+        "url": ""
       },
-      {
-        "icon": "fas fa-users",
-        "name": "Face detection & Facial expression classification",
-        "for": "Computer Vision",
-        "desc": "Face recognition using cascade detectors and facial expression classification using CNN",
-        "url": "https://alirezakay.github.io/showcase/y4/facial-recognition/"
-      },
-      {
-        "icon": "fas fa-user-tie",
-        "name": "Web canvas charts",
-        "for": "Internet Engineering",
-        "desc": "Simple implementation of charts display from json data file without using frameworks",
-        "url": "https://alirezakay.github.io/showcase/y4/canvas-chart/"
-      },
-      {
-        "icon": "fas fa-users",
-        "name": "Maximum Matching of Bipartite Graph",
-        "for": "Graph Theory",
-        "desc": "Implementation of maximum matching algorithm for a bipartite graph (React.JS)",
-        "url": "https://brilacasck.github.io/maximum-matching-b-graph/"
-      },
-      {
-        "icon": "fas fa-user-tie",
-        "name": "Petri Net",
-        "for": "Real Time & Embedded Systems",
-        "desc": "Implementation of PetriNet characteristics (Java)",
-        "url": "https://alirezakay.github.io/showcase/y4/petri-net-calc/"
-      }
-    ]
-  },
-  "year5": {
-    "date": "Oct 2019 - Sep 2020",
-    "color": "#2f535c",
-    "work": [
       {
         "icon": "fas fa-user-tie",
         "name": "MUI Elapsing Bars",
@@ -179,26 +172,13 @@
         "desc": "An animated elapsing progress-bars component mutable during the time for ReactJS 📊",
         "url": "https://github.com/alirezakay/mui-elapsing-bars"
       },
-    	{
+      {
         "icon": "fas fa-user-tie",
         "name": "Stranger Things Stuffs",
         "for": "AI/ML",
         "desc": "A fun web app which has features utlized by machine learning and computer vision concepts",
         "url": "https://strngr-thngs.github.io"
-      },
-    	{
-        "icon": "fas fa-users",
-        "name": "Forex Rational Agent Powered by RL and NLP",
-        "star": true,
-        "for": "BSc Dissertation [[Thesis]]",
-        "desc": "Implementation of a trader agent using reinforcement learning and natural language processing",
-        "url": ""
       }
-    ]
-  },
-  "Senior Years":{
-    "date": "Oct 2020 - Present",
-    "work": [
     ]
   }
 }

@@ -6,15 +6,14 @@
     "items": [
       {
         "name": "K. N. Toosi University of Technology",
-        "degree": "BSc of Computer Engineering",
+        "degree": "BSc. of Computer Engineering",
         "logo": "/assets/img/kntu.png",
         "url": "https://ce.kntu.ac.ir",
         "date": "2015 - 2020",
-        "gpa": "3.88 (of 4) | 18.36 (of 20)",
-        "relevantsHead": ["Course Name", "My Grade (of 20)"],
+        "gpa": "3.85 /4 - 18.36 /20",
         "relevants": [
           ["Advanced Programming", "20"],
-          ["Engineering Mathematics ", "20"],
+          ["Engineering Mathematics", "20"],
           ["Theory of Formal Languages & Automata", "20"],
           ["Computer Architecture", "20"],
           ["Principles of Compiler Design", "20"],
@@ -37,51 +36,24 @@
         "logo": "/assets/img/kamal.png",
         "url": "http://kamal.sch.ir",
         "date": "2011 - 2015",
-        "gpa": "19.51 (of 20)"
+        "gpa": "19.51 /20"
       }
     ]
   },
   {
     "code": "exp",
-    "title": "Academic and Professional Experiences",
+    "title": "Experiences",
     "icon": "fas fa-briefcase",
     "items": [
       {
-        "name": "Brilacasck",
-        "role": "Founder",
-        "url": "https://brilacasck.github.io",
-        "logo": "/assets/img/brilacasck.png",
-        "date": "Jul 2017 - Sep 2020",
-        "location": "Tehran, Iran",
+        "name": "Under supervision of Mohammad Minouei at DFKI (PhD Researcher)",
+        "role": "Remote Research Assistant",
+        "url": "https://scholar.google.com/citations?user=DpYbZaUAAAAJ&hl=en",
+        "logo": "/assets/img/dfki.png",
+        "date": "2021 - Present",
+        "location": "Kaiserslautern, Germany",
         "description": [
-          "Our very first group.",
-          "We've done lots of cool coding stuffs and projects."
-        ]
-      },
-      {
-        "name": "Vorna Decor",
-        "role": "Project Lead Developer",
-        "url": "http://vornadecor.com",
-        "logo": "/assets/img/vornadecor.png",
-        "date": "Jan 2019 - Jan 2020",
-        "location": "Tehran, Iran",
-        "description": [
-          "Managing a small team",
-          "Scrum Master",
-          "Front-End development",
-          "Back-End development"
-        ]
-      },
-      {
-        "name": "YSorkh",
-        "role": "Development Internship",
-        "url": "http://ysorkh.net",
-        "logo": "/assets/img/ysorkh.jpg",
-        "date": "Jul 2018 - Sep 2018",
-        "location": "Tehran, Iran",
-        "description": [
-          "YSorkh is a company provides network services to the clients.",
-          "I got my internship here as a developer in fields of Web Development, Web Security, SEO."
+          "Assisting with summarizing academic papers and prepare concise presentations"
         ]
       },
       {
@@ -97,6 +69,44 @@
           "Computer Fundamentals And Programming In C - Dr A. Nikanjam and Dr B. Nasihatkon [x1]",
           "Compiler - Dr S. Sedighian Kashi [x1]",
           "Theory of Language and Automaton - Dr S.H. Khasteh [x1]"
+        ]
+      },
+      {
+        "name": "Vorna Decor",
+        "role": "Project Lead Developer",
+        "url": "http://vornadecor.com",
+        "logo": "/assets/img/vornadecor.png",
+        "date": "Jan 2019 - Jan 2020",
+        "location": "Tehran, Iran",
+        "description": [
+          "- Managing a small team",
+          "- Scrum Master",
+          "- Front-End development",
+          "- Back-End development"
+        ]
+      },
+      {
+        "name": "YSorkh",
+        "role": "Development Internship",
+        "url": "http://ysorkh.net",
+        "logo": "/assets/img/ysorkh.jpg",
+        "date": "Jul 2018 - Sep 2018",
+        "location": "Tehran, Iran",
+        "description": [
+          "A company providing network services to the clients.",
+          "Works associated with my internship are web development, web security, SEO, etc."
+        ]
+      },
+      {
+        "name": "Brilacasck",
+        "role": "Founder",
+        "url": "https://brilacasck.github.io",
+        "logo": "/assets/img/brilacasck.png",
+        "date": "Jul 2017 - Sep 2020",
+        "location": "Tehran, Iran",
+        "description": [
+          "Our very first group.",
+          "We've done lots of cool projects and programming stuff."
         ]
       }
     ]
@@ -147,6 +157,18 @@
     "icon": "fas fa-certificate",
     "items": [
       {
+        "title": "Linear Algebra",
+        "name": "Coursera",
+        "url": "https://www.coursera.org/",
+        "logo": "/assets/img/coursera.png",
+        "date": "2021",
+        "location": "Imperial College, London",
+        "cert": "https://www.coursera.org/account/accomplishments/certificate/E8PV2QHQ74AR",
+        "description": [
+          "Mathematics for Machine Learning: Linear Algebra"
+        ]
+      },
+      {
         "title": "Machine Learning Fundamentals",
         "name": "Quera",
         "url": "https://quera.ir/",
@@ -171,7 +193,7 @@
         ]
       },
       {
-        "title": "Front-End Designing",
+        "title": "Front-End Development",
         "name": "University of Tehran",
         "url": "https://ut.ac.ir/en",
         "logo": "/assets/img/ut.png",
