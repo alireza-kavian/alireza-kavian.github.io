@@ -20,14 +20,14 @@
         "icon": "fas fa-users",
         "name": "Java Language Parser",
         "for": "Theory of Language and Automaton",
-        "desc": "A simple Java language parser/compiler (Java)",
+        "desc": "A simple Java-language parser/compiler (Java)",
         "url": "https://alirezakay.github.io/showcase/y2/java-parser/"
       },
       {
         "icon": "fas fa-user-tie",
         "name": "Plants Growth",
         "for": "Advanced Programming",
-        "desc": "A graphical growth simulation of plants in a duration (Java / JavaFX)",
+        "desc": "A graphical growth simulation of plants in a time duration (Java / JavaFX)",
         "url": "https://alirezakay.github.io/showcase/y1/plant-growth-simulation/"
       },
       {
@@ -54,7 +54,7 @@
         "star": true,
         "name": "Vornadecor Corp.",
         "for": "Web Development",
-        "desc": "A marketing website (Next.JS / MUI / Python / MySQL)",
+        "desc": "A shopping/commercial website (Next.JS / MUI / Python / MySQL)",
         "url": "https://vornadecor.com"
       },
       {
@@ -68,14 +68,14 @@
         "icon": "fas fa-user-tie",
         "name": "Web canvas charts",
         "for": "Internet Engineering",
-        "desc": "Simple implementation of charts display from json data file without using frameworks",
+        "desc": "A simple implementation of chart-display reading data from json file without using any frameworks",
         "url": "https://alirezakay.github.io/showcase/y4/canvas-chart/"
       },
       {
         "icon": "fas fa-users",
         "name": "Maximum Matching of Bipartite Graph",
         "for": "Graph Theory",
-        "desc": "Implementation of maximum matching algorithm for a bipartite graph (React.JS)",
+        "desc": "Implementation of maximum-matching algorithm for a bipartite Graph (React.JS)",
         "url": "https://brilacasck.github.io/maximum-matching-b-graph/"
       },
       {
@@ -90,35 +90,35 @@
         "star": true,
         "name": "Brilacasck Group Foundation",
         "for": "Team Regrouping",
-        "desc": "Organizing the github repos and websites - (jQuery / ReactJS / PHP / MySQL / .. )",
+        "desc": "Learning and implementing various projects - (jQuery / ReactJS / PHP / MySQL / .. )",
         "url": "https://blilac.ir"
       },
       {
         "icon": "fas fa-user-tie",
         "name": "RP App",
         "for": "Boilerplate Project",
-        "desc": "development env for creating react app using php dev server (ReactJS / NodeJS / PHP)",
+        "desc": "Development env for creating a react-app using php-dev-server (ReactJS / NodeJS / PHP)",
         "url": "https://github.com/alirezakay/rp-app"
       },
       {
         "icon": "fas fa-user-tie",
         "name": "Personal Website Project",
         "for": "Website",
-        "desc": "My personal website (ReactJS / Mui / Scss)",
+        "desc": "My personal website !",
         "url": "https://alireza-kavian.github.io"
       },
       {
         "icon": "fas fa-users",
         "name": "Wumpus-like Game",
         "for": "AI/ES",
-        "desc": "A simple Wumpus-like game shows the process graphically (Prolog / jquery / Angular / Bootstrap)",
+        "desc": "A simple Wumpus-like game showing the process graphically (Prolog / jquery / Angular / Bootstrap)",
         "url": "https://alirezakay.github.io/showcase/y3/wumpus-like-game/"
       },
       {
         "icon": "fas fa-users",
         "name": "Full-Stacked Shopping Website",
         "for": "Website/Database",
-        "desc": "A shopping website (PHP / Jquery / Angular / SQL)",
+        "desc": "A simple shopping website implemented to reinforce database-designing skills (PHP / Jquery / Angular / SQL)",
         "url": "https://alirezakay.github.io/showcase/y3/shopping-website/"
       },
       {
@@ -133,7 +133,7 @@
         "star": true,
         "name": "Regex To DFA via Syntax Tree",
         "for": "Theory of Automation",
-        "desc": "Conversion of regular expression to DFA directly by using syntax-tree (Java)",
+        "desc": "Conversion of regular expressions to DFAs directly by using syntax-tree (Java)",
         "url": "https://github.com/alirezakay/RegexToDFA"
       },
       {
@@ -148,7 +148,7 @@
         "icon": "fas fa-users",
         "name": "Pipelined Micro/Accelerator",
         "for": "Hardware Software Co-Design",
-        "desc": "Simulation of a pipelined microprocessor's communications within a bus context (SystemC)",
+        "desc": "Simulation of a pipelined microprocessor's communications using a bus pathway (SystemC)",
         "url": "https://alirezakay.github.io/showcase/y3/micro-acc-simulation/"
       }
     ]
@@ -161,7 +161,7 @@
         "name": "Forex Rational Agent Powered by RL and NLP",
         "star": true,
         "for": "BSc Dissertation [[Thesis]]",
-        "desc": "Implementation of a trader agent using reinforcement learning and natural language processing",
+        "desc": "Implementation of a trading-agent using reinforcement learning and natural language processing",
         "url": ""
       },
       {
@@ -169,14 +169,14 @@
         "name": "MUI Elapsing Bars",
         "star": true,
         "for": "Web Development",
-        "desc": "An animated elapsing progress-bars component mutable during the time for ReactJS 📊",
+        "desc": "An animated progress-bars component mutable during a period (ReactJS) 📊",
         "url": "https://github.com/alirezakay/mui-elapsing-bars"
       },
       {
         "icon": "fas fa-user-tie",
         "name": "Stranger Things Stuffs",
         "for": "AI/ML",
-        "desc": "A fun web app which has features utlized by machine learning and computer vision concepts",
+        "desc": "A fun web-app having features utilizing machine-learning and computer-vision concepts",
         "url": "https://strngr-thngs.github.io"
       }
     ]

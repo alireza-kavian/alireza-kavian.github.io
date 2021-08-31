@@ -64,7 +64,7 @@
     },
     {
       "name": "Redux",
-      "amount": "70"
+      "amount": "60"
     },
     {
       "name": "Next.JS",
@@ -141,7 +141,7 @@
     },
     {
       "name": "MySQL Document Store (mysqlx)",
-      "amount": "80"
+      "amount": "60"
     },
     {
       "name": "MongoDB",
@@ -197,7 +197,7 @@
     },
     {
       "name": "Assembly AVR",
-      "amount": "70"
+      "amount": "60"
     },
     {
       "name": "Matlab/Octave",
@@ -205,7 +205,7 @@
     },
     {
       "name": "Visual Basic",
-      "amount": "30"
+      "amount": "20"
     },
     {
       "name": "Agile/Scrum",
@@ -219,7 +219,7 @@
     },
     {
       "name": "Android (Java)",
-      "amount": "60"
+      "amount": "33"
     },
     {
       "name": "Git",
@@ -252,7 +252,7 @@
     },
     {
       "name": "JavaFX",
-      "amount": "60"
+      "amount": "50"
     }
   ],
   "Others": [
