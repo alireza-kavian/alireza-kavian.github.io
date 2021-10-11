@@ -171,7 +171,7 @@
   "Programming Languages & DevOps": [
     {
       "name": "C/C++",
-      "amount": "75"
+      "amount": "65"
     },
     {
       "name": "Java",
@@ -208,6 +208,10 @@
       "amount": "20"
     },
     {
+      "name": "Fortran",
+      "amount": "20"
+    },
+    {
       "name": "Agile/Scrum",
       "amount": "70",
       "show": true
@@ -237,6 +241,10 @@
     {
       "name": "Numpy/Scipy",
       "amount": "70"
+    },
+    {
+      "name": "Matplotlib",
+      "amount": "50"
     },
     {
       "name": "Pandas",
@@ -292,7 +300,7 @@
     },
     {
       "name": "Arabic (Limited working proficiency)",
-      "amount": "45"
+      "amount": "25"
     }
   ],
   "ielts": {

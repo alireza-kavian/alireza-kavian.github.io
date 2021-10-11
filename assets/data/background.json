@@ -61,12 +61,13 @@
         "role": "Undergraduate Teaching Assistant",
         "url": "http://en.ce.kntu.ac.ir",
         "logo": "/assets/img/kntu.png",
-        "date": "2016 - 2020",
+        "date": "2016 - 2022",
         "location": "Tehran, Iran",
         "description": [
-          "Foundations of Computer Vision - Dr B. Nasihatkon [x1]",
-          "Assembly Language (x86 Intel assembly language) - Dr B. Nasihatkon [x2]",
-          "Computer Fundamentals And Programming In C - Dr A. Nikanjam and Dr B. Nasihatkon [x1]",
+          "Linear Algebra - Dr B. Nasihatkon [x1]",
+          "Computer Vision - Dr B. Nasihatkon [x1]",
+          "Assembly (x86 Intel Assembly Language) - Dr B. Nasihatkon [x2]",
+          "Computer Fundamentals and Programming In C - Dr A. Nikanjam and Dr B. Nasihatkon [x1]",
           "Compiler - Dr S. Sedighian Kashi [x1]",
           "Theory of Language and Automaton - Dr S.H. Khasteh [x1]"
         ]

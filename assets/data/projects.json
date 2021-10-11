@@ -161,7 +161,7 @@
         "name": "Forex Rational Agent Powered by RL and NLP",
         "star": true,
         "for": "BSc Dissertation [[Thesis]]",
-        "desc": "Implementation of a trading-agent using reinforcement learning and natural language processing",
+        "desc": "Implementation of a trader-agent using reinforcement learning and natural language processing",
         "url": ""
       },
       {
@@ -169,7 +169,7 @@
         "name": "MUI Elapsing Bars",
         "star": true,
         "for": "Web Development",
-        "desc": "An animated progress-bars component mutable during a period (ReactJS) 📊",
+        "desc": "An animated progress-bar component mutable during a period of time (ReactJS) 📊",
         "url": "https://github.com/alirezakay/mui-elapsing-bars"
       },
       {
