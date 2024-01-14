@@ -1,16 +1,28 @@
 [
+  
   {
     "code": "edu",
     "title": "Education",
     "icon": "fas fa-graduation-cap",
     "items": [
       {
+        "name": "Sharif University of Technology",
+        "degree": "MSc. of Computer Engineering",
+        "logo": "/assets/img/sharif.jpg",
+        "url": "https://sharif.edu",
+        "date": "2021 - X",
+        "gpa": "N/A",
+        "relevants": [
+          ["Semantic Web", ""]
+        ]
+      },
+      {
         "name": "K. N. Toosi University of Technology",
         "degree": "BSc. of Computer Engineering",
         "logo": "/assets/img/kntu.png",
         "url": "https://ce.kntu.ac.ir",
         "date": "2015 - 2020",
-        "gpa": "3.85 /4 - 18.36 /20",
+        "gpa": "3.85 /4 - 18.4 /20",
         "relevants": [
           ["Advanced Programming", "20"],
           ["Engineering Mathematics", "20"],
@@ -46,13 +58,27 @@
     "icon": "fas fa-briefcase",
     "items": [
       {
-        "name": "Under supervision of Mohammad Minouei at DFKI (PhD Researcher)",
+        "name": "Intelligent Information Solutions Center (IIS)",
+        "role": "Full-stack Developer",
+        "url": "https://www.linkedin.com/company/intelligent-information-solutions-center/?originalSubdomain=ir",
+        "logo": "/assets/img/iis.jpg",
+        "date": "2022",
+        "location": "Kaiserslautern, Germany",
+        "description": [
+          "- Test and debug issues",
+          "- Develop plugins and themes",
+          "Web Development · WordPress · PHP · MySQL · Resolving Issues"
+        ]
+      },
+      {
+        "name": "DFKI",
         "role": "Remote Research Assistant",
         "url": "https://scholar.google.com/citations?user=DpYbZaUAAAAJ&hl=en",
         "logo": "/assets/img/dfki.png",
-        "date": "2021 - Present",
+        "date": "2021",
         "location": "Kaiserslautern, Germany",
         "description": [
+          "Under supervision of Mohammad Minouei (PhD. researcher)",
           "Assisting with summarizing academic papers and prepare concise presentations"
         ]
       },
@@ -65,7 +91,7 @@
         "location": "Tehran, Iran",
         "description": [
           "Linear Algebra - Dr B. Nasihatkon [x1]",
-          "Computer Vision - Dr B. Nasihatkon [x1]",
+          "Computer Vision - Dr B. Nasihatkon [x2]",
           "Assembly (x86 Intel Assembly Language) - Dr B. Nasihatkon [x2]",
           "Computer Fundamentals and Programming In C - Dr A. Nikanjam and Dr B. Nasihatkon [x1]",
           "Compiler - Dr S. Sedighian Kashi [x1]",
@@ -80,10 +106,9 @@
         "date": "Jan 2019 - Jan 2020",
         "location": "Tehran, Iran",
         "description": [
-          "- Managing a small team",
+          "- Leader of a small team",
           "- Scrum Master",
-          "- Front-End development",
-          "- Back-End development"
+          "- Full-Stack developer"
         ]
       },
       {
@@ -117,6 +142,17 @@
     "title": "Honors and Awards",
     "icon": "fas fa-award",
     "items": [
+      {
+        "title": "Ranked 25th in National University Entrance Exam for Master's Degree",
+        "name": "Sharif University of Technology",
+        "url": "http://sharif.edu",
+        "logo": "/assets/img/sharif.jpg",
+        "date": "2021",
+        "location": "Tehran, Iran",
+        "description": [
+          ""
+        ]
+      },
       {
         "title": "BSc Dean's List",
         "name": "K. N. Toosi University of Technology",
@@ -153,10 +189,22 @@
     ]
   },
   {
-    "code": "award",
+    "code": "certificates",
     "title": "Certificates",
     "icon": "fas fa-certificate",
     "items": [
+      {
+        "title": "More..",
+        "name": "My Linkedin",
+        "url": "https://linkedin.com/in/alireza-kavian",
+        "logo": "/assets/img/linkedin.png",
+        "date": "...",
+        "location": "...",
+        "cert": "https://linkedin.com/in/alireza-kavian",
+        "description": [
+          "More certificates on my Linkedin 👇"
+        ]
+      },
       {
         "title": "Linear Algebra",
         "name": "Coursera",
