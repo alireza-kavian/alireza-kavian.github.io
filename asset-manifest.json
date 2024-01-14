@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.199d9cf9.chunk.css",
-    "main.js": "/static/js/main.b4baea89.chunk.js",
-    "main.js.map": "/static/js/main.b4baea89.chunk.js.map",
+    "main.css": "/static/css/main.700b41c2.chunk.css",
+    "main.js": "/static/js/main.ea4f101d.chunk.js",
+    "main.js.map": "/static/js/main.ea4f101d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9a9b714c.js",
     "runtime-main.js.map": "/static/js/runtime-main.9a9b714c.js.map",
     "static/css/2.7b16d8d9.chunk.css": "/static/css/2.7b16d8d9.chunk.css",
-    "static/js/2.2a5257da.chunk.js": "/static/js/2.2a5257da.chunk.js",
-    "static/js/2.2a5257da.chunk.js.map": "/static/js/2.2a5257da.chunk.js.map",
+    "static/js/2.36e1d17f.chunk.js": "/static/js/2.36e1d17f.chunk.js",
+    "static/js/2.36e1d17f.chunk.js.map": "/static/js/2.36e1d17f.chunk.js.map",
     "static/js/3.bad51d29.chunk.js": "/static/js/3.bad51d29.chunk.js",
     "static/js/3.bad51d29.chunk.js.map": "/static/js/3.bad51d29.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7b16d8d9.chunk.css.map": "/static/css/2.7b16d8d9.chunk.css.map",
-    "static/css/main.199d9cf9.chunk.css.map": "/static/css/main.199d9cf9.chunk.css.map",
-    "static/js/2.2a5257da.chunk.js.LICENSE.txt": "/static/js/2.2a5257da.chunk.js.LICENSE.txt",
+    "static/css/main.700b41c2.chunk.css.map": "/static/css/main.700b41c2.chunk.css.map",
+    "static/js/2.36e1d17f.chunk.js.LICENSE.txt": "/static/js/2.36e1d17f.chunk.js.LICENSE.txt",
     "static/media/ai-min.2f07b36f.png": "/static/media/ai-min.2f07b36f.png",
     "static/media/Home.scss": "/static/media/background.3cbb16a3.jpg",
     "static/media/About.scss": "/static/media/black.6d09cf2f.png",
@@ -24,7 +24,7 @@
     "static/media/ielts-min.93a5f760.png": "/static/media/ielts-min.93a5f760.png",
     "static/media/industry-min.a5a908b6.png": "/static/media/industry-min.a5a908b6.png",
     "static/media/langs-min.7059edbe.png": "/static/media/langs-min.7059edbe.png",
-    "static/media/Background.scss": "/static/media/mebg.f309b3e1.jpg",
+    "static/media/Background.scss": "/static/media/mebg.0c7525c4.png",
     "static/media/Footer.scss": "/static/media/nature.31ad0cd1.jpg",
     "static/media/nucleo.css": "/static/media/nucleo-icons.d6a66724.ttf",
     "static/media/others-min.7c9eb2be.png": "/static/media/others-min.7c9eb2be.png",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.9a9b714c.js",
     "static/css/2.7b16d8d9.chunk.css",
-    "static/js/2.2a5257da.chunk.js",
-    "static/css/main.199d9cf9.chunk.css",
-    "static/js/main.b4baea89.chunk.js"
+    "static/js/2.36e1d17f.chunk.js",
+    "static/css/main.700b41c2.chunk.css",
+    "static/js/main.ea4f101d.chunk.js"
   ]
 }
