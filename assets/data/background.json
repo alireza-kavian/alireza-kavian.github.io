@@ -58,12 +58,21 @@
     "icon": "fas fa-briefcase",
     "items": [
       {
+        "name": "English Turbo Pro",
+        "role": "Editor",
+        "url": "www.englishturbo.com",
+        "logo": "/assets/img/turbo.jpg",
+        "date": "2024",
+        "location": "Tehran, Iran",
+        "description": []
+      },
+      {
         "name": "Intelligent Information Solutions Center (IIS)",
         "role": "Full-stack Developer",
         "url": "https://www.linkedin.com/company/intelligent-information-solutions-center/?originalSubdomain=ir",
         "logo": "/assets/img/iis.jpg",
         "date": "2022",
-        "location": "Kaiserslautern, Germany",
+        "location": "Tehran, Iran",
         "description": [
           "- Test and debug issues",
           "- Develop plugins and themes",
