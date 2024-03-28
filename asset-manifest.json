@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8021c77.css",
-    "main.js": "/static/js/main.93a28691.js",
+    "main.css": "/static/css/main.9b8eaf46.css",
+    "main.js": "/static/js/main.fafa34d7.js",
     "static/js/787.5ffb73a6.chunk.js": "/static/js/787.5ffb73a6.chunk.js",
     "static/media/nature.jpg": "/static/media/nature.797c74b88917b4a5ba84.jpg",
-    "static/media/photo_2024-01-14_07-53-04 (2).png": "/static/media/photo_2024-01-14_07-53-04 (2).f47a82f8671f1623f6b2.png",
-    "static/media/mebg.png": "/static/media/mebg.a6a4a4a7d375eb4b48d9.png",
+    "static/media/blue.jpg": "/static/media/blue.93734bc5043871610dd3.jpg",
     "static/media/database-min.png": "/static/media/database-min.c577daa329918c44a259.png",
+    "static/media/photo_2024-01-14_07-53-04.jpg": "/static/media/photo_2024-01-14_07-53-04.75bd0e5dbbbea734ec18.jpg",
     "static/media/gre-min.png": "/static/media/gre-min.70e9297fcd620f6c0b2c.png",
     "static/media/industry-min.png": "/static/media/industry-min.a5a908b68f2efb7c028f.png",
     "static/media/nucleo-icons.svg": "/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
@@ -26,12 +26,12 @@
     "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
     "index.html": "/index.html",
-    "main.e8021c77.css.map": "/static/css/main.e8021c77.css.map",
-    "main.93a28691.js.map": "/static/js/main.93a28691.js.map",
+    "main.9b8eaf46.css.map": "/static/css/main.9b8eaf46.css.map",
+    "main.fafa34d7.js.map": "/static/js/main.fafa34d7.js.map",
     "787.5ffb73a6.chunk.js.map": "/static/js/787.5ffb73a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8021c77.css",
-    "static/js/main.93a28691.js"
+    "static/css/main.9b8eaf46.css",
+    "static/js/main.fafa34d7.js"
   ]
 }
