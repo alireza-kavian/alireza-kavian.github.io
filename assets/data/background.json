@@ -67,6 +67,16 @@
         "description": []
       },
       {
+        "name": "Vorna Decor",
+        "role": "Full-stack Developer",
+        "url": "http://vornadecor.com",
+        "logo": "/assets/img/vornadecor.png",
+        "date": "Oct 2022 - Sep 2023",
+        "location": "Tehran, Iran",
+        "description": [
+        ]
+      },
+      {
         "name": "Intelligent Information Solutions Center (IIS)",
         "role": "Full-stack Developer",
         "url": "https://www.linkedin.com/company/intelligent-information-solutions-center/?originalSubdomain=ir",
