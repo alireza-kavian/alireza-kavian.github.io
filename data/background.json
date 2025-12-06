@@ -1,0 +1,363 @@
+[
+  {
+    "code": "edu",
+    "title": "Education",
+    "icon": "fas fa-graduation-cap",
+    "items": [
+      {
+        "name": "Sharif University of Technology",
+        "degree": "MSc. of Computer Engineering",
+        "logo": "/assets/img/sharif.jpg",
+        "url": "https://sharif.edu",
+        "date": "2021 - X",
+        "gpa": "N/A",
+        "relevants": [
+          [
+            "Semantic Web",
+            ""
+          ]
+        ]
+      },
+      {
+        "name": "K. N. Toosi University of Technology",
+        "degree": "BSc. of Computer Engineering",
+        "logo": "/assets/img/kntu.png",
+        "url": "https://ce.kntu.ac.ir",
+        "date": "2015 - 2020",
+        "gpa": "3.85 /4 - 18.4 /20",
+        "relevants": [
+          [
+            "Advanced Programming",
+            "20"
+          ],
+          [
+            "Engineering Mathematics",
+            "20"
+          ],
+          [
+            "Theory of Formal Languages & Automata",
+            "20"
+          ],
+          [
+            "Computer Architecture",
+            "20"
+          ],
+          [
+            "Principles of Compiler Design",
+            "20"
+          ],
+          [
+            "Operating Systems",
+            "20"
+          ],
+          [
+            "Computer Networks Lab",
+            "20"
+          ],
+          [
+            "Engineering Probability",
+            "19.89"
+          ],
+          [
+            "Fundamentals of Robotics",
+            "19.75"
+          ],
+          [
+            "Descrete Mathematics",
+            "19.50"
+          ],
+          [
+            "Principles of Database Design",
+            "19.45"
+          ],
+          [
+            "Data Structure",
+            "19.25"
+          ],
+          [
+            "Differential Equations",
+            "19.20"
+          ],
+          [
+            "Algorithm Design",
+            "19"
+          ],
+          [
+            "Artificial Intelligence & Expert Systems",
+            "18.50"
+          ],
+          [
+            "Foundations of Computer Vision",
+            "18.25"
+          ]
+        ]
+      },
+      {
+        "name": "Kamal High School",
+        "degree": "Diploma Certificate of Math-Physics",
+        "logo": "/assets/img/kamal.png",
+        "url": "http://kamal.sch.ir",
+        "date": "2011 - 2015",
+        "gpa": "19.51 /20"
+      }
+    ]
+  },
+  {
+    "code": "exp",
+    "title": "Experiences",
+    "icon": "fas fa-briefcase",
+    "items": [
+      {
+        "name": "Englishturbo",
+        "role": "Video/Image Editor",
+        "url": "https://www.englishturbo.com",
+        "logo": "/assets/img/turbo.jpg",
+        "date": "Jan 2024 - May 2024",
+        "location": "Tehran Province, Iran",
+        "description": [
+          "Produced and refined marketing visuals and course media; color-corrected, cut, and composited assets for campaigns and lessons."
+        ]
+      },
+      {
+        "name": "Vorna Technology",
+        "role": "Full Stack Developer",
+        "url": "http://vornadecor.com",
+        "logo": "/assets/img/vornatech.jpg",
+        "date": "Oct 2022 - Sep 2023",
+        "location": "Tehran, Iran",
+        "description": [
+          "Delivered and maintained production web apps; implemented features end-to-end with modern JS stacks, APIs, and UI polish.",
+          "Owned performance tuning, deployment hygiene, and steady iteration with product/design stakeholders."
+        ]
+      },
+      {
+        "name": "Intelligent Information Solutions Center (IIS)",
+        "role": "Full-stack Developer",
+        "url": "https://www.linkedin.com/company/intelligent-information-solutions-center/",
+        "logo": "/assets/img/iis.jpg",
+        "date": "Feb 2022 - Sep 2022",
+        "location": "Tehran, Iran",
+        "description": [
+          "Built and customized WordPress/PHP/MySQL solutions; implemented plugins/themes and resolved production issues.",
+          "Improved site reliability and UX through debugging, refactors, and incremental feature releases."
+        ]
+      },
+      {
+        "name": "DFKI",
+        "role": "Student Research Assistant",
+        "url": "https://www.dfki.de",
+        "logo": "/assets/img/dfki.png",
+        "date": "Jun 2021 - Aug 2021",
+        "location": "Kaiserslautern, Germany",
+        "description": [
+          "Reviewed CV/AI papers, distilled insights into concise briefs, and prepared supporting presentations for a PhD project."
+        ]
+      },
+      {
+        "name": "Vorna Technology",
+        "role": "Developer",
+        "url": "http://vornadecor.com",
+        "logo": "/assets/img/vornatech.jpg",
+        "date": "Jan 2019 - Jan 2021",
+        "location": "Tehran, Iran",
+        "description": [
+          "Requirement engineering, task distribution, webserver configuration",
+          "Full-stack delivery (WordPress/PHP/HTML/JS/CSS/jQuery/MySQL)",
+          "Git, Trello, UML, team facilitation"
+        ]
+      },
+      {
+        "name": "YSorkh",
+        "role": "Development Internship",
+        "url": "http://ysorkh.net",
+        "logo": "/assets/img/ysorkh.jpg",
+        "date": "Jul 2018 - Sep 2018",
+        "location": "Tehran, Iran",
+        "description": [
+          "Network services internship: web development, web security, SEO"
+        ]
+      },
+      {
+        "name": "Brilacasck",
+        "role": "Founder",
+        "url": "https://brilacasck.github.io",
+        "logo": "/assets/img/brilacasck.png",
+        "date": "Jul 2017 - Sep 2020",
+        "location": "Tehran, Iran",
+        "description": [
+          "Founded student group; multiple collaborative programming projects"
+        ]
+      },
+      {
+        "name": "K. N. Toosi University of Technology",
+        "role": "Teaching Assistant",
+        "url": "http://en.ce.kntu.ac.ir",
+        "logo": "/assets/img/kntu.png",
+        "date": "2016 - 2022",
+        "location": "Tehran, Iran",
+        "description": [
+          "Fundamentals of Computer Vision ? Dr B. Nasihatkon (Feb 2020 - Jul 2020): weekly labs, grading, class comms",
+          "Linear Algebra ? Dr B. Nasihatkon: grading and student support",
+          "Assembly (x86 Intel) ? Dr B. Nasihatkon: labs and assessments",
+          "Computer Fundamentals and Programming in C ? Dr A. Nikanjam / Dr B. Nasihatkon",
+          "Compiler ? Dr S. Sedighian Kashi",
+          "Theory of Language and Automaton ? Dr S.H. Khasteh"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "award",
+    "title": "Honors and Awards",
+    "icon": "fas fa-award",
+    "items": [
+      {
+        "title": "Ranked 25th in National University Entrance Exam for Master's Degree",
+        "name": "Sharif University of Technology",
+        "url": "http://sharif.edu",
+        "logo": "/assets/img/sharif.jpg",
+        "date": "2021",
+        "location": "Tehran, Iran",
+        "description": []
+      },
+      {
+        "title": "BSc Dean's List",
+        "name": "K. N. Toosi University of Technology",
+        "url": "http://en.ce.kntu.ac.ir",
+        "logo": "/assets/img/kntu.png",
+        "date": "2017 - 2018",
+        "location": "Tehran, Iran",
+        "description": [
+          "First-class undergraduate degree with honours"
+        ]
+      },
+      {
+        "title": "BSc Excellent Students Scholarship ",
+        "name": "Kanoon Farhangi Amoozesh (Ghalamchi)",
+        "url": "http://en.kanoon.ir",
+        "logo": "/assets/img/kanoon.png",
+        "date": "2018 - 2019",
+        "location": "Tehran, Iran",
+        "description": [
+          "Awarded scholarship at the end of each term"
+        ]
+      },
+      {
+        "title": "Front-End Winner @ Quera Connect",
+        "name": "Quera IR",
+        "url": "https://quera.ir/course/assignments/5569/scoreboard/",
+        "logo": "/assets/img/quera.png",
+        "date": "Aug 2018",
+        "location": "Tehran, Iran",
+        "description": [
+          "First place at Quera Connect 10 - Front-End Challenge"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "certificates",
+    "title": "Certificates",
+    "icon": "fas fa-certificate",
+    "items": [
+      {
+        "title": "OWASP",
+        "name": "Voorivex Academy",
+        "url": "",
+        "logo": "/assets/img/voorivex.jpg",
+        "date": "Dec 2023",
+        "location": "",
+        "cert": "",
+        "description": []
+      },
+      {
+        "title": "Power BI Essential Training",
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/learning/certificates/fc8ea6ee38c94f4c2375a318066ebebad8687ebc88db13e9aebadaabd1f8a68f",
+        "logo": "/assets/img/linkedin.png",
+        "date": "Aug 2022",
+        "location": "",
+        "cert": "https://www.linkedin.com/learning/certificates/fc8ea6ee38c94f4c2375a318066ebebad8687ebc88db13e9aebadaabd1f8a68f",
+        "description": [
+          "Credential ID AaJBixwxSwpFL_rpQfM6dOgxwrhg"
+        ]
+      },
+      {
+        "title": "Foundations: Data, Data, Everywhere",
+        "name": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/Q44BE43BM8MR",
+        "logo": "/assets/img/coursera.png",
+        "date": "May 2022",
+        "location": "",
+        "cert": "https://www.coursera.org/account/accomplishments/certificate/Q44BE43BM8MR",
+        "description": [
+          "Credential ID Q44BE43BM8MR"
+        ]
+      },
+      {
+        "title": "Digital Signal Processing 1: Basic Concepts and Algorithms",
+        "name": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/K6A52J4Z28QJ",
+        "logo": "/assets/img/coursera.png",
+        "date": "Apr 2022",
+        "location": "",
+        "cert": "https://www.coursera.org/account/accomplishments/certificate/K6A52J4Z28QJ",
+        "description": [
+          "Credential ID K6A52J4Z28QJ"
+        ]
+      },
+      {
+        "title": "Elements of AI: Introduction to AI",
+        "name": "University of Helsinki",
+        "url": "https://certificates.mooc.fi/validate/3ts2hzimazj",
+        "logo": "/assets/img/helsinki.jpg",
+        "date": "Dec 2021",
+        "location": "",
+        "cert": "https://certificates.mooc.fi/validate/3ts2hzimazj",
+        "description": []
+      },
+      {
+        "title": "Mathematics for Machine Learning: Linear Algebra",
+        "name": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/E8PV2QHQ74AR",
+        "logo": "/assets/img/coursera.png",
+        "date": "Jun 2021",
+        "location": "",
+        "cert": "https://www.coursera.org/account/accomplishments/certificate/E8PV2QHQ74AR",
+        "description": [
+          "Credential ID E8PV2QHQ74AR"
+        ]
+      },
+      {
+        "title": "Machine Learning Fundamentals",
+        "name": "Quera",
+        "url": "https://quera.ir/",
+        "logo": "/assets/img/quera.png",
+        "date": "2020",
+        "location": "Tehran, Iran",
+        "cert": "/assets/cert/quera-ml.jpg",
+        "description": []
+      },
+      {
+        "title": "Certified Ethical Hacker (CEH)",
+        "name": "Maktabkhooneh",
+        "url": "http://maktabkhooneh.org/",
+        "logo": "/assets/img/maktabkhooneh.jpg",
+        "date": "2020",
+        "location": "Tehran, Iran",
+        "cert": "/assets/cert/maktabkhooneh-ceh.jpg",
+        "description": []
+      },
+      {
+        "title": "Front-End Development",
+        "name": "University of Tehran",
+        "url": "https://ut.ac.ir/en",
+        "logo": "/assets/img/ut.png",
+        "date": "2017",
+        "location": "Tehran, Iran",
+        "cert": "/assets/cert/tehran-front-end.jpg",
+        "description": []
+      }
+    ]
+  }
+]
