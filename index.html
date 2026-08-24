@@ -1,626 +1,388 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kavian - Portfolio</title>
-  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <style>
-    :root { color-scheme: dark; }
-    * { box-sizing: border-box; }
-    @keyframes floaty { 0%,100% { transform: translateY(0px);} 50% { transform: translateY(-10px);} }
-    @keyframes drift { 0%{ transform: translate3d(0,0,0) rotate(0deg);} 50%{ transform: translate3d(16px,-12px,0) rotate(8deg);} 100%{ transform: translate3d(0,0,0) rotate(0deg);} }
-    @keyframes pulseGlow { 0%{opacity:.35;} 50%{opacity:.9;} 100%{opacity:.35;} }
-    @keyframes wipe { 0% { clip-path: inset(80% 0 0 0 round 20px); opacity:0; } 100% { clip-path: inset(0 0 0 0 round 20px); opacity:1; } }
-    .glass { backdrop-filter: blur(14px); background: rgba(255,255,255,0.06); }
-    .shine { background-size: 240% 240%; animation: drift 14s ease-in-out infinite; }
-    .noise::after { content:""; position:fixed; inset:0; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.12'/%3E%3C/svg%3E"); mix-blend-mode:soft-light; }
-    .tilt { transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease; }
-    .tilt:hover { transform: translateY(-6px) rotateX(1deg) rotateY(-1deg); box-shadow: 0 25px 60px rgba(0,0,0,0.35); border-color: rgba(255,255,255,0.24); }
-    .contact-glow { position: relative; }
-    .contact-glow::after { content:''; position:absolute; inset:-4px; border-radius:999px; border:1px solid rgba(255,255,255,0.1); opacity:0; transition: opacity .35s ease, transform .35s ease; transform: scale(0.97); }
-    .contact-glow:hover::after { opacity:1; transform: scale(1.05); }
-    .scroll-progress { position: fixed; top: 14%; left: calc(50% - 640px); width: 10px; height: 72vh; pointer-events: none; opacity: 0.9; }
-    @media (max-width: 1300px) { .scroll-progress { left: 12px; } }
-    #back-to-top { position: fixed; bottom: 24px; right: 24px; width: 44px; height: 44px; border-radius: 999px; background: linear-gradient(135deg, rgba(34,211,238,0.8), rgba(168,85,247,0.8)); display: flex; align-items: center; justify-content: center; color: white; box-shadow: 0 18px 40px rgba(0,0,0,0.35); opacity: 0; pointer-events: none; transition: opacity .3s ease, transform .3s ease; }
-    #back-to-top.visible { opacity: 1; pointer-events: auto; transform: translateY(-4px); }
-    .logo-plate { position: relative; overflow: hidden; backdrop-filter: blur(10px); background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.5), rgba(255,255,255,0.2)), linear-gradient(135deg, rgba(34,211,238,0.4), rgba(168,85,247,0.4)); box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 14px 34px rgba(0,0,0,0.45); border-radius: 999px; }
-    .logo-plate::after { content:""; position:absolute; inset:-35% -35% auto auto; width:60%; height:60%; background:linear-gradient(120deg, rgba(255,255,255,0.7), transparent); transform: rotate(18deg); opacity:0.6; }
-    .logo-img { filter: brightness(1.35) contrast(1.2) drop-shadow(0 6px 14px rgba(0,0,0,0.28)); border-radius: 999px; background: rgba(255,255,255,0.06); padding: 0; }
-    .skill-chip { border: 1px solid rgba(255,255,255,0.18); backdrop-filter: blur(6px); box-shadow: 0 10px 22px rgba(0,0,0,0.2); }
-    .skill-high { background: radial-gradient(circle at 20% 20%, rgba(147,51,234,0.35), rgba(56,189,248,0.18)); color: #f6edff; }
-    .skill-mid { background: radial-gradient(circle at 20% 20%, rgba(99,102,241,0.28), rgba(56,189,248,0.16)); color: #eef1ff; }
-    .skill-low { background: linear-gradient(135deg, rgba(24,22,42,0.9), rgba(42,28,61,0.85)); color: #e2e8f0; }
-    .desc-chip { border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 6px 10px; background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.08)); color: #e5ecf5; box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 6px 16px rgba(0,0,0,0.2); }
-    .reveal { opacity:1; transform:none; }
-    @media (max-width: 768px) {
-      main { padding-left: 1rem; padding-right: 1rem; }
-      .logo-plate { width: 48px; height: 48px; }
-      .logo-img { width: 36px; height: 36px; }
-      h1 { font-size: 1.8rem; }
-      .card-top-stack { flex-direction: column !important; align-items: flex-start !important; gap: 0.75rem !important; }
-      .card-date { align-self: flex-start !important; }
-      .hero-grid { grid-template-columns: 1fr !important; }
-    }
-  </style>
-</head>
-<body class="bg-slate-950 text-slate-50 min-h-screen noise" style="background: radial-gradient(circle at 20% 20%, rgba(124,58,237,0.08), transparent 30%), radial-gradient(circle at 80% 0%, rgba(88,28,135,0.12), transparent 25%), linear-gradient(140deg, #0b0a1a 0%, #0d0b22 50%, #0a0a18 100%);">
-  <!-- Animated gradient orbs -->
-  <div class="pointer-events-none fixed inset-0 opacity-70 mix-blend-screen" aria-hidden="true">
-    <svg class="w-full h-full" viewBox="0 0 900 900" preserveAspectRatio="xMidYMid slice">
-      <defs>
-        <linearGradient id="grad" x1="0%" x2="100%" y1="0%" y2="100%">
-          <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.42" />
-          <stop offset="50%" stop-color="#a855f7" stop-opacity="0.32" />
-          <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.32" />
-        </linearGradient>
-      </defs>
-      <circle cx="120" cy="220" r="180" fill="url(#grad)">
-        <animate attributeName="cx" values="120;200;160;120" dur="18s" repeatCount="indefinite" />
-        <animate attributeName="cy" values="220;180;240;220" dur="19s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="720" cy="140" r="140" fill="url(#grad)">
-        <animate attributeName="r" values="140;170;130;140" dur="16s" repeatCount="indefinite" />
-        <animate attributeName="cy" values="140;180;120;140" dur="17s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="460" cy="680" r="220" fill="url(#grad)" opacity="0.45">
-        <animate attributeName="cx" values="460;520;480;460" dur="22s" repeatCount="indefinite" />
-      </circle>
-    </svg>
-  </div>
-
-  <main class="relative max-w-6xl mx-auto px-6 py-10 space-y-16">
-    <!-- HERO -->
-    <section class="relative overflow-hidden rounded-3xl border border-white/10 glass reveal">
-      <div class="absolute inset-0 bg-gradient-to-br from-white/10 via-white/0 to-white/0"></div>
-      <div class="grid lg:grid-cols-[1.15fr_0.85fr] gap-10 p-8 md:p-12 relative">
-        <div class="space-y-6">
-          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/15 bg-white/10 text-xs uppercase tracking-[0.28em] text-slate-200/80">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span id="home-based">Based somewhere</span>
-          </div>
-          <div class="flex flex-wrap gap-3 items-center">
-            <div class="relative w-20 h-20 rounded-2xl overflow-hidden border border-white/15 bg-gradient-to-br from-pink-500/40 via-sky-400/30 to-violet-500/30">
-              <img id="avatar" class="w-full h-full object-cover" alt="Avatar">
-              <div class="absolute inset-0 rounded-2xl ring-2 ring-white/10"></div>
-            </div>
-            <div>
-              <p class="text-sm text-slate-300" id="home-age"></p>
-              <p class="text-xs text-slate-400" id="home-updated"></p>
-            </div>
-          </div>
-          <div>
-            <p class="text-sm uppercase tracking-[0.3em] text-slate-300">Hello, I'm</p>
-            <h1 id="home-name" class="text-4xl sm:text-5xl font-semibold leading-tight mt-2"></h1>
-            <p id="home-job" class="text-lg text-slate-200/80 mt-3"></p>
-          </div>
-          <article id="about-text" class="prose prose-invert prose-p:my-2 prose-ul:my-2 prose-li:my-0.5 text-slate-200/90 text-base leading-relaxed max-w-xl"></article>
-          <div id="contact-buttons" class="flex flex-wrap gap-3"></div>
-        </div>
-
-        <div class="relative">
-          <div class="absolute -inset-6 bg-gradient-to-tr from-sky-400/14 via-pink-400/12 to-violet-500/14 blur-3xl animate-[pulseGlow_8s_ease-in-out_infinite]"></div>
-          <div class="relative grid gap-4">
-            <div class="rounded-2xl border border-white/12 bg-slate-900/70 p-5 shadow-2xl">
-              <div class="flex items-center gap-2 mb-3">
-                <div class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></div>
-                <p class="text-sm uppercase tracking-[0.24em] text-slate-200/90">Capabilities</p>
-              </div>
-              <div class="grid grid-cols-2 gap-3 text-sm" id="hero-skills"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PORTRAIT -->
-    <section class="reveal">
-      <div class="rounded-3xl border border-white/10 glass overflow-hidden shadow-2xl">
-        <div class="relative">
-          <img id="hero-landscape" src="" alt="Portrait" class="w-full aspect-video object-cover">
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-slate-950/10 to-transparent"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE / EDUCATION / AWARDS -->
-    <section class="space-y-6 reveal">
-      <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center text-sky-300">
-          <i class="fa-solid fa-graduation-cap"></i>
-        </div>
-        <div>
-          <p class="text-xs uppercase tracking-[0.28em] text-slate-300/80">Journey</p>
-          <h2 class="text-2xl font-semibold">Education, Experience, Honors</h2>
-        </div>
-      </div>
-      <div id="background" class="grid md:grid-cols-2 gap-4"></div>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="space-y-6 reveal">
-      <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center text-pink-300">
-          <i class="fa-solid fa-wand-magic-sparkles"></i>
-        </div>
-        <div>
-          <p class="text-xs uppercase tracking-[0.28em] text-slate-300/80">Skills</p>
-          <h2 class="text-2xl font-semibold">Most Proficient Stacks</h2>
-        </div>
-      </div>
-      <div class="flex items-center gap-2 text-xs text-slate-300 flex-wrap">
-        <span class="skill-chip skill-high px-2 py-0.5 rounded-full">High</span>
-        <span class="skill-chip skill-mid px-2 py-0.5 rounded-full">Mid</span>
-        <span class="skill-chip skill-low px-2 py-0.5 rounded-full">Starter</span>
-        <span class="text-slate-400">(Badge tint shows proficiency)</span>
-      </div>
-      <div id="skills" class="grid md:grid-cols-2 gap-4"></div>
-    </section>
-
-    <!-- PROJECTS LAST -->
-    <section id="projects-section" class="space-y-6 reveal">
-      <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center text-emerald-300">
-          <i class="fa-solid fa-diagram-project"></i>
-        </div>
-        <div>
-          <p class="text-xs uppercase tracking-[0.28em] text-slate-300/80">Projects</p>
-          <h2 class="text-2xl font-semibold">Selected Work & Experiments</h2>
-        </div>
-      </div>
-      <div id="projects-wrap" class="space-y-4"></div>
-    </section>
-  </main>
-
-  <div class="scroll-progress">
-    <svg viewBox="0 0 6 100" class="w-full h-full">
-      <defs>
-        <linearGradient id="progressGrad" x1="0%" x2="100%" y1="0%" y2="0%">
-          <stop offset="0%" stop-color="#22d3ee"/>
-          <stop offset="50%" stop-color="#a855f7"/>
-          <stop offset="100%" stop-color="#ec4899"/>
-        </linearGradient>
-      </defs>
-      <rect x="0" y="0" width="6" height="100" fill="rgba(255,255,255,0.1)" rx="3"/>
-      <rect id="progress-fill" x="0" y="100" width="6" height="0" fill="url(#progressGrad)" rx="3" />
-    </svg>
-  </div>
-
-  <button id="back-to-top" aria-label="Back to top">
-    <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="18 15 12 9 6 15"></polyline>
-    </svg>
-  </button>
-
-  <script>
-    // Map remote-ish asset paths in JSON to local files shipped in /img and /cert.
-    const resolveAsset = (path = '') => {
-      if (!path) return '';
-      if (path.startsWith('avatar/')) return 'img/' + path;
-      if (path.startsWith('/assets/img/')) return path.replace('/assets/img/', 'img/');
-      if (path.startsWith('/assets/cert/')) return path.replace('/assets/cert/', 'cert/');
-      if (path.startsWith('/assets/')) return path.replace('/assets/', '');
-      return path;
-    };
-
-    const jsonPaths = {
-      home: 'data/home.json',
-      about: 'data/about.json',
-      projects: 'data/projects.json',
-      skills: 'data/skills.json',
-      background: 'data/background.json'
-    };
-
-    const loadJSON = async (path) => {
-      const res = await fetch(path);
-      if (!res.ok) throw new Error('Failed to load ' + path);
-      return res.json();
-    };
-
-    const badge = (text) => {
-      const span = document.createElement('span');
-      span.className = 'px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs text-slate-100/90';
-      span.textContent = text;
-      return span;
-    };
-
-    const contactIcon = (key) => {
-      const svgWrap = document.createElement('div');
-      svgWrap.className = 'w-9 h-9 rounded-xl bg-gradient-to-br from-white/12 to-white/6 flex items-center justify-center text-slate-50';
-      const paths = {
-        Linkedin: '<path d="M4 3a2 2 0 11-.001 4.001A2 2 0 014 3zm-.5 5h3V21h-3V8zM10 8h3v1.8c.4-.9 1.5-2.1 3.4-2.1C19.5 7.7 21 9.2 21 12.2V21h-3v-8c0-1.7-.6-2.8-2-2.8-1.1 0-1.8.8-2.1 1.6-.1.3-.1.8-.1 1.3V21h-3V8z"/>',
-        Github: '<path d="M12 .5C5.7.5.5 5.8.5 12.1c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .8.1-.6.3-1.1.6-1.3-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.5.2 2.7.1 3 .8.8 1.2 1.9 1.2 3.2 0 4.6-2.7 5.6-5.3 5.9.4.3.7.9.7 1.8v2.6c0 .3.2.6.8.5a10.7 10.7 0 007.1-10.2C23.5 5.8 18.3.5 12 .5z"/>',
-        Telegram: '<path d="M21.9 3.7a1.1 1.1 0 00-1.2-.1L3.4 11.1a1.1 1.1 0 00.1 2.1l4.4 1.4 2 6a1.1 1.1 0 001 .7h.1a1.1 1.1 0 001-.8l1.6-4.7 4.6 3.6a1.1 1.1 0 001.8-.6l2.3-14a1.1 1.1 0 00-.4-1.1z"/>'
-      };
-      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-      svg.setAttribute('viewBox', '0 0 24 24');
-      svg.setAttribute('fill', 'currentColor');
-      svg.classList.add('w-5','h-5','opacity-90');
-      svg.innerHTML = paths[key] || '<circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.4" />';
-      svgWrap.appendChild(svg);
-      return svgWrap;
-    };
-
-    const projectIcon = (icon) => {
-      const span = document.createElement('span');
-      span.className = 'inline-flex items-center justify-center w-9 h-9 rounded-full border border-white/14 bg-white/12 text-slate-100 shadow-inner';
-      const iconEl = document.createElement('i');
-      iconEl.className = 'text-base';
-      if ((icon || '').includes('users')) {
-        iconEl.classList.add('fa-solid','fa-users');
-      } else {
-        iconEl.classList.add('fa-solid','fa-user');
-      }
-      span.appendChild(iconEl);
-      return span;
-    };
-
-    const skillColor = (amt) => {
-      if (amt >= 80) return 'skill-chip skill-high';
-      if (amt >= 60) return 'skill-chip skill-mid';
-      return 'skill-chip skill-low';
-    };
-
-    const skillIconMap = {
-      'Industry Knowledge': 'fa-briefcase',
-      'Full-Stack Tools': 'fa-layer-group',
-      'Database Tools': 'fa-database',
-      'AI/ML Tools': 'fa-brain',
-      'Programming Languages & DevOps': 'fa-code',
-      'Others': 'fa-sparkles',
-      'Language': 'fa-language'
-    };
-
-    const renderHero = (home, aboutData) => {
-      document.getElementById('home-name').textContent = home.name;
-      document.getElementById('home-job').textContent = home.job;
-      document.getElementById('home-based').textContent = home.based;
-      document.getElementById('home-age').textContent = home.age;
-      document.getElementById('home-updated').textContent = 'Last update: ' + home.lastupdate;
-      const avatar = document.getElementById('avatar');
-      avatar.src = resolveAsset(home.avatar);
-      avatar.onerror = () => { avatar.remove(); };
-      const landscape = document.getElementById('hero-landscape');
-      if (landscape) {
-        landscape.src = resolveAsset(home.landscape || home.avatar);
-      }
-
-      const aboutText = document.getElementById('about-text');
-      if (aboutData?.about?.description) {
-        aboutText.innerHTML = aboutData.about.description.join(' ');
-      }
-
-      const contactWrap = document.getElementById('contact-buttons');
-      contactWrap.innerHTML = '';
-      if (aboutData?.contact) {
-        Object.entries(aboutData.contact).forEach(([key, value]) => {
-          if (key.toLowerCase() === 'email') return; // remove email
-          const a = document.createElement(value.link ? 'a' : 'div');
-          a.className = 'tilt contact-glow px-4 py-2 rounded-full border border-white/15 bg-slate-900/70 hover:border-white/30 transition text-sm flex items-center gap-2';
-          if (value.link) a.href = value.link;
-          a.target = '_blank';
-          a.rel = 'noreferrer';
-          a.appendChild(contactIcon(key));
-          const span = document.createElement('span');
-          span.textContent = value.text || key;
-          a.appendChild(span);
-          contactWrap.appendChild(a);
-        });
-      }
-
-    };
-
-    const yearLabel = (key) => {
-      const m = key.match(/year(\d)(\d)/);
-      if (m) return `Year ${m[1]}/${m[2]}`;
-      return key.toUpperCase();
-    };
-
-    const renderProjects = (projectsData) => {
-      const wrap = document.getElementById('projects-wrap');
-      wrap.innerHTML = '';
-      const sorted = Object.entries(projectsData).sort((a,b) => {
-        const getYear = (block, key) => {
-          const years = (block.date || key || '').match(/\d{4}/g);
-          return years ? parseInt(years[years.length-1], 10) : 0;
-        };
-        return getYear(b[1], b[0]) - getYear(a[1], a[0]);
-      });
-
-      sorted.forEach(([key, block], idxGroup) => {
-        const group = document.createElement('div');
-        group.className = 'rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5';
-
-        const header = document.createElement('div');
-        header.className = 'flex flex-wrap items-center justify-between gap-2 mb-4';
-        const title = document.createElement('div');
-        title.className = 'flex items-center gap-2';
-        const dot = document.createElement('div');
-        dot.className = 'w-2 h-2 rounded-full bg-sky-400 animate-pulse';
-        const h = document.createElement('h3');
-        h.className = 'text-lg font-semibold';
-        h.textContent = block.date || key;
-        title.append(dot, h);
-        header.appendChild(title);
-        header.appendChild(badge(yearLabel(key)));
-        group.appendChild(header);
-
-        const cards = document.createElement('div');
-        cards.className = 'grid sm:grid-cols-2 gap-3';
-        (block.work || []).forEach((item, idx) => {
-          const card = document.createElement('article');
-          card.className = 'tilt relative overflow-hidden rounded-xl border border-white/10 bg-slate-900/60 p-4 transition';
-          card.style.animation = `floaty 10s ease-in-out ${(idxGroup*0.4)+(idx*0.25)}s infinite`;
-          const glow = document.createElement('div');
-          glow.className = 'absolute inset-0 opacity-0 hover:opacity-100 transition duration-500 pointer-events-none';
-          glow.style.background = 'radial-gradient(circle at 20% 20%, rgba(56,189,248,0.08), transparent 40%), radial-gradient(circle at 80% 80%, rgba(236,72,153,0.08), transparent 45%)';
-          card.appendChild(glow);
-
-          const top = document.createElement('div');
-          top.className = 'flex items-start justify-between gap-2 mb-3 card-top-stack';
-
-          const titleWrap = document.createElement('div');
-          titleWrap.className = 'flex items-center gap-3 flex-1';
-          titleWrap.appendChild(projectIcon(item.icon || ''));
-
-          const titleBlock = document.createElement('div');
-          titleBlock.className = 'flex items-center gap-2';
-          if (item.star) {
-            const star = document.createElement('span');
-            star.className = 'text-amber-300 text-sm';
-            star.textContent = '★';
-            titleBlock.appendChild(star);
-          }
-          const name = document.createElement('h4');
-          name.className = 'font-semibold text-base';
-          name.textContent = item.name;
-          titleBlock.appendChild(name);
-          titleWrap.appendChild(titleBlock);
-
-          top.appendChild(titleWrap);
-
-          // subtitle badge will live in footer now
-
-          const desc = document.createElement('p');
-          desc.className = 'text-sm text-slate-300/90';
-          desc.textContent = item.desc || '';
-
-          const footer = document.createElement('div');
-          footer.className = 'flex items-center justify-between mt-4';
-          const subtitleBadge = document.createElement('span');
-          subtitleBadge.className = 'px-3 py-1 text-[11px] rounded-full border border-white/10 bg-white/8 text-slate-100/90';
-          subtitleBadge.textContent = item.for || 'Project';
-          footer.appendChild(subtitleBadge);
-          if (item.url) {
-            const link = document.createElement('a');
-            link.href = item.url;
-            link.target = '_blank';
-            link.rel = 'noreferrer';
-            link.className = 'text-sm text-sky-300 hover:text-pink-300 inline-flex items-center gap-1';
-            link.innerHTML = 'Open <span aria-hidden="true">→</span>';
-            footer.appendChild(link);
-          }
-
-          card.append(top, desc, footer);
-          cards.appendChild(card);
-        });
-
-        group.appendChild(cards);
-        wrap.appendChild(group);
-      });
-    };
-
-    const renderBackground = (backgroundData) => {
-      const container = document.getElementById('background');
-      container.innerHTML = '';
-      (backgroundData || []).forEach((block, idxBlock) => {
-        const card = document.createElement('div');
-        card.className = 'rounded-2xl border border-white/12 bg-slate-900/70 p-5 space-y-4 shadow-xl';
-        card.style.animation = `floaty 12s ease-in-out ${idxBlock * 0.4}s infinite`;
-        const head = document.createElement('div');
-        head.className = 'flex items-center justify-between';
-        const title = document.createElement('h3');
-        title.className = 'font-semibold text-lg';
-        title.textContent = block.title;
-        head.append(title);
-        card.appendChild(head);
-
-        const list = document.createElement('div');
-        list.className = 'space-y-3';
-
-        (block.items || []).forEach(item => {
-          const row = document.createElement('div');
-          row.className = 'rounded-xl border border-white/14 bg-slate-900/75 p-4 overflow-hidden shadow-lg';
-
-          const top = document.createElement('div');
-          top.className = 'flex items-start justify-between gap-2 card-top-stack';
-          const left = document.createElement('div');
-          left.className = 'flex flex-col gap-1';
-          const titleRow = document.createElement('div');
-          titleRow.className = 'flex items-center gap-2';
-          if (item.logo) {
-            const logoWrap = document.createElement('div');
-            logoWrap.className = 'logo-plate w-10 h-10 border border-white/25 backdrop-blur flex items-center justify-center shadow-xl';
-            const logo = document.createElement('img');
-            logo.src = resolveAsset(item.logo);
-            logo.alt = item.name || 'logo';
-            logo.className = 'logo-img w-8 h-8 object-contain';
-            logoWrap.appendChild(logo);
-            titleRow.appendChild(logoWrap);
-          }
-          const name = document.createElement('p');
-          name.className = 'font-semibold';
-          name.textContent = item.name;
-          titleRow.appendChild(name);
-          left.append(titleRow);
-          const role = document.createElement('p');
-          role.className = 'text-sm text-slate-300/90 mt-0.5';
-          role.textContent = item.role || item.degree || item.title || '';
-          left.append(role);
-          const date = document.createElement('span');
-          date.className = 'text-xs px-3 py-1 rounded-full border border-white/10 bg-white/5 card-date';
-          date.textContent = item.date || '';
-          top.append(left, date);
-
-          const descWrap = document.createElement('div');
-          descWrap.className = 'text-sm text-slate-200/90 mt-3 space-y-2';
-          if (item.description && item.description.length) {
-            const chips = document.createElement('div');
-            chips.className = 'flex flex-wrap gap-2';
-            item.description.forEach(line => {
-              const chip = document.createElement('span');
-              chip.className = 'desc-chip text-xs';
-              chip.textContent = line;
-              chips.appendChild(chip);
-            });
-            descWrap.appendChild(chips);
-          }
-
-          if (item.relevants) {
-            const ul = document.createElement('ul');
-            ul.className = 'grid sm:grid-cols-2 gap-1 text-xs text-slate-200/80';
-            item.relevants.forEach(([course, score]) => {
-              const li = document.createElement('li');
-              li.className = 'flex justify-between gap-2 border border-white/5 rounded-lg px-2 py-1';
-              li.innerHTML = `<span>${course}</span><span class="text-sky-300">${score}</span>`;
-              ul.appendChild(li);
-            });
-            descWrap.appendChild(ul);
-          }
-
-          if (item.gpa) {
-            const gpa = document.createElement('div');
-            gpa.className = 'text-xs uppercase tracking-[0.2em] text-pink-200';
-            gpa.textContent = 'GPA ' + item.gpa;
-            descWrap.appendChild(gpa);
-          }
-
-          const footer = document.createElement('div');
-          footer.className = 'flex items-center justify-between mt-3';
-          const loc = document.createElement('span');
-          loc.className = 'text-xs text-slate-400';
-          loc.textContent = item.location || '';
-          footer.appendChild(loc);
-          const actions = document.createElement('div');
-          actions.className = 'flex items-center gap-3';
-          if (item.url) {
-            const a = document.createElement('a');
-            a.href = item.url;
-            a.target = '_blank';
-            a.rel = 'noreferrer';
-            a.className = 'text-sm text-sky-300 hover:text-pink-300 inline-flex items-center gap-1';
-            a.innerHTML = 'Open <span aria-hidden="true">↗</span>';
-            actions.appendChild(a);
-          } else if (item.cert) {
-            const a = document.createElement('a');
-            a.href = resolveAsset(item.cert);
-            a.target = '_blank';
-            a.rel = 'noreferrer';
-            a.className = 'text-sm text-emerald-300 hover:text-pink-300 inline-flex items-center gap-1';
-            a.innerHTML = 'View cert <span aria-hidden="true">↗</span>';
-            actions.appendChild(a);
-          }
-          footer.appendChild(actions);
-
-          row.append(top, descWrap, footer);
-          list.appendChild(row);
-        });
-
-        card.appendChild(list);
-        container.appendChild(card);
-      });
-    };
-
-    const renderSkills = (skillsData) => {
-      const container = document.getElementById('skills');
-      container.innerHTML = '';
-      Object.entries(skillsData || {}).forEach(([category, items]) => {
-        if (Array.isArray(items)) {
-          const card = document.createElement('div');
-          card.className = 'rounded-2xl border border-white/10 bg-white/5 p-5 space-y-3';
-          const head = document.createElement('div');
-          head.className = 'flex items-center justify-between';
-          const titleWrap = document.createElement('div');
-          titleWrap.className = 'flex items-center gap-2';
-          const icon = document.createElement('i');
-          icon.className = `fa-solid ${skillIconMap[category] || 'fa-circle'} text-sky-300`;
-          titleWrap.appendChild(icon);
-          const title = document.createElement('h3');
-          title.className = 'font-semibold text-lg';
-          title.textContent = category;
-          titleWrap.appendChild(title);
-          head.append(titleWrap, badge(items.length + ' skills'));
-          card.appendChild(head);
-
-          const list = document.createElement('div');
-          list.className = 'flex flex-wrap gap-2';
-          items.forEach(item => {
-            const amt = Number(item.amount) || 0;
-            const chip = document.createElement('span');
-            chip.className = `px-3 py-1 rounded-full text-xs font-semibold ${skillColor(amt)}`;
-            chip.textContent = item.name;
-            list.appendChild(chip);
-          });
-          card.appendChild(list);
-          container.appendChild(card);
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>deceased</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;700&family=Inter:wght@200;300&display=swap" rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-      });
-    };
 
-    const renderHeroSkills = () => {
-      const heroSkills = document.getElementById('hero-skills');
-      heroSkills.innerHTML = '';
-      ['Full-stack developer','Python','Machine learning','Data analysis','Linux','Ethical hacking'].forEach(label => {
-        const chip = document.createElement('div');
-        chip.className = 'rounded-xl border border-white/10 bg-white/8 px-3 py-2 text-sm text-slate-100 flex items-center gap-2';
-        chip.textContent = label;
-        heroSkills.appendChild(chip);
-      });
-    };
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background: #000;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
 
-    const init = async () => {
-      try {
-        const [home, about, projects, skills, background] = await Promise.all([
-          loadJSON(jsonPaths.home),
-          loadJSON(jsonPaths.about),
-          loadJSON(jsonPaths.projects),
-          loadJSON(jsonPaths.skills),
-          loadJSON(jsonPaths.background)
-        ]);
-        renderHero(home, about);
-        renderProjects(projects);
-        renderBackground(background);
-        renderSkills(skills);
-        renderHeroSkills(skills);
+        /* Background canvases */
+        #dust-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1;
+            pointer-events: none;
+        }
 
-        // Progress bar driven by scroll + back-to-top visibility
-        const progressFill = document.getElementById('progress-fill');
-        const backTop = document.getElementById('back-to-top');
-        const onScroll = () => {
-          const scrollTop = window.scrollY || document.documentElement.scrollTop;
-          const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-          const pct = docHeight > 0 ? Math.max(0, Math.min(1, scrollTop / docHeight)) : 0;
-          const h = (pct * 100);
-          progressFill.setAttribute('height', h.toFixed(1));
-          progressFill.setAttribute('y', '0');
-          backTop.classList.toggle('visible', scrollTop > 240);
-        };
-        window.addEventListener('scroll', onScroll, { passive: true });
-        onScroll();
-        backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+        #fog-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 2;
+            pointer-events: none;
+            opacity: 0.3;
+        }
 
-      } catch (err) {
-        console.error(err);
-        document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
-        const msg = document.createElement('div');
-        msg.className = 'fixed bottom-4 right-4 bg-red-500 text-white px-4 py-2 rounded-xl shadow-lg';
-        msg.textContent = 'Failed to load data: ' + err.message;
-        document.body.appendChild(msg);
-      }
-    };
+        /* Graveyard silhouettes layer */
+        .graveyard-bg {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+            height: 40vh;
+            z-index: 3;
+            pointer-events: none;
+            overflow: hidden;
+        }
 
-    init();
-  </script>
+        /* Atmosphere overlays */
+        .ground-haze {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+            height: 45vh;
+            z-index: 4;
+            pointer-events: none;
+            background: linear-gradient(to top, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.5) 50%, transparent 100%);
+        }
+
+        .vignette {
+            position: fixed;
+            inset: 0;
+            z-index: 5;
+            pointer-events: none;
+            background: radial-gradient(ellipse at 50% 45%, transparent 0%, transparent 30%, rgba(0,0,0,0.7) 70%, rgba(0,0,0,0.95) 100%);
+        }
+
+        .grain {
+            position: fixed;
+            inset: 0;
+            z-index: 6;
+            pointer-events: none;
+            opacity: 0.07;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-size: 250px 250px;
+        }
+
+        .cracks {
+            position: fixed;
+            inset: 0;
+            z-index: 7;
+            pointer-events: none;
+            opacity: 0.06;
+            background-image: url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60,30 L75,60 L65,90 L90,110 L70,140 L85,180 L60,200' stroke='%23999' fill='none' stroke-width='0.5'/%3E%3Cpath d='M280,40 L265,70 L285,100 L270,140 L290,180 L275,220 L295,260' stroke='%23999' fill='none' stroke-width='0.5'/%3E%3Cpath d='M160,300 L175,270 L165,240 L185,210 L170,180' stroke='%23999' fill='none' stroke-width='0.5'/%3E%3Cpath d='M340,320 L355,290 L345,260 L365,230' stroke='%23999' fill='none' stroke-width='0.5'/%3E%3C/svg%3E");
+        }
+
+        /* ===== MAIN CONTENT WITH MARGINS & PADDING ===== */
+        .content {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            user-select: none;
+            
+            /* KEY FIX: Padding keeps text away from viewport edges */
+            padding: 8vw;
+        }
+
+        h1 {
+            font-family: 'Cinzel Decorative', 'Cinzel', serif;
+            font-size: clamp(2.8rem, 11vw, 9rem);
+            font-weight: 700;
+            color: #b8b8b8;
+            letter-spacing: 0.2em;
+            text-transform: lowercase;
+            text-align: center;
+            line-height: 1.2;
+            
+            /* Margin gives space above/below the word itself */
+            margin: 2rem 0;
+            
+            text-shadow:
+                0 0 20px rgba(255,255,255,0.03),
+                0 0 50px rgba(255,255,255,0.02),
+                0 15px 40px rgba(0,0,0,0.9),
+                0 30px 70px rgba(0,0,0,0.8);
+            animation: tombstoneBreath 8s ease-in-out infinite;
+            position: relative;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: -1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(140,140,140,0.25), transparent);
+        }
+
+        .cross {
+            font-family: 'Cinzel', serif;
+            font-size: clamp(1.4rem, 3vw, 2rem);
+            color: #444;
+            margin-top: 3rem;
+            letter-spacing: 0.2em;
+            opacity: 0;
+            animation: fadeIn 5s ease-out 2s forwards;
+            text-shadow: 0 2px 15px rgba(0,0,0,0.9);
+        }
+
+        .epitaph {
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(0.65rem, 1.4vw, 0.85rem);
+            color: #4a4a4a;
+            margin-top: 2.5rem;
+            letter-spacing: 0.6em;
+            text-transform: uppercase;
+            opacity: 0;
+            animation: fadeIn 6s ease-out 3.5s forwards;
+            font-weight: 200;
+            text-align: center;
+            line-height: 1.6;
+            
+            /* Padding so epitaph doesn't touch screen sides on mobile */
+            padding: 0 1rem;
+        }
+
+        /* Animations */
+        @keyframes tombstoneBreath {
+            0%, 100% {
+                opacity: 0.5;
+                transform: scale(1) translateY(0);
+                filter: blur(0px);
+            }
+            50% {
+                opacity: 0.85;
+                transform: scale(1.01) translateY(-3px);
+                filter: blur(0.2px);
+            }
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 0.45; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="dust-canvas"></canvas>
+    <canvas id="fog-canvas"></canvas>
+    
+    <div class="graveyard-bg" id="graveyard"></div>
+    
+    <div class="ground-haze"></div>
+    <div class="vignette"></div>
+    <div class="grain"></div>
+    <div class="cracks"></div>
+
+    <div class="content">
+        <h1>deceased!</h1>
+        <div class="cross">⋆˚࿔𓉸⋆˚࿔</div>
+        <div class="epitaph">here lies what once was</div>
+    </div>
+
+    <script>
+        /* ========== DUST SYSTEM ========== */
+        const dustCanvas = document.getElementById('dust-canvas');
+        const dustCtx = dustCanvas.getContext('2d');
+        let W, H;
+        let dustParticles = [];
+
+        function resizeDust() {
+            W = dustCanvas.width = window.innerWidth;
+            H = dustCanvas.height = window.innerHeight;
+        }
+
+        class Dust {
+            constructor() {
+                this.reset(true);
+            }
+
+            reset(randomY = false) {
+                this.x = Math.random() * W;
+                this.y = randomY ? Math.random() * H : H + Math.random() * 30;
+                this.size = Math.random() * 2.5 + 0.3;
+                this.speedX = (Math.random() - 0.5) * 0.3;
+                this.speedY = -(Math.random() * 0.45 + 0.1);
+                this.opacity = Math.random() * 0.3 + 0.04;
+                this.life = Math.random() * 350 + 200;
+                this.maxLife = this.life;
+                this.wobble = Math.random() * 0.012;
+                this.wobbleOffset = Math.random() * Math.PI * 2;
+            }
+
+            update() {
+                this.x += this.speedX + Math.sin(this.life * this.wobble + this.wobbleOffset) * 0.3;
+                this.y += this.speedY;
+                this.life--;
+
+                if (this.life <= 0 || this.y < -20) {
+                    this.reset();
+                }
+            }
+
+            draw() {
+                const alpha = (this.life / this.maxLife) * this.opacity;
+                dustCtx.fillStyle = `rgba(150, 150, 150, ${alpha})`;
+                dustCtx.beginPath();
+                dustCtx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                dustCtx.fill();
+            }
+        }
+
+        /* ========== FOG SYSTEM ========== */
+        const fogCanvas = document.getElementById('fog-canvas');
+        const fogCtx = fogCanvas.getContext('2d');
+        let fogParticles = [];
+
+        function resizeFog() {
+            fogCanvas.width = window.innerWidth;
+            fogCanvas.height = window.innerHeight;
+        }
+
+        class Fog {
+            constructor() {
+                this.x = Math.random() * window.innerWidth;
+                this.y = Math.random() * window.innerHeight;
+                this.radius = Math.random() * 180 + 100;
+                this.speedX = (Math.random() - 0.5) * 0.12;
+                this.speedY = (Math.random() - 0.5) * 0.06;
+                this.opacity = Math.random() * 0.025 + 0.008;
+            }
+
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.x < -250) this.x = window.innerWidth + 250;
+                if (this.x > window.innerWidth + 250) this.x = -250;
+                if (this.y < -250) this.y = window.innerHeight + 250;
+                if (this.y > window.innerHeight + 250) this.y = -250;
+            }
+
+            draw() {
+                const g = fogCtx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.radius);
+                g.addColorStop(0, `rgba(70, 70, 70, ${this.opacity})`);
+                g.addColorStop(1, 'rgba(70, 70, 70, 0)');
+                fogCtx.fillStyle = g;
+                fogCtx.beginPath();
+                fogCtx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                fogCtx.fill();
+            }
+        }
+
+        /* ========== GRAVEYARD SILHOUETTES ========== */
+        function createGraveyard() {
+            const container = document.getElementById('graveyard');
+            container.innerHTML = '';
+            const count = Math.floor(window.innerWidth / 160);
+            
+            for (let i = 0; i < count; i++) {
+                const stone = document.createElement('div');
+                const height = 50 + Math.random() * 90;
+                const width = 22 + Math.random() * 35;
+                const left = (i / count) * 100 + (Math.random() * 10 - 5);
+                const tilt = (Math.random() - 0.5) * 10;
+                const opacity = 0.04 + Math.random() * 0.05;
+                
+                stone.style.cssText = `
+                    position: absolute;
+                    bottom: 0;
+                    left: ${left}%;
+                    width: ${width}px;
+                    height: ${height}px;
+                    background: linear-gradient(to top, #0a0a0a, #151515);
+                    opacity: ${opacity};
+                    transform: rotate(${tilt}deg) translateY(25px);
+                    border-radius: 50% 50% 0 0;
+                    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+                    pointer-events: none;
+                `;
+                
+                if (Math.random() > 0.65) {
+                    stone.style.borderRadius = '0';
+                    stone.style.clipPath = 'polygon(40% 0, 60% 0, 60% 35%, 100% 35%, 100% 55%, 60% 55%, 60% 100%, 40% 100%, 40% 55%, 0 55%, 0 35%, 40% 35%)';
+                }
+                
+                container.appendChild(stone);
+            }
+        }
+
+        /* ========== INIT & LOOP ========== */
+        function init() {
+            resizeDust();
+            resizeFog();
+            
+            dustParticles = [];
+            const dustCount = Math.floor((W * H) / 7000);
+            for (let i = 0; i < dustCount; i++) {
+                dustParticles.push(new Dust());
+            }
+
+            fogParticles = [];
+            for (let i = 0; i < 12; i++) {
+                fogParticles.push(new Fog());
+            }
+
+            createGraveyard();
+        }
+
+        function animate() {
+            dustCtx.fillStyle = '#040404';
+            dustCtx.fillRect(0, 0, W, H);
+
+            dustParticles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+
+            fogCtx.clearRect(0, 0, fogCanvas.width, fogCanvas.height);
+            fogParticles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', () => {
+            resizeDust();
+            resizeFog();
+            init();
+        });
+
+        init();
+        animate();
+    </script>
 </body>
 </html>
